@@ -1,7 +1,7 @@
 <?php  //By.Remilia http://remilia.
 return [
 	'DB_TYPE'               => 'mysqli',
-    'DB_HOST'               => '45.76.46.176',
+    'DB_HOST'               => '127.0.0.1',
     'DB_NAME'               => 'df',
 	'DB_USER'               => 'root',
     'DB_PWD'                => 'wyh85287812',
