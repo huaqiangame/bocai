@@ -1,0 +1,257 @@
+@charset 'utf-8';
+
+.lotter_main{
+
+}
+.main_scroll{
+	height:238px;
+}
+.main_scroll .scroll_left img{
+	height:238px !important;
+	width:800px;
+}
+.main_scroll .scroll_right{
+	width:200px;
+	height:238px;
+	background:#515860;
+}
+.gradient{
+	width:100%;
+	height:15px;
+	background:linear-gradient(to bottom,#7a7a7a 0%,#c3c4c3 100%);
+}
+.gradient i{
+	display:inline-block;
+	border-right:20px solid transparent;
+	border-top:15px solid #eee;
+}
+.gradient em{
+	display:inline-block;
+	border-left:20px solid transparent;
+	border-top:15px solid #eee;
+}
+.scroll_right h2{
+	height:45px;
+	line-height:45px;
+	color:#fff;
+	font-size:20px;
+	text-align: center;
+	border-bottom:1px solid #777d84;
+}
+.winning{
+	margin-top:11px;
+	margin-bottom:0px;
+	height:204px;
+}
+.ranking{
+	margin:15px 0;
+	height:163px;
+	position:relative;
+}
+.ranking_scrooll_box{
+	height:172px;
+	overflow-y:hidden;
+}
+.winning .ranking_list_lotter li{
+	border-bottom:none !important;
+}
+.ranking_list_lotter li{
+	border-bottom:1px dashed #dce1e5;
+	height:54px;
+	cursor:pointer;
+}
+.ranking_list_lotter li>.media{
+	padding:10px;
+}
+.ranking_list_lotter .media .media-left{
+	vertical-align:text-bottom;
+}
+.ranking_list_lotter .media img{
+	width:36px;
+	height:36px;
+}
+.ranking_list_lotter li>.media .media-body p{
+	height:17px;
+	line-height:17px;
+	color:#fff;
+}
+.ceng{
+	width:304px;
+	height:200px;
+	box-shadow: 2px 2px 5px #ccc;
+	padding-top:22px;
+	background: #fff;
+	position:absolute;
+	top:0;
+	/*left:-304px;*/
+	z-index:9999;
+}
+.ceng .media-left{
+	padding-left:30px;
+	padding-right: 26px;
+}
+.ceng .media-left img{
+	width:80px;
+	height:80px;
+}
+.ceng .media-left p{
+	margin-top:15px;
+}
+.ceng .media-left a{
+	text-align:center;
+	display:block;
+	color:#1d93d8;
+	font-size:14px;
+}
+.ceng .media-body p{
+	font-size:15px;
+}
+.ceng .media-footer{
+	height:50px;
+	background: #f5f5f5;
+}
+.ceng .media-footer a{
+	display:inline-block;
+	width:40px;
+	text-align:center;
+}
+.ceng .media-footer i{
+	font-size:25px;
+	line-height:50px;
+}
+.ranking_list_lotter .media-body em{
+	color:red;
+}
+.lottery_content{
+	background: #fff;
+	margin-bottom:10px;
+}
+.lottery_content .content_nav{
+	height:40px;
+	background:#455467;
+	padding-left:10px;
+	overflow: hidden;
+}
+.content_nav li{
+	float: left;
+	height:40px;
+	text-align:center;
+	position:relative;
+}
+.content_nav li a{
+	color:#fff;
+	font-size:14px;
+	width:100px;
+	line-height:27px;
+	margin:10px 0;
+	margin-top:7px;
+	display:inline-block;
+}
+.content_nav li a:hover{
+	text-decoration:none;
+}
+.content_nav li + li a:after{
+	position:absolute;
+	left:0;
+	top:11px;
+	content:'';
+	width:1px;
+	height:20px;
+	background: #74808f;
+}
+.content_nav .active{
+	background: #fff;
+	border-radius:5px 5px 0 0;
+	margin-top:3px;
+}
+.content_nav .active a{
+	color:#333;
+}
+.content_nav .active a:after{
+	left:-1px;
+}
+.content_list_box{
+	padding:8px 0;
+	background: #fff;
+	height:100%;
+}
+.content_list{
+	display: none;
+}
+.content_list .k3_project{
+	float:left;
+	width:226px;
+	height:100px;
+	padding:16px 20px;
+	margin:10px;
+	box-shadow:1px 1px 1px #8a8a8a;
+	border:1px solid #e3e3e3;
+	position:relative;
+}
+.k3_project .media-left i{
+	font-size:60px;
+	color:red;
+	line-height:68px;
+}
+.k3_project .media-body p{
+	font-size:18px;
+	text-align: center;
+	color:#516073;
+	margin:5px 0 0 0 ;
+	font-weight:100;
+}
+.k3_project .media-body span{
+	color:#777;
+	font-size:14px;
+	margin:6px 0;
+	display:block;
+	text-align: center;
+}
+.k3_beetting{
+	position:absolute;
+	background: rgba(81, 96, 115, 0.9);
+	width:100%;
+	height:100%;
+	text-align: center;
+	left:0;
+	top:0;
+	display: none;
+}
+.k3_beetting .btn_beetting{
+	border:1px solid #dfdfdf;
+	color:#dfdfdf;
+	font-size:14px;
+	padding:2px 21px;
+	margin-top:33px;
+	display: inline-block;}
+.k3_beetting .btn_beetting:hover{
+	background: #b91111;
+	border-color:red;
+}
+.k3_beetting .help{
+	position:absolute;
+	bottom:7px;
+	right:8px;
+	border-radius:50%;
+	height:22px;
+	width:22px;
+}
+.k3_beetting .help:hover{
+	background: #999;
+}
+.k3_beetting .help i{
+	font-size:23px;
+	color:#dfdfdf;
+	line-height:0;
+	vertical-align:middle;
+}
+.layui-layer-content{
+	padding: 0 10px !important;
+}
+.layui-layer-TipsG { 
+	border-bottom-color: transparent !important; 
+	border-left-color: #bd2004 !important; 
+	top: 6px !important; 
+	border-width: 5px !important; 
+	right: -10px !important; 
+}

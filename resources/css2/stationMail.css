@@ -1,0 +1,67 @@
+@charset 'utf-8';
+
+.stationMail_main .bet_paging,.nocite_main .bet_paging{
+	margin-left:246px;
+}
+.stationMail_main .table>thead th{
+	background: #f8f8f8;
+	text-align: center;
+}
+.stationMail_main .table>tbody td{
+	text-align: center;
+}
+.stationMail_main .main_operation{
+	padding:10px;
+}
+.main_operation .checkbox{
+	display:inline-block;
+}
+.main_operation .checkbox input{
+	margin-top:6px;
+}
+.main_operation  a{
+	padding:5px 10px;
+	border-radius:5px;
+	background: #ccc;
+	margin:0 5px;
+	color:#666;
+}
+.main_operation  a:hover{
+	background: #009900;
+	color:#fff;
+}
+.nocite_main{
+	padding:15px 30px;
+}
+.nocite_main .nocite_list{
+	border-bottom:1px dashed #ddd;
+	height:35px;
+	line-height:35px;
+	margin:0;
+}
+.nocite_main .nocite_list a:hover{
+	text-decoration:underline;
+	color:red;
+}
+.nocite_detail_main{
+	text-align:center;
+	padding:30px;
+}
+.nocite_detail_main h2{
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+
+}
+.nocite_detail_main em{
+	font-size:12px;
+	padding-bottom:5px;
+	padding-top:15px;
+	display:block;
+}
+.nocite_detail_main p{
+	border-top:1px solid #ddd;
+	font-size:14px;
+	color:#333;
+	text-align:left;
+}

@@ -1,0 +1,676 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0062)https://www.julialt.com/compact/user?number=0.3326196351051631 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<title>杏耀娱乐 </title>
+<link rel="stylesheet" href="./list.css">
+<link rel="stylesheet" href="./reset.css">
+<link rel="stylesheet" href="./activity.css">
+<link href="./dialogUI.css" media="all" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="./jquery-1.7.min.js.下载"></script>
+<script type="text/javascript" src="./main.js.下载"></script>
+<script type="text/javascript" src="./jquery.dialogUI.js.下载"></script>
+
+<!--//日历-->
+<script type="text/javascript" src="./jquery.dynDateTime_setClass.js.下载"></script>
+<script type="text/javascript" src="./calendar-utf8.js.下载"></script>
+<script type="text/javascript" src="./common.js.下载"></script>
+<link rel="stylesheet" type="text/css" media="all" href="./calendar-blue.css">
+
+<script>
+
+function searchWait(){
+    $(".mask_list").show();
+}
+$(function(){
+
+  var isAir = !!getCookie("isclient") && getCookie("kernel") == 2;
+     $("input.formCheck").click(function(){
+            searchWait();
+    });
+
+     if(isAir){
+      var a_blank = document.getElementsByTagName("a");
+      for(var i=0,b=a_blank.length;i<b;i++){
+        var aList =a_blank[i];
+        if(aList.target == "_blank"){
+           //aList.target="";
+           aList.removeAttribute("target");
+        }
+      }
+    }
+        //直接点击团队span
+$(".search_br span").unbind("click").click(function(){
+var data = $(this).attr("data");
+$(".search_br span").removeClass("hover");
+$(this).addClass("hover");
+if(data=="person")
+    $("input[name='type'],input[name='ptype'],input[name='ischild']").eq(0).prop("checked", true);
+else
+    $("input[name='type'],input[name='ptype'],input[name='ischild']").eq(1).prop("checked", true);
+});
+})
+</script>
+
+</head>
+<body>
+
+<div class="mask_list">
+<div>加载中，请稍后...</div>
+</div>
+<div id="subContent_bet_re">
+<script>
+    $(function(){
+        var cycle = $("#cycle").val();
+        $("#showcycle").html($("#cycle_"+cycle).html());
+        var gamefrom = $("#gamefrom").val();
+        $("#showgamefrom").html($("#gamefrom_"+gamefrom).html());
+        var gametype = $("#gametype").val();
+        $("#showgametype").html($("#gametype_"+gametype).html());
+
+        $("#orderby").change(function(){
+            var url = $("#orderby").val();
+            window.location.href = url;
+        });
+
+    })
+</script>
+<div class="rgz_popup_bg"></div>
+<!--免责声明弹窗-->
+<div class="rgz_popup" id="rgz_popup"><div class="rgz_popup_wrap">
+    <span class="jiao_tl"></span><span class="jiao_tr"></span><span class="jiao_bl"></span><span class="jiao_br"></span>
+    <h3 class="tit">契约免责声明</h3>
+    <div class="rgz_qymzsm">
+        <dl>
+            <dt>1.杏耀娱乐“日工资契约”</dt>
+            <dd>为保障代理的利益，平台推出“日工资契约”，该协议由上下级代理以自愿为原则签署，并接受平台的监督。上级为下级代理创建契约，下级确认签订后，按照契约内约定的生效日期起算日工资。已签订契约后，双方均不可单方面修改或终止契约，需联系平台处理。</dd>
+        </dl>
+        <dl>
+            <dt>2.服务说明</dt>
+            <dd>
+                <p>（1）“契约日工资”是上级与下级在平台内部建立的一种日工资约定并由平台代为结算和发放，以保障下级日工资利益。</p>
+                <p>（2）当前代理需要与上级签订契约，才可以给下级建立契约并签订。 </p>
+                <p>（3）平台彩票日工资每日发放一次，由平台按照契约规则自动发放。</p>
+                <p>（4）日工资结算后，可在“日工资-我的日工资、下级日工资”报表内查看日工资总额、下级日工资金额以及本人实际收益，日工资发放后可在“账变报表”内查看相应账变。</p></dd>
+        </dl>
+        <dl>
+            <dt>3.免责声明</dt>
+            <dd>
+                <p>（1）“契约日工资协议”属于上下级代理之间的协议，一旦签订，代表上下级双方均同意契约内容及本免责声明，并授权平台代为结算及发放日工资。</p>
+                <p>（2）平台不鼓励上级代理经由平台外的第三方途径发放日工资，由此出现的纠纷平台不承担任何责任和义务。</p>
+                <p>（3）如用户出现对打、套利等行为，平台将立即把该用户列入黑名单，该用户投注将不再计入其本人及上级的日工资流水。</p>
+                <p>（4）对于任何违反平台制度及代理利益的行为，平台一旦查实，将有权立即终止其本人及下级的日工资契约，并视情况执行相应处罚。</p>
+                </dd>
+        </dl>
+        <dl>
+            <dt>4.最终解释权</dt>
+            <dd>关于本平台中所有规则与条款，本平台保留所有最终解释权。</dd>
+        </dl>
+    </div>
+    <a href="javascript:;" class="rgz_popup_close">关闭</a>
+</div></div>
+<!--免责声明弹窗-->
+
+<!--详细规则弹窗-->
+<div class="rgz_popup" id="rgz_popup2" style=""><div class="rgz_popup_wrap">
+    <span class="jiao_tl"></span><span class="jiao_tr"></span><span class="jiao_bl"></span><span class="jiao_br"></span>
+    <h3 class="tit tit2">杏耀单挑模式说明</h3>
+    <p style="padding: 0 40px 20px 50px; font-size: 13px; color: #5a390f">单期单玩法，投注总金额不能低于所有注单中最高中奖奖金的1%，并且同一倍数的投注包码总和不能低于本玩法所有中奖号码的1%，否则即判定为单挑模式，单挑模式范围内的所有注单加起来最高派奖利润为3万元（即除投注本金外纯利3万元），规则具体介绍如下：</p>
+    <div class="rgz_qymzsm xxgz_qymzsm">
+        <dl>
+            <dt>时时彩系列：</dt>
+            <dd>
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                    <tr>
+                        <td width="135">五星直选复式、单式</td> <td>≤1000 注</td>
+                        <td width="140">五星组选5</td> <td>≤45 注</td>
+                        <td width="180">三星直选复式、单式</td> <td>≤10 注</td>
+                    </tr>
+                    <tr>
+                        <td>五星直选组合</td> <td>≤5000 注</td>
+                        <td>四星直选复式、单式</td> <td>≤100 注</td>
+                        <td>三星直选和值</td> <td>≤10 注</td>
+                    </tr>
+                    <tr>
+                        <td>五星组选120</td> <td>≤6 注</td>
+                        <td>四星直选组合</td> <td>≤400 注</td>
+                        <td>三星组三、组六</td> <td>≤1 注</td>
+                    </tr>
+                    <tr>
+                        <td>五星组选60</td> <td>≤12 注</td>
+                        <td>四星组选24</td> <td>≤5 注</td>
+                        <td>三星混合组选</td> <td>≤1 注</td>
+                    </tr>
+                    <tr>
+                        <td>五星组选30</td> <td>≤30 注</td>
+                        <td>四星组选12</td> <td>≤9 注</td>
+                        <td>三星组选和值</td> <td>≤2 注</td>
+                    </tr>
+                    <tr>
+                        <td>五星组选20</td> <td>≤48 注</td>
+                        <td>四星组选6</td> <td>≤24 注</td>
+                        <td>二星直选复式、单式、和值</td> <td>≤1 注</td>
+                    </tr>
+                    <tr>
+                        <td>五星组选10</td> <td>≤45 注</td>
+                        <td>四星组选4</td> <td>≤24 注</td>
+                        <td>二星组选复式、单式、和值</td> <td>≤1 注</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" class="ssc2">
+                <tbody>
+                    <tr>
+                        <td>任二直选复式、单式、和值</td>
+                        <td>二个位置 ≤1 注</td>
+                        <td>三个位置 ≤3 注</td>
+                        <td>四个位置 ≤6 注</td>
+                        <td>五个位置 ≤10 注</td>
+                    </tr>
+
+                    <tr>
+                        <td>任二组选复式、单式、和值</td>
+                        <td>二个位置 ≤1 注</td>
+                        <td>三个位置 ≤3 注</td>
+                        <td>四个位置 ≤6 注</td>
+                        <td>五个位置 ≤10 注</td>
+                    </tr>
+                    <tr>
+                        <td>任三直选复式、单式、和值</td>
+                        <td>三个位置 ≤10 注</td>
+                        <td>四个位置 ≤40 注</td>
+                        <td>五个位置 ≤100 注</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>任三组三、组六</td>
+                        <td>三个位置 ≤2 注</td>
+                        <td>四个位置 ≤8 注</td>
+                        <td>五个位置 ≤20 注</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>任三混合组选、组选和值</td>
+                        <td>三个位置 ≤2 注</td>
+                        <td>四个位置 ≤8 注</td>
+                        <td>五个位置 ≤20 注</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>任四直选复式、单式</td>
+                        <td>四个位置 ≤100 注</td>
+                        <td>五个位置 ≤500 注</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>任四组选24</td>
+                        <td>四个位置 ≤5 注</td>
+                        <td>五个位置 ≤25 注</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>任四组选12</td>
+                        <td>四个位置 ≤9 注</td>
+                        <td>五个位置 ≤45 注</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>任四组选6</td>
+                        <td>四个位置 ≤24 注</td>
+                        <td>五个位置 ≤120 注</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>任四组选4</td>
+                        <td>四个位置 ≤24 注</td>
+                        <td>五个位置 ≤120 注</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+            </dd>
+        </dl>
+        <dl>
+            <dt>11选5系列：</dt>
+            <dd>
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                    <tr>
+                        <td width="145">前三直选复式、单式</td> <td>≤9 注</td>
+                        <td width="155">任选复式、单式三中三</td> <td>≤1 注</td>
+                        <td width="155">任选复式、单式七中五</td> <td>≤3 注</td>
+                    </tr>
+                    <tr>
+                        <td>前三组选复式、单式</td> <td>≤1 注</td>
+                        <td>任选复式、单式四中四</td> <td>≤3 注</td>
+                        <td>任选复式、单式八中五</td> <td>≤1 注</td>
+                    </tr>
+                    <tr>
+                        <td>前二直选复式、单式</td> <td>≤1 注</td>
+                        <td>任选复式、单式五中五</td> <td>≤4 注</td>
+                        <td>&nbsp;</td> <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>前二组选复式、单式</td> <td>≤1 注</td>
+                        <td>任选复式、单式六中五</td> <td>≤4 注</td>
+                        <td>&nbsp;</td> <td>&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+            </dd>
+        </dl>
+        <dl>
+            <dt>3D、排列三系列：</dt>
+            <dd>
+            <table width="50%" cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                    <tr>
+                        <td width="260">三码直选复式、单式、和值</td> <td>≤10 注</td>
+                    </tr>
+                    <tr>
+                        <td>组三、组六、混合组选</td> <td>≤1 注</td>
+                    </tr>
+                    <tr>
+                        <td>组选和值</td> <td>≤2 注</td>
+                    </tr>
+                    <tr>
+                        <td>二星直选复式、单式、组选复式、单式</td> <td>≤1 注</td>
+                    </tr>
+                </tbody>
+            </table>
+            </dd>
+        </dl>
+        <dl class="pk_jssm">
+            <dt>北京PK10：<span>新西兰赛马：</span></dt>
+            <dd>
+            <table width="55%" cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                    <tr>
+                        <td width="90">猜前六</td> <td>≤1500 注</td>
+                    </tr>
+                    <tr>
+                        <td>猜前五</td> <td>≤300 注</td>
+                    </tr>
+                    <tr>
+                        <td>猜前四</td> <td>≤50 注</td>
+                    </tr>
+                    <tr>
+                        <td>猜前三</td> <td>≤7 注</td>
+                    </tr>
+                    <tr>
+                        <td>猜前二</td> <td>≤1 注</td>
+                    </tr>
+                </tbody>
+            </table>
+            </dd>
+            <dd>
+            <table width="55%" cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                    <tr>
+                        <td width="90">六连环</td> <td>≤1500 注</td>
+                    </tr>
+                    <tr>
+                        <td>五连环</td> <td>≤300 注</td>
+                    </tr>
+                    <tr>
+                        <td>四连环</td> <td>≤50 注</td>
+                    </tr>
+                    <tr>
+                        <td>三连环</td> <td>≤7 注</td>
+                    </tr>
+                    <tr>
+                        <td>连赢</td> <td>≤1 注</td>
+                    </tr>
+                </tbody>
+            </table>
+            </dd>
+        </dl>
+        <dl style="display: none;">
+            <dt>新西兰赛马：</dt>
+            <dd>
+            <table width="25%" cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                    <tr>
+                        <td width="90">六连环</td> <td>≤1500 注</td>
+                    </tr>
+                    <tr>
+                        <td>五连环</td> <td>≤300 注</td>
+                    </tr>
+                    <tr>
+                        <td>四连环</td> <td>≤50 注</td>
+                    </tr>
+                    <tr>
+                        <td>三连环</td> <td>≤7 注</td>
+                    </tr>
+                    <tr>
+                        <td>连赢</td> <td>≤1 注</td>
+                    </tr>
+                </tbody>
+            </table>
+            </dd>
+        </dl>
+        <dl>
+            <dd>
+            <p style="color: #f00">本说明中未提及玩法，如单期单玩法全部投注包码总和“小于等于“该玩法全包注数的“1%”时，即视为单挑模式。规则最终解释权归平台所有。如有疑问请咨询客服。祝您游戏愉快！</p>
+            </dd>
+        </dl>
+    </div>
+    <a href="javascript:;" class="xxgz_close">关闭</a>
+</div></div>
+<!--详细规则弹窗-->
+
+<div class="rgz_warp" style="padding-top: 60px;">
+    <div class="rgzqy_top clearfix">
+        <b class="ruletile">我的契约</b>
+        <div class="showQynr">
+                        <p>◆ <span>规则一</span>：日投注额 ≥ 1元，<!-- 且活跃玩家人数 ≥ 0人， -->日工资 160元/万</p>
+                    </div>
+        <span class="jt_down_gz showAllRule" style="display: none;">更多<i>∨</i></span>
+        
+        <!-- <div class="qy_left">
+            <h5>日工资契约</h5>
+            <p>签订日期：  2018-11-06</p>
+            <p>生效日期：  2018-11-06</p>
+        </div> 
+        <a href="javascript:;" class="mzsm">契约免责声明</a> -->
+    </div>
+    <form action="https://www.julialt.com/compact/index.php" method="GET" id="search-form">
+        <input type="hidden" name="controller" value="compact">
+        <input type="hidden" name="action" value="user">
+        <input type="hidden" name="orderby" value="create_time">
+        <input type="hidden" name="sort" value="desc">
+        <div class="gy_search">
+            <div class="inlineBlock">
+                <label>日期：</label><div class="calendar_input_kuang1"><input type="text" value="2018-12-11" name="starttime" id="starttime"><span class="calendar_icon"></span></div><span class="z">至</span><div class="calendar_input_kuang1"><input type="text" value="2018-12-12" name="endtime" id="endtime"><span class="calendar_icon"></span></div>
+            </div>
+            <div class="inlineBlock">
+                <select name="pstatus" class="select_text" id="gametype">
+                    <option value="0" selected="" id="gametype_0">所有状态</option>
+                    <option value="1" id="gametype_0">已到账</option>
+                    <option value="2" id="gametype_2">未到账</option>
+                </select>
+            </div>
+            <input name="" type="submit" value="查询" class="formCheck">
+        </div>
+    </form>
+
+    <!--列表-->
+    <div class="ylfh_table">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <thead>
+            <tr>
+                <th><span class=" betBtn sort" orderby="create_time">日期</span></th>
+                <th><span class=" betBtn sort" orderby="bet">团队日投注额</span></th>
+                <th><span class=" effective_betBtn sort" orderby="effective_bet">有效投注额</span></th>
+                <!--<th><span class=" player_numBtn sort" orderby="player_num">活跃玩家</span></th>-->
+                <th>日工资比例</th>
+                <th><span class=" total_moneyBtn sort" orderby="total_money">日工资总额</span></th>
+                <th><span class=" sub_moneyBtn sort" orderby="sub_money">下级日工资</span></th>
+                <th><span class=" self_moneyBtn sort" orderby="self_money">本人日工资</span></th>
+                <th>本人状态</th>
+            </tr>
+            </thead>
+            <tbody>
+                        <tr><td colspan="9" class="no-records">请选择查询条件之后进行查询</td></tr>
+                        <tr class="tr_total">
+                <td>本页合计</td>
+                <td>0.0000</td>
+                <td>0.0000</td>
+                <!--<td>&#45;&#45;</td>-->
+                <td>--</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>--</td>
+            </tr>
+            <tr class="tr_total">
+                <td>总合计</td>
+                <td>0.0000</td>
+                <td>0.0000</td>
+                <!--<td>&#45;&#45;</td>-->
+                <td>--</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>--</td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="ui-page clearfix">
+            <!-- <div class="ui-page-text"><span class="font_yl">绿色</span>数值为用户盈利，<span class="font_ks">红色</span>数值为用户亏损</div> -->
+            <div class="pageinfo"></div>
+        </div>
+        <div class="ylfh_warm-prompt">
+            <h6>温馨提示:</h6>
+            <p>1.日工资从契约生效日期起算流水，如满足契约要求则在次日可获得日工资；</p>
+            <p>2.为了便于统计，日工资金额向下取整，精确到元，例如：计算日工资为201.9元，则实发金额为201元；</p>
+            <p>3.所有日工资目前只计算前一日的彩票投注额，不计算真人、老虎机、体育等投注额；</p>
+            <p>4.所有日工资每天上午自动发放，无须手动领取；</p>
+            <p><strong>5.时时彩龙虎玩法日工资有别于普通日工资，具体差异请联系上级咨询。</strong></p>
+        </div>
+    </div>
+    <!--列表结束-->
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery("#starttime").dynDateTime({
+            ifFormat: "%Y-%m-%d",
+            daFormat: "%l;%M %p, %e %m,  %Y",
+            align: "Br",
+            electric: true,
+            singleClick: false,
+            button: ".next()", //next sibling
+            rangDay : 16,//允许选择前几天
+            onSelect:function(){
+                var o = this,today,sDay_f,today_s,sDay_s,rangDay_s,rangDay_d,rangDay_f,dayReduce;
+                //根据format格式化
+                //今天
+                today = new Date($("#today").text());
+                o.opts.today_f = o.opts.today_f || today;
+                //被选择的那一天
+                sDay_f = o.date.print(o.opts.ifFormat);
+                //获取格林尼治时间到今天的毫秒数
+                today_s = Date.parse(o.opts.today_f);
+                //获取格林尼治时间到选择那天的毫秒数
+                sDay_s = Date.parse(o.date);//获取秒
+                //计算出最早一天的毫秒数
+                rangDay_s = today_s - o.opts.rangDay*3600*24*1000;
+                //转换成标准时间
+                rangDay_d = new Date(rangDay_s);
+                //根据format格式化输出被允许的指定天数的最早一天
+                rangDay_f = rangDay_d.print(o.opts.ifFormat);
+                //计算当前选择的那天距离今天的差值
+                dayReduce = (today_s-sDay_s)/3600/24/1000;
+                //如果超过指定天数
+                if(dayReduce > o.opts.rangDay){
+                    $.alert("最多只能查询" + o.opts.rangDay + "天的数据");
+                    $("#starttime").val(rangDay_f);
+                }else{
+                    $("#starttime").val(sDay_f);
+                }
+                $("#starttime").change();
+            },
+            showOthers: true,
+            weekNumbers: true
+            //showsTime: true
+        });
+
+        jQuery(".starttime table td.day").live("click",function(){
+            var start = jQuery("#starttime").val();
+            var end = jQuery("#endtime").val();
+            checkStartAndEnd(start,end);
+        });
+
+        function checkStartAndEnd(startTime,endTime){
+            if(! validateInputDate(startTime) )
+            {
+                jQuery("#starttime").val('');
+                $.alert("时间格式不正确,正确的格式为:2009-06-10");
+            }else if( !checkdateInRange(startTime, 16) ) {
+                jQuery("#starttime").val('');
+                $.alert("目前仅提供查询近16天内的记录！");
+            }
+            if(endTime != "")
+            {
+                if(startTime>endTime)
+                {
+                    $.alert("输入的时间不符合逻辑");
+                }
+            }
+        }
+        jQuery("#endtime").dynDateTime({
+            ifFormat: "%Y-%m-%d",
+            daFormat: "%l;%M %p, %e %m,  %Y",
+            align: "Br",
+            electric: true,
+            singleClick: false,
+            button: ".next()", //next sibling
+            onUpdate:function(){
+                $("#endtime").change();
+            },
+            showOthers: true,
+            weekNumbers: true,
+            showsTime: true
+        });
+        jQuery("#endtime").change(function(){
+            jQuery("#recentproject").attr('value','0');
+            if(! validateInputDate(jQuery("#endtime").val()) )
+            {
+                jQuery("#endtime").val('');
+                $.alert("时间格式不正确,正确的格式为:2009-06-10");
+            }
+            if($("#starttime").val()!="")
+            {
+                if($("#starttime").val()>$("#endtime").val())
+                {
+                    $("#starttime").val("");
+                    $.alert("输入的时间不符合逻辑.");
+                }
+            }
+        });
+    });
+    $(".mzsm").on("click",function(){
+        $(".rgz_popup_bg").show();
+        $("#rgz_popup").slideDown(200);
+    })
+    $(".rgz_popup_close").on("click",function(){
+        $(".rgz_popup_bg").hide();
+        $("#rgz_popup").slideUp(200);
+    })
+
+    $(".xxgz").on("click",function(){
+        $(".rgz_popup_bg").show();
+        $("#rgz_popup2").slideDown(200);
+    })
+    $(".xxgz_close").on("click",function(){
+        $(".rgz_popup_bg").hide();
+        $("#rgz_popup2").slideUp(200);
+    })
+    $(".sort").on('click', function(){
+        if($(this).hasClass("jt_up")){
+            $("#search-form input[name=sort]").val('desc');
+            $(this).removeClass("jt_up").addClass("jt_down")
+        }else{
+            $("#search-form input[name=sort]").val('asc');
+            $(this).removeClass("jt_down").addClass("jt_up")
+        }
+        var orderby = $(this).attr('orderby');
+        $("#search-form input[name=orderby]").val(orderby);
+        $("#search-form").submit();
+    });
+    $("span.showAllRule").on("mouseover",function(){
+        $(".showQynr").css("height",'auto');
+        $(".showQynr").on("mouseover",function(){
+            $(".showQynr").css("height",'auto');
+        })
+    })
+    $("span.showAllRule,.showQynr").on("mouseout",function(){
+        $(".showQynr").css("height",'25px');
+    })
+    var ruleLength = $(".showQynr").find("p").length
+    if(ruleLength>1){
+        $(".showAllRule").show()
+    }else{
+        $(".showAllRule").hide()
+    }
+
+</script>
+</div>
+<div style="clear: both"></div>
+<script type="text/javascript">
+if(window.top.location.href.indexOf("report")>0){
+    $(".tab-first").remove();
+  }
+</script>
+<script type="text/javascript" src="./base.js.下载"></script>
+<script>
+   window.onload=function(){
+        // if(window.top.IFRAME_MODAL_OPENING){ 
+        //     return;
+        // }
+
+        var bodyHeight = $("body").height();
+        //设置父级ifarme高度
+        jQuery("#mainFrame").setHeight({height:bodyHeight});
+        //获取Url标题base.js中
+        jQuery(".topContent ul li a").html(jQuery.getUrlParam("tit"));
+        //如果有图片
+
+        if(window.top.VERSION != 'X'){ 
+            //document.write("WHAT ARE U DOING!")
+        }
+    }
+
+    $(function(){
+        //页码处理
+        /*var len = $('.pageinfo > *').length;
+        $('.pageinfo > *').each(function(i,v){
+          var txt = $(v).text();
+          if(i >= len - 2 && isNaN(txt))$(v).addClass('last-two');
+        });*/
+
+        //报表所有页面 搜索时 输入用户名 去掉前后空格
+        $('.inputNospace').blur(function(){ 
+            $(this).val($(this).val().replace(/\s*/g,''))
+        })
+        //声音开关
+        $("#soundCtl").click(function(){
+            _sound._soundCtl();
+            changeClass();
+        });
+
+        //根据cookie设置class
+        function changeClass(){
+            if(_sound._checkCookie()){
+                $("#soundCtl").removeClass().addClass('soundon');
+            }else{
+                $("#soundCtl").removeClass().addClass('soundoff');
+            }
+        }
+
+    });
+
+    function postMessage(url,title,width,height,modal){ 
+      var width = width || 1040;
+      var height = height || 580;
+      if(typeof(url) == "object"){return}
+      var modal = modal || 'show_modal';
+        window.top.postMessage({
+            action: modal,
+            title: title,
+            url: url,
+            width: width,
+            height: height
+        }, '*')
+    }
+
+</script>
+ 
+ </body></html>

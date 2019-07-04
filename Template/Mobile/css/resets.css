@@ -1,0 +1,245 @@
+@charset 'utf-8';
+
+
+body { background: #fff; color: #5e5e5e; font: 12px/2em Microsoft YaHei,SimSun,Arial; }
+ul, li { margin: 0; padding: 0; }
+ul { list-style: none; }
+a { text-decoration: none; cursor: pointer; }
+a, body { color: #666666; }
+i, em { font-style: normal; }
+ins { text-decoration: none; }
+body a:hover{text-decoration:none;}
+
+.container{width:1000px !important;}
+.border_no{border-bottom:none !important;}
+.margin_0{margin:0;}
+.padding_0{padding:0;}
+.margin_t_15{margin-top:15px;}
+.padding_t_15{padding-top:15px;}
+.position_r{position: relative;}
+
+
+
+.table>thead>tr>th{
+	border-bottom:1px solid #ddd;
+}
+.bg_red{
+	background: red;
+}
+.bg_org{
+	background: #e68b2a;
+}
+.rotate{
+	-webkit-transform:rotate(360deg); 
+    -moz-transform:rotate(360deg); 
+    transform:rotate(360deg);
+}
+.common_input{
+	height:30px;
+	width:233px;
+	border:1px solid #cecece;
+	color:#666;
+	padding:5px;
+	line-height:20px;
+}
+.common_border_box1{
+	border:1px solid #ddd;
+}
+.common_border_box{
+	border:1px solid #ddd;
+	border-radius: 6px;
+}
+.common_btn{
+	display:inline-block;
+	line-height:30px;
+	color:#fff;
+	padding: 0 15px !important;
+	border-radius:3px;
+	font-size:14px;
+	min-width:55px;
+	background: #2e4158;
+}
+.common_btn:hover{
+	color: #fff;
+}
+
+/*弹窗样式*/
+.modal-body{
+	text-align:center;
+	font-size:14px;
+}
+.modal-footer{
+	text-align:center;
+}
+.modal-footer .btn{
+	padding:6px 28px;
+	color:#fff;
+}
+.modal-footer .login_btn{
+	background: #3e5779;
+}
+.modal-footer .register_btn{
+	background: #f1f1f1;
+	color:#333;
+}
+
+/*字体色*/
+.special{
+	color:#fa7e00 !important;
+}
+.ceng_11_5{
+	color:#38b39e !important;
+}
+.ceng_3d{
+	color:#3469f5 !important;
+}
+.ceng_3_5{
+	color:#06a5f9 !important;
+}
+.ceng_8{
+	color:#8a6d3b !important;
+}
+.color_res{
+	color:red !important; 
+}
+/*名片样式*/
+.popover{
+	max-width:309px;
+	height:200px;
+}
+.popover-content{
+	width:304px;
+	height:200px;
+	padding:0;
+}
+.ceng{
+	width:304px;
+	height:200px;
+	padding-top:22px;
+}
+.ceng .media-left{
+	padding-left:30px;
+	padding-right: 26px;
+	cursor:auto;
+}
+.ceng .media-left img{
+	width:80px !important;
+	height:80px !important;
+}
+.ceng .media-left p{
+	margin-top:15px;
+	text-align:center;
+	display:block;
+	color:#1d93d8;
+	font-size:14px;
+}
+.ceng .media-body{
+	cursor:auto;
+}
+.ceng .media-body p{
+	font-size:15px;
+	color:#666;
+	line-height:23px;
+}
+.ceng .media-footer{
+	height:50px;
+	background: #f5f5f5;
+	border-radius: 0 0 6px 6px;
+}
+.ceng .media-footer a{
+	display:inline-block;
+	width:50px;
+	text-align:center;
+	padding-bottom:2px;
+}
+.ceng .media-footer i{
+	font-size:25px;
+	line-height:29px;
+}
+/*温馨提示样式*/
+.prompt{
+	border:1px solid  #F8E2B9;
+	background: #FFFDEB;
+	color:#F46E00;
+	padding:10px;
+	margin-top:15px;
+}
+.prompt i{
+	font-size:14px;
+	margin:0 5px;
+}
+
+.no_result{
+	width:100%;
+	padding:100px 0;
+	text-align: center;
+}
+
+/*各银行卡位位置*/
+/*农业*/
+.ABOC{
+	background-position: 0 0;
+}
+/*建设*/
+.CBC{
+	background-position: 0 -146px !important;
+}
+/*工商*/
+.ICBC{
+	background-position: 0 -540px !important;
+}
+/*招商*/
+.CMBC{
+	background-position: 0 -252px !important;
+}
+/*民生*/
+.CMSB{
+	background-position: 0 -289px !important;
+}
+/*光大*/
+.CEB{
+	background-position: 0 -179px !important;
+}
+/*兴业*/
+.CIB{
+	background-position: 0 -1044px !important;
+}
+/*邮政*/
+.CP{
+	background-position: 0 -755px !important;
+}
+/*中国银行*/
+.BC{
+	background-position: 0 -74px !important;
+}
+/*中信*/
+.CCB{
+	background-position: 0 -218px !important;
+}
+/*平安*/
+.PING{
+	background-position: 0 -865px !important;
+}
+/*交通*/
+.JIAO{
+	background-position: 0 -326px !important;
+}
+/* 复制提示 */
+.copy-tips{
+	position:fixed;
+	z-index:999;
+	bottom:50%;
+	left:50%;
+	margin:0 0 -20px -80px;
+	padding:6px;}
+.copy-tips-wrap{
+	padding:10px 20px;
+	text-align:center;
+	border:1px solid #F4D9A6;
+	background-color:#FFFDEE;
+	font-size:14px;
+}
+
+ul,ol,li{
+	list-style:none;
+}

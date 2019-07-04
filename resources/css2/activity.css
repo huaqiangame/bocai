@@ -1,0 +1,159 @@
+@charset 'utf-8';
+
+.activity_main{
+	background: #eeeeee;
+	padding-top:15px;
+}
+#activity_panel{
+	background-color:#fff;
+	box-shadow:0 4px 8px #c7c7c7;
+	padding:15px;
+	border-radius: 0;
+}
+#activity_panel .panel-heading{
+	width:970px;
+	height:170px;
+	background-color:#fff;
+	border:none;
+	padding: 0;
+	cursor:pointer;
+}
+#activity_panel .panel-title>a{
+	width:970px;
+	height:170px;
+	display: block;
+}
+#activity_panel .activity_img{
+	width:680px;
+}
+#activity_panel .activity_img img{
+	width:680px;
+	height:170px;
+}
+#activity_panel .activity_title{
+	width:290px;
+	padding:0 15px;
+	height:170px;
+}
+#activity_panel .activity_title h2{
+	font-size:28px;
+	font-weight:100;
+	margin:0;
+	color:#e4393c;
+}
+#activity_panel .activity_title p{
+	font-size: 14px;
+	color:#666666;
+	margin:26px 0;
+	line-height:24px;
+}
+#activity_panel .activity_title a{
+	position:relative;
+	font-size:18px;
+	padding:8px 30px 8px 15px;
+	border:none;
+}
+#activity_panel .activity_title i{
+	color: #f09394;
+	font-size:25px;
+	position: absolute;
+	top:3px;
+	right:3px;
+}
+.btn-danger{
+	background: #e4393c !important;
+}
+#activity_panel .panel-body{
+	padding:0;
+	margin-top:15px;
+	border-top-style:dashed;
+	border-top-width:2px;
+}
+.activity_common_h3{
+	background:#d2dbe0;
+	width:84px;
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	position: relative;
+	margin-top:30px;
+	margin-bottom:14px;
+}
+.activity_common_h3:after{
+	content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 15px solid #d2dbe0;
+    right: -15px;
+    top: 0px;
+}
+.activity_info1>p span{
+	font-size:14px;
+	line-height:20px;
+	vertical-align:middle;
+	margin-right:10px;
+}
+.activity_info1>p em{
+	color:#f76727;
+}
+.no_login_btn{
+	background: #d6d6d6;
+	font-size:16px;
+	color:#999;
+	padding:7px 18px;
+}
+.no_login_btn:hover{
+	color:#999;
+}
+.activity_info2 table{
+	width:60% !important;
+	text-align:center;
+}
+.activity_info2 .table th,.activity_info2 .table td{
+	height:40px !important;
+	font-size:14px;
+	line-height:23px;
+}
+.activity_info2 thead th{
+	border-bottom-width:1px !important;
+	background-color:#4393be;
+	color:#fff;
+	font-weight:100;
+	font-size:14px;
+	text-align: center;
+}
+.activity_info2 thead .ths{
+	position:relative;
+	width:145px;
+}
+.activity_info2 thead .ths i{
+	position:absolute;
+	left:10px;
+	bottom:5px;
+}
+.activity_info2 thead .ths ins{
+	width:147px;
+	border-bottom:1px solid #7fbbdc;
+	position:absolute;
+	top:19px;
+	left:-1px;
+	transform:rotate(15.2deg);
+}
+.activity_info2 thead .ths em{
+	position:absolute;
+	right:4px;
+	top:1px;
+}
+.activity_info3 p{
+	font-size:14px;
+	color:#666666;
+	line-height:24px;
+	margin:0;
+}
+
+

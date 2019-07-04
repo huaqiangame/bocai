@@ -1,0 +1,27 @@
+﻿*{margin:0px; padding:0px;}
+li{list-style:none;}
+body{color:#FFF;}
+#msg{position:fixed; width:100%; height:100%; z-index:9991; left:0px; top:0px; background-image:url(hongbaomsgbg.png); background-repeat:repeat; display:none; cursor:pointer;}
+#msg dl{width:150px; height:215px; position:fixed; z-index:9992; left:50%; top:50%; margin-left:-75px; margin-top:-137px;}
+#msg dl dt img{box-shadow:0px 0px 50px #FFFF00;-moz-box-shadow:0px 0px 50px #FFFF00;-webkit-box-shadow:0px 0px 50px #FFFF00;-moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius:15px;}
+#msg dl dd{width:48px; height:48px; text-align:center; line-height:48px; background-color:#FFF; color:#FF0000; position:absolute; right:-14px; top:-14px;-moz-border-radius: 100px; -webkit-border-radius: 100px; border-radius:100px; font-weight:bold; font-size:42px; font-family:Arial Black,Arial; border:solid 2px #FF0000;}
+#msg span{display:block; position:fixed; left:0px; top:50%; width:100%; font-size:36px; text-align:center; color:#FFFF00; margin-top:100px;}
+#msg span strong{color:#FF0000; font-family:Arial Black,Arial; font-size:64px;}
+
+.hidebox{display:none;}
+.cenbox{width:1000px; margin:auto;}
+.hongbao img{position:fixed; z-index:9990; cursor:pointer;}
+.banner{height:720px; background-image:url(banner.jpg); background-repeat:no-repeat; background-position:center center; position:relative;}
+.banner ul{width:400px; height:200px; position:absolute; left:50%; margin-left:-200px; bottom:173px; overflow:hidden;}
+.banner ul li{padding-top:5px; padding-bottom:5px; font-size:16px;}
+.banner ul li small{font-size:14px; margin-right:20px;}
+.banner ul li span{color:#00FF00; margin-right:20px;}
+.banner ul li strong{color:#FFFF00;}
+.main1{height:100%; background-image:url(big_bg.jpg); background-repeat:repeat-y; background-position:center top; padding-top:40px; padding-bottom:40px;}
+.main1 table{text-align:center; background-color:#990000;}
+.main1 table td{padding:10px;}
+.main1 table tr:first-child td{font-weight:bold; background-color:#FFFF00; color:#FF0000; font-size:24px;}
+.main1 table tr td{background-color:#FF0000; font-size:18px;}
+.footbox{background-color:#670002; padding-top:40px; padding-bottom:40px;}
+.footbox h1{text-align:center; font-size:24px; color:#FFCC00;}
+.footbox p{padding-top:15px; color:#FFFF00;}

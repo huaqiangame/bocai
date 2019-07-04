@@ -1,0 +1,333 @@
+/* CSS Document */ 
+/****************************************************************
+ *		Created: 2014-03-13
+ *		Name: comment.css (公用样式)
+ *		Author: lrxiang
+ ****************************************************************/
+/** 通用CSS样式 **/
+*{margin:0px; padding:0px; _min-height:1px;}
+a, body, div, html, img, li, ul,dl,dt,dd { border: 0; margin: 0; padding: 0; text-decoration:none;}
+body { height:auto; width:100%;font-size: 12px; font-family:"微软雅黑","宋体",\5b8b\4f53,'Liberation Sans', FreeSans, sans-serif; /* font-family:"Helvetica Neue",Helvetica,STHeiTi,sans-serif;*/  margin:0px; padding:0px; display:block; color:#000;  }
+img { color: transparent; font-size:12px; vertical-align: middle; -ms-interpolation-mode: bicubic; }
+ol, ul ,dl ,dt,dd{ list-style: none;  }
+input{ border:0px; outline:none; font-family:"微软雅黑"; }
+a{ cursor:pointer; color:#1a1a1a; }
+em, i, b, sub, sup { font-style: normal; } 
+h1,h2,h3,h4,h5{ padding:0px; margin:0px;  }
+/** 通用CSS样式 **/
+@font-face {font-family: 'iconfontct';
+    src: url('/Template/Mobile/fonts/font_tb0xdfoci4er8uxr.eot'); /* IE9*/
+    src: url('/Template/Mobile/fonts/font_tb0xdfoci4er8uxr.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/Template/Mobile/fonts/font_tb0xdfoci4er8uxr.woff') format('woff'), /* chrome銆乫irefox */
+    url('/Template/Mobile/fonts/font_tb0xdfoci4er8uxr.ttf') format('truetype'), /* chrome銆乫irefox銆乷pera銆丼afari, Android, iOS 4.2+*/
+    url('/Template/Mobile/fonts/font_tb0xdfoci4er8uxr.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfontct{font-family:"iconfontct" !important;  font-style:normal;  -webkit-font-smoothing: antialiased;  -webkit-text-stroke-width: 0.1px;  -moz-osx-font-smoothing: grayscale;}
+
+
+.lot-number-tip{
+    z-index: 2;
+    height: 36px;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #e3decf;
+    background-color: #eeebda;
+    color: #565441;
+}
+.lot-number-tip var{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.lot-number-tip .gray{
+  font-size: 12px;
+}
+
+.hmp{
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-wrap:wrap;
+}
+.hmp li{
+    width: 21%;
+    border: 1px solid #dfdfdf;
+    border-radius: 14px;
+    background: #faf9f6;
+    height: 66px;
+    margin: 2%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.hmp li.w_3{
+  width: 29.333%;
+}
+.betTitle i{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-color: #bbb39c;
+    color: #fef1f1;
+    border-radius: 4px;
+    vertical-align: middle;
+    position: relative;
+}
+.betTitle i.minus:before, .betTitle i.plus:after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 1px;
+    background: #fff;
+    position: relative;
+    left: 4px;
+    top: 12px;
+}
+
+.betTitle i.plus:after {
+    top: 11px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.hmp li span{
+  display: block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  margin: 8px auto 0;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  background: #2a74dd;
+}
+.hmp li.chan span{
+  display: block;
+  text-align: center;
+  line-height: 1.44;
+  width: 100%;
+  height: auto;
+  padding-top: 7px;
+  border-radius: 0;
+  background: none;
+  margin: 0;
+  color: #333;
+  font-size: 20px;
+}
+.hmp .lot-odds{
+  text-align: center;
+  color: red;
+  font-size: 16px;
+} 
+.hmp  li.ball-active{
+  background: #f9dbdb;
+    border-color: #dcbbbc;
+}
+.sscBetInfo{
+    position: fixed;
+    height: 54px;
+    left: 0;
+    bottom: 55px;
+    background: #000;
+    width: 100%;
+    z-index: 5;
+    padding: 0 .2em;
+    text-align: center;
+}
+.betFooterBtn{
+    width: 18%;
+    height: 42px;
+    display: inline-block;
+    top: 0;
+    font-size: .82em;
+}
+.clearBet{
+    background: #d09918;
+}
+.btn{
+    color: #fff;
+    width: 100%;
+    height: 42px;
+    display: block;
+    margin-top: .34em;
+    line-height: 2.2em;
+    text-align: center;
+    border-radius: .3em;
+}
+.betFooterBtn{
+    width: 18%;
+    height: 42px;
+    display: inline-block;
+    top: 0;
+    font-size: .82em;
+}
+.chips{
+    background: #2e52e6;
+} 
+#chipDiv {
+    bottom: 53px;
+    left: 0;
+    height: 35px;
+    z-index: 11;
+    width: 100%;
+    position: absolute;
+    background: hsla(210,4%,80%,.5);
+    display: none;
+}
+.bar_chip{
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+}
+.bar_chip li{
+    font-family: iconfont;
+    width: 16.66%;
+    height: 79px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    position: relative;
+    font-size: 2.7em;
+    float: left;
+}
+
+.bar_chip .cm1{
+    color: #319b0d;
+}
+.bar_chip a{
+    display: block;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 86px;
+    text-decoration: none;
+}
+.betFooterInput{
+    width: 38%;
+    height: 42px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 .1em;
+}
+.betMoney{
+    width: 100%;
+    height: 36px;
+    margin-top: .25em;
+    text-align: center;
+    float: left;
+    border: 0;
+    background: #000;
+    border: 1px solid #ab3f3e;
+    color: #bebebe;
+    line-height: .82em;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.betFooterBtn{
+    width: 18%;
+    height: 42px;
+    display: inline-block;
+    top: 0;
+    font-size: .82em;
+}
+.active a.btn{
+    color: #fff;
+    width: 100%;
+    height: 36px;
+    display: block;
+    margin-top: 9px;
+    height: 36px;
+    text-align: center;
+    border: 0;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.bet{
+    background: #cd0e1d;
+}
+.bar_chip li:after {
+    content: "\E650";
+    font-family: iconfontct;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    height: 79px;
+    font-size: 60px;
+    color: #fff;
+    z-index: -1;
+}
+.bar_chip .cm1:after {
+    color: #319b0d;
+}
+.bar_chip .cm2:after {
+    color: #cea400;
+}
+.bar_chip .cm3:after {
+    color: #e75519;
+}
+.bar_chip .cm4:after {
+    color: #e21826;
+}
+.bar_chip .cm5:after {
+    color: #106ec8;
+}
+.bar_chip .cm6:after {
+    color: #7237af;
+}
+.chip_click{
+  bottom: 7px;
+} 
+.lhdList dl dt{
+    z-index: 2;
+    height: 36px;
+    padding: 5px;
+    border: 1px solid #e3decf;
+    background-color: #eeebda;
+    color: #565441;
+}
+.lhdList dl dt var{ padding-left: 5px;font-size: 14px; font-weight: 400; }
+.changeBtn{
+    text-align: right;
+    margin: 10px 0;
+}
+.changeBtn ul{
+    height: 34px;
+    display: inline-block;
+    width: 89px;
+    margin-right: 10px;
+}
+.changeBtn ul li{
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 28px;
+    vertical-align: top;
+    border: 1px solid #b82541;
+    border-radius: .2em;
+}
+.changeBtn ul li:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.changeBtn ul li:last-child {
+    border-radius: 0 4px 4px 0;
+}
+.changeBtn .on{
+    background: linear-gradient(#d83442,#c62c41,#b82541);
+    color: #fff;
+}
+.hmp li.chan_1 span,.hmp li.chan_4 span,.hmp li.chan_7 span,.hmp li.chan_10 span{
+    background: #5cb85c;
+}
+.hmp li.chan_2 span,.hmp li.chan_5 span,.hmp li.chan_8 span{
+    background: #2a74dd;
+}
+.hmp li.chan_3 span,.hmp li.chan_6 span,.hmp li.chan_9 span{
+    background: #d9534f;
+}

@@ -1,0 +1,906 @@
+ol,ul{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #f5f1e4;
+}
+.mobileGameTop .gameInfo{
+  font-size: 12px;
+  display: inline-block;
+  line-height: 13px;
+  text-align: left;
+  margin-top: 13px;
+}
+.mobileGameTop .gameType{
+    display: inline-block;
+    font-size: 16px;
+    border-radius: .2em;
+    border: 1px solid hsla(0,0%,100%,.5);
+    vertical-align: top;
+    height: 36px;
+    margin: 7px 0;
+    line-height: 33px;
+    /* padding: 0 .4em; */
+	cursor: pointer;
+}
+#showGameList .icon-sanjiaoxing{
+  font-size: 18px !important;
+}
+.mobileGameTop .gameType .icon-sanjiaoxing{
+    font-size: 19px;
+    transform: rotate(180deg);
+    transition: .6s;
+    display: inline-block;
+    color: #f0c930;
+}
+.mobileGameTop .play_select_insert{
+  position: fixed;
+  background: #fff;
+  z-index: 1;
+  display: none;
+  width: 100%;
+}
+.selectNmuverBox .selectNumberPei{
+  width: 20%;
+  text-align: center;
+  float:left;
+}
+.selectNmuverBox .selectNumberPei span{
+  display: block;
+  clear: both;
+  line-height: 35px;
+  font-size: 10px;
+}
+.lhc_sxTextUl{
+  overflow: hidden;
+  display: flex;
+  margin-left: 17px;
+  margin-top: -17px;
+}
+.lhc_sxTextUl .lhcsxText{
+  display: inline-block;
+  margin: 0px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+}
+.lhcKaiGG{
+  float: left;
+  margin: 0 2px;
+}
+.lhcKaiGG span{
+  display: block;
+  font-size: 13px;
+}
+.lhcKaiGG em{
+  display: block;
+  font-size: 13px;
+}
+.lhc_red_color{
+  color: #dc3b40 !important;
+}
+.lhc_blue_color{
+  color: #218ddd !important;
+}
+.lhc_green_color{
+  color: #38b366 !important;
+}
+.lhc_red_bg{
+    background: linear-gradient(0deg,#f87b7e 0,#dc3b40 75%) !important;
+    background: -webkit-linear-gradient(top,#f87b7e,#dc3b40 75%) !important;
+    border: 1px solid #e94548 !important;
+    color: #fff !important;
+    box-shadow: inherit !important;
+    border-radius: 50%;
+    font-size: 14px;
+}
+.lhc_blue_bg{
+    background: linear-gradient(0deg,#6ebefa 0,#218ddd 75%) !important;
+    background: -webkit-linear-gradient(top,#6ebefa,#218ddd 75%) !important;
+    border: 1px solid #2994e3 !important;
+    color: #fff !important;
+    box-shadow: inherit !important;
+    border-radius: 50%;
+    font-size: 14px;
+}
+.lhc_green_bg{
+  background: linear-gradient(0deg,#69d893 0,#38b366 75%) !important;
+  background: -webkit-linear-gradient(top,#69d893,#38b366 75%) !important;
+    border: 1px solid #3cb569 !important;
+  color: #fff !important;
+  box-shadow: inherit !important;
+  border-radius: 50%;
+  font-size: 14px;
+}
+.sscFooter{
+    position: fixed;
+    left: 0;
+    bottom: 55px;
+    width: 100%;
+    font-size: 14px;
+    z-index: 0;
+}
+.g_Number_Section .lhclm .curr{
+    background: #dc3b40;
+    color: #fff !important;
+    border: 1px solid #dc3b40;
+}
+  .g_Number_Section .lhclm .curr + .lhclmPeil{
+    background: #dc3b40;
+    color: #fff !important;
+}
+  .g_Number_Section .lhclm .curr .lmbbNumber{
+    background: #dc3b40;
+    color: #fff !important;
+  }
+.bet-money {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 7px;
+    background: #fff;
+    border-top: 1px solid #dfdfdf;
+    color: #666;
+    display: none;
+}
+  .bet-money em {
+    display: inline-block;
+    overflow: hidden;
+}
+  .text-ellipsis {
+    display: inline-block;
+    width: 228px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 6px;
+    font-weight: 700;
+}
+  .bet-money {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 7px;
+    background: #fff;
+    border-top: 1px solid #dfdfdf;
+    color: #666;
+}
+  .bet-money input {
+    display: inline-block;
+    height: 26px;
+    font-weight: 500;
+    width: 76px;
+    line-height: 15px;
+    margin-left: 6px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    padding: 5px;
+    -webkit-appearance: none;
+}
+  .bet-money span {
+    margin-left: 6px;
+}
+  .bet-info {
+    width: 100%;
+    height: 48px;
+    background: #252525;
+    color: #ddd;
+    padding: 7px;
+}
+  .bet-info-left {
+    float: left;
+    line-height: 33px;
+}
+  .bet-info-clear {
+    padding-left: 0;
+    color: #ffaf36;
+    font-size: 21px;
+}
+  .bet-info-count {
+    padding-left: 14px;
+    color: #fff;
+    display: none;
+}
+  .bet-info-right {
+    float: right;
+    margin-right: 4px;
+    text-align: right;
+}
+  .bet-info-confirm {
+    background: #dc3b40;
+    border: none;
+    display: block;
+    text-align: center;
+    height: 33px;
+    line-height: 33px;
+    width: 91px;;
+    border-radius: 6px;
+    color: #ddd;
+}
+.selectNmuverBox .selectNumberPei .selectNumber{
+  margin: 0 15px;
+}
+.mobileGameTop .play_select_insert .play_select_tit{
+  width: 100%;
+}
+.mobileGameTop .play_select_insert .play_select_tit li{
+  float:left;
+  padding: 0px 17px;
+  line-height: 25px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  color: #555;
+  font-size: 12px;
+  margin: 7px;
+  float: left;
+  border: 1px solid #ddd;
+  height: 25px;
+}
+.randomBox{
+  text-align: center;
+  padding: 7px 13px;
+  box-shadow: 0 0 0.5em #b9b9b9;
+  position: fixed;
+  z-index: 1011;
+  background: #f9f8f0;
+  top: 50px;
+  left: 0;
+  width: 100%;
+}
+.randomBox .random{
+  position: relative;
+}
+.randomBox .random .randomBtn{
+  display: inline-block;
+  color: #333;
+  border: 1px solid #d2d2d2;
+  border-radius: .3em;
+  font-size: 14px;
+  height: 2.4em;
+  width: 29%;
+  line-height: 2.4em;
+  margin-left: .8em;
+  background: #fff;
+  text-decoration: none;
+} 
+.random1{
+  cursor: pointer;
+}
+.random5{
+  cursor: pointer;
+}
+.closeNumberlan{
+  cursor: pointer;
+}
+
+.mobileGameTop .play_select_insert .play_select_tit .curr{
+    background: #dc3b40;
+    border: 1px solid #dc3b40;
+    color: #fff;
+}
+.bet_filter_box{
+  background: #fff;
+  width: 100%;
+  box-shadow: 0px -1px 10px #ccc;
+  z-index: 1;
+  display: none;
+}
+.bet_filter_box .bet_filter_item{
+  overflow: hidden;
+  border-bottom: 1px dashed #ccc;
+  padding: 8px 0;
+  
+}
+.bet_filter_box .title{
+  color: #666;
+  display: block;
+  float: left;
+  font-size:14px;
+  font-weight: normal;
+  width: 69px;
+  text-align: left;
+  padding-left: 10px;
+  line-height: 37px;
+}
+.bet_filter_box .bet_option{
+  float: left;
+  width: 250px;
+}
+.bet_filter_box .bet_option .curr{
+    border: 1px solid #dc3b40;
+    color: #dc3b40;
+}
+.bet_filter_box .bet_options{
+  padding: 0px 10px;
+  line-height: 25px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  color: #555;
+  font-size: 12px;
+  border: 1px solid #ddd;
+  height: 25px;
+  display: inline-block;
+  margin: 6px;
+}
+.g_Time_Section{
+  overflow: hidden;
+  width: 100%;
+  background: #e1d9ba;
+}
+.g_Time_Section .cz_daojishi{
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 67px;
+}
+.g_Time_Section .cz_daojishi .open_issue{
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  color: #333;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.g_Time_Section .j_lottery_time{
+  color: #333;
+  font-size: 20px;
+}
+.g_Time_Section .cz_openNumb{
+  text-align: center;
+}
+.g_Time_Section .cz_openNumb .open_issue{
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  color: #333;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.g_Time_Section #ssc_winning_sum{
+  margin: 4px 0 9px;
+}
+.g_Time_Section #ssc_winning_sum li{
+  display:inline-block;
+  vertical-align: top;
+  background: #dc3b40;
+  background: linear-gradient(0deg,#f86469 0,#bf1f24 75%);
+  background: -webkit-linear-gradient(top,#f86469,#bf1f24 75%);
+  box-shadow: 0 3px 1px #bbb59c;
+  color: #fff;
+  width: 25px;;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 .2em;
+  font-size: 16px;
+  font-weight: bold;
+}
+.g_Time_Section #lhc_winning_sum{
+  margin: 4px 0 9px;
+}
+.g_Time_Section #lhc_winning_sum li{
+  display:inline-block;
+  vertical-align: top;
+  background: #dc3b40;
+  background: linear-gradient(0deg,#f86469 0,#bf1f24 75%);
+  background: -webkit-linear-gradient(top,#f86469,#bf1f24 75%);
+  box-shadow: 0 3px 1px #bbb59c;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.g_Time_Section #lhc_winning_sum li span:last-child{
+  color: #000;
+}
+
+#gameBet .gameBet_left{
+  background: #f5f1e4;
+}
+#gameBet .play_select_prompt{
+  padding: 10px;
+}
+#gameBet .selectNmuverBox{
+  overflow: hidden;
+}
+#gameBet .selectNmuverBox .numberTitle{
+  float: left;
+  font-size: 14px;
+  display: block;
+  text-align: left;
+  line-height: 1.3em;
+  color: #bbb39c;
+  background: #eeebda;
+  border: 1px solid #e3decf;
+  border-radius: .3em;
+  margin-top: .8em;
+  padding: .2em .5em;
+  margin-left: 10px;
+}
+#gameBet .selectNmuverBox .selectNumbers{
+  float: left;
+  max-width: 320px;
+  text-align: center;
+}
+#gameBet .selectNmuverBox .selectNumbers a{
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #dc3b40;
+  background: #faf9f6;
+  border-radius: 50%;
+  border: 1px solid #bfbfbf;
+  font-size: 16px;
+  margin: 5px 12px;
+  text-decoration: none;
+}
+#gameBet .selectNmuverBox .selectNumbers .curr{
+  background: #dc3b40;
+  color: #fff;
+  border: 1px solid #dc3b40;
+}
+
+.lishi{
+  position: absolute;
+  width: 100%;
+  background: #e1d9bb;
+  border-top: 2px solid #fff;
+  display: none;
+  z-index: 1;
+}
+.lishi th{
+  text-align: center;
+  font-size: 16px;
+}
+.lishi td{
+  text-align: center;
+  font-size: 16px;
+}
+.selectMultiple{
+  position: fixed;
+  bottom:55px;
+  left: 0;
+  width: 100%;
+}
+.selectMultiple .selectMultipleT{
+  background: #f8f8f8;
+  padding: 10px;
+  font-size: 18px;
+  color: #666;
+  overflow: hidden;
+  display: none;
+}
+.selectMultiple .selectMultipleB{
+  background: #252625;
+  overflow: hidden;
+  height: 64px;
+}
+.selectMultiple .selectMultipleNumber{
+  display: inline-block;
+  margin-right: 20px;
+}
+.selectMultiple .selectMultipleNumber{
+  float: left;
+}
+.selectMultiple .reduce{
+    background: #f4f4f4;
+    height: 30px;
+    line-height: 22px;
+    width: 30px;
+    text-align: center;
+    float: left;
+    border: 1px solid #e3e4e6;
+    color: #686869;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 38px;
+}
+.selectMultiple .noReduce {
+    color: #c3c8d3 !important;
+}
+.selectMultiple .add{
+    background: #f4f4f4;
+    height: 30px;
+    line-height: 24px;
+    width: 30px;
+    text-align: center;
+    float: left;
+    border: 1px solid #e3e4e6;
+    color: #686869;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 27px;
+}
+.selectMultiple .selectMultipInput{
+  border: 1px solid #cecece !important;
+  font-size: 16px;
+  width: 60px;
+  margin: 0!important;
+  float: left;
+  color: #686869;
+  height: 30px;
+  padding: 4px 5px;
+  text-align: center;
+  border-radius: 0;
+  vertical-align: baseline;
+}
+.selectMultiple .selectMultipleCon{
+  float: right;
+  width: 70px;
+  height: 30px;
+  border: none;
+  background: #5eb95e;
+  color: #fff;
+  padding: 0 10px;
+}
+.selectMultiple .addIcon{
+  font-size: 40px;
+  color: #fff;
+  float: left;
+  padding-right: 10px;
+  display: none;
+  line-height: 54px;
+}
+.selectMultiple .select_zhushu{
+  font-size: 18px;
+  color: #fff;
+  padding-top: 5px;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.selectMultiple .selectMultipleOld{
+  font-size: 18px;
+  color: #fff;
+  padding-top: 5px;
+  display: inline-block;
+}
+
+.selectMultiple .selectMultipleB_n{
+  color: #fff;
+  display: none;
+  padding-left: 50px;
+  white-space: nowrap;
+}
+
+.selectMultiple .selectMultipleLz{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: #575858;
+  height: 64px;
+  line-height: 64px;
+  width: 139px;
+  text-align: center;
+}
+.selectMultiple .selectMultipleLz:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 32px solid transparent;
+    border-left: 12px solid #252625;
+    border-bottom: 32px solid transparent;
+    left: 0;
+    top: 0;
+}
+.selectMultiple .selectMultipleLzAdd:before{
+  border-left: 12px solid #dc3b40 !important;
+}
+.selectMultiple .selectMultipleLz .icon-lanzi{
+  font-size: 25px;
+  color: #fff;
+}
+.selectMultiple .selectMultipleLz_a{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.selectMultiple .lanIconNumber{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #dc3b40;
+  position: absolute;
+  top:10px;
+  left: 28px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  display: none;
+}
+
+.numberLan{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #f9f8f0;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  overflow: hidden;
+  margin-top: 49px;
+  margin-bottom: 100px;
+}
+.xiad-left{
+  padding: 10px;
+  margin-top: 45px;
+}
+.xiad-left .yBettingLists{
+  background: #fff;
+  box-shadow: 0 0 0.5em #ccc;
+  border-bottom: 1px dashed #ccc;
+  padding: 5px 10px;
+  position:relative;
+}
+.xiad-left .yBettingList{
+  overflow: hidden;
+  position: relative;
+}
+.xiad-left .numberBox{
+    display: block;
+    color: #dc3b40;
+    font-size: 16px;
+    /* line-height: 1.4em; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* width: 90%; */
+    /* height: 1.4em; */
+}
+.xiad-left .yBettingType{
+  float: left;
+  font-size: 17px;
+  color: #666;
+}
+.xiad-left .yBettingZhushu{
+  float: left;
+  font-size: 17px;
+  color: #666;
+  padding-left: 5px;
+}
+.xiad-left .yBettingTimes{
+  float: left;
+  font-size: 17px;
+  color: #666;
+}
+.xiad-left .rmb{
+  float: left;
+  font-size: 17px;
+  color: #666;
+}
+.xiad-left .yzongRmb{
+  float: left;
+  font-size: 17px;
+  color: #666;
+}
+.fa-times{
+  font-size: 18px;
+}
+.sc{
+    position: absolute;
+    top: 9px;
+    right: 8px;
+	cursor: pointer;
+}
+#f_submit_order{
+	cursor: pointer;
+}
+#orderlist_clear{
+  background: #fff;
+  box-shadow: 0 4px 0.5em #ccc;
+  text-align: center;
+  color: #666;
+  padding: 10px;
+  font-size: 17px;
+  display: none;
+}
+.g_text{
+  padding: 10px;
+}
+#text{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 16px;
+    color: #666;
+    resize: none;
+}
+.g_text button{
+    border: none;
+    background: #f37b1d;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    color: #fff;
+}
+.g_Number_Section{
+  margin-bottom: 114px;
+}
+.selectNumbers a{
+    display: inline-block;
+    width: 78px;
+    height: 33px;
+    line-height: 30px;
+    text-align: center;
+    color: #dc3b40;
+    background: #faf9f6;
+    border: 1px solid #bfbfbf;
+    font-size: 16px;
+    margin: .3em;
+    border-radius: .2em;
+    text-decoration: none;
+}
+.kl8_qw{
+  text-align: center;
+}
+.kl8_qw .curr{
+  background: #dc3b40;
+  color: #fff;
+  border: 1px solid #dc3b40;
+}
+.fc3d_c{
+  color:#00b7ee;
+}
+.pl3_c{
+  color:#38b366;
+}
+.fandianH,.peilu {
+    white-space: nowrap;
+    color: #ff9726;
+    display: inline-block
+}
+.sliderConter{
+    position: relative;
+    z-index: 0;
+    border-radius: 5px;
+    color: #000;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    display: inline-block;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 96%;
+    margin: 0 2%;
+}
+.peilu {
+    padding-left: 8px;
+    white-space:nowrap;
+}
+
+.fandian {
+    padding-right: 8px;
+    white-space:nowrap;
+}
+
+#Main {
+    margin-top: .25rem
+}
+
+#minus {
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+    border: 2px solid #e3e3e3;
+    margin-left: 4px;
+}
+
+#minus:before {
+    content: "";
+    display: block;
+    width: 13px;
+    height: 2px;
+    background: #e3e3e3;
+    position: relative;
+    top: 10px;
+    left: 4px;
+}
+
+#plus {
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #e3e3e3;
+    border: 1px solid #e3e3e3;
+    position: relative;
+    margin-right: 8px;
+}
+
+#plus:before {
+    height: 17px;
+    left: 5px;
+    top: 11px;
+}
+
+#plus:after, #plus:before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 2px;
+    background: #fff;
+    position: relative;
+}
+
+#plus:after {
+    width: 14px;
+    top: 9px;
+    left: 5px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.changeBtn{
+    text-align: right;
+    margin: 10px 0;
+}
+.changeBtn ul{
+    height: 34px;
+    display: inline-block;
+    width: 89px;
+    margin-right: 10px;
+}
+.changeBtn ul li{
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 28px;
+    vertical-align: top;
+    border: 1px solid #b82541;
+    border-radius: .2em;
+}
+.changeBtn ul li:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.changeBtn ul li:last-child {
+    border-radius: 0 4px 4px 0;
+}
+.changeBtn .on{
+    background: linear-gradient(#d83442,#c62c41,#b82541);
+    color: #fff;
+}
+.tebie #amount{
+    position: absolute;
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    border: 1px solid #ff9726;
+    top: -29px;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+.peilu i{
+position: absolute;
+    top: -9px;
+    left: 42px;
+    transform: rotate(180deg);
+}

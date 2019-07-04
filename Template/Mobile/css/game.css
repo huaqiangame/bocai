@@ -1,0 +1,114 @@
+﻿.gamelist-v{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;justify-content:flex-start;flex-wrap:wrap}
+.gamelist-v .gameitem{width:25%;position:relative;border-right:1px solid #e9e9e9;border-bottom:1px solid #e9e9e9;background:#fff;padding:5px 0;}
+.gamelist-v .gameitem:nth-child(4n){border-right:0}
+.gamelist-v .gameitem:before{content:"";top:0;left:0;border-right:30px solid transparent;position:absolute;z-index:100}
+.gamelist-v .gameitem:after{display:block;top:0;left:3px;transform:rotate(-45deg);font-size:12px;color:#fff;position:absolute;z-index:101}
+.gamelist-v .burst:before{border-top:30px solid #fb5050}
+.gamelist-v .burst:after{content:"爆"}
+.gamelist-v .hot:before{border-top:30px solid #ff00eb}
+.gamelist-v .hot:after{content:"热"}
+.gamelist-v .new:before{border-top:30px solid #5ebe42}
+.gamelist-v .new:after{content:"新"}
+.gamelist-v .demo:before{border-top:30px solid #03A9F4}
+.gamelist-v .demo:after{content:"试"}
+.gamelist-v .maintain:before{border-top:30px solid #c1c1c1}
+.gamelist-v .maintain:after{content:"维"}
+.gamelist-v .bigwin{position:absolute;bottom:0;left:0;width:100%;height:40px}
+.gamelist-v .wincon{color:#ff0;position:absolute;top:0;left:0;z-index:1;width:100%}
+.winA{-webkit-animation:wina 2s infinite linear}
+@-webkit-keyframes wina{0%{opacity:1}
+50%{opacity:1}
+51%{opacity:0}
+100%{opacity:0}}
+.winB{-webkit-animation:winb 2s infinite linear}
+@-webkit-keyframes winb{0%{opacity:0}
+50%{opacity:0}
+51%{opacity:1}
+100%{opacity:1}}
+.wintit{font-weight:bold;font-size:16px;display:block;height:24px;line-height:24px;width:100%;text-align:center}
+.wintxt{font-size:16px;display:block;height:16px;line-height:16px;width:100%;text-align:center}
+.gamelist-v .winbg{background:url(../images/f12.gif) no-repeat;background-size:100%;opacity:.7;height:40px;display:block;width:100%;position:absolute;top:0;left:0}
+.gamelist-v .gameicon i{}
+.gamelist-v .icon-games{width:64px;height:64px;display:block;margin:0 auto;background-image:url(../images/iconsp.png)}
+.gamelist-v .gametitle{font-size:15px;line-height:24px;text-align:center}
+.gamelist-v i.gamestar{width:62px;height:10px;display:block;margin:0 auto}
+.gamelist-v .gameonline{font-size:12px;color:#999;line-height:24px;text-align:center}
+.gamelist-v .gameonline .cred{color:#fb5050}
+.icon-zoom80{zoom:80%}
+.star-1,.star-2,.star-3,.star-4,.star-5,.star-6{background:url(../images/star.png) no-repeat;background-size:100%}
+.star-6{background-position:0 0}
+.star-5{background-position:0 0}
+.star-4{background-position:0 -10px}
+.star-3{background-position:0 -20px}
+.star-2{background-position:0 -30px}
+.star-1{background-position:0 -40px}
+.icon-games-WG{background-position:-1079px -124px}
+.icon-games-DG{background-position:-252px 5px}
+.icon-games-BYDR{background-position:-256px -420px}
+.icon-games-AG{background-position:-62px 2px}
+.icon-games-CG{background-position:-203px 0}
+.icon-games-MGE{background-position:-317px -123px}
+.icon-games-BBIN{background-position:-189px -59px}
+.icon-games-HBE{background-position:-381px 0}
+.icon-games-GPE{background-position:-279px 0}
+.icon-games-IM{background-position:-382px -125px}
+.icon-games-LEBO{background-position:-503px 0}
+.icon-games-BG{background-position:-445px -128px}
+.icon-games-DT{background-position:-382px -180px}
+.icon-games-QT{background-position: -8px -180px}
+.icon-games-AMB{background-position:-319px -244px}
+.icon-games-GB{background-position:-66px -304px}
+.icon-games-MW{background-position:-126px -421px}
+.icon-games-HC{background-position:-130px 0}
+.icon-games-SPBK{background-position:-253px -304px}
+.icon-games-SPFT{background-position:-189px -304px}
+.icon-games-SPBM{background-position:0px -363px}
+.icon-games-SPTN{background-position:-189px -422px}
+.icon-games-SPTT{background-position:-58px -358px}
+.icon-games-SPBS{background-position:-446px -304px}
+.icon-games-SPVB{background-position:-510px -302px}
+.icon-games-SPOP{background-position:-382px -304px}
+.icon-games-LOTTERY{background-position:-127px -362.5px}
+.icon-games-LOTTERY1{background-position:-59px -58px}
+.icon-games-LOTTERY5{background-position:4px 4px}
+.icon-games-LOTTERY6{background-position:5px -60px}
+.icon-games-LOTTERY7{background-position:-124px -58px}
+.icon-games-LOTTERY8{background-position:-253px -60px}
+.icon-games-LOTTERY9{background-position:-315px -58px}
+.icon-games-LOTTERY10{background-position:-380px -58px}
+.icon-games-LOTTERY13{background-position:-444px -60px}
+.icon-games-LOTTERY15{background-position:-508px -58px}
+.icon-games-LOTTERY18{background-position:3px -120px}
+.icon-games-LOTTERY19{background-position:-58px -120px}
+.icon-games-LOTTERY20{background-position:-125px -122px}
+.icon-games-LOTTERY21{background-position:-188px -122px}
+.icon-games-LOTTERY23{background-position:-252px -123px}
+.icon-games-LOTTERY24{background-position:-510px -187px}
+.icon-games-LOTTERY25{background-position:2px -248px}
+.icon-games-LOTTERY26{background-position:-57px -248px}
+.icon-games-LOTTERY27{background-position:-125px -248px}
+.icon-games-LOTTERY28{background-position:-186px -249px}
+.icon-games-LOTTERY31{background-position:-250px -244px}
+.icon-games-LOTTERY32{background-position:-383px -244px}
+.icon-games-LOTTERY33{background-position:-447px -244px}
+.icon-games-LOTTERY34{background-position:-60px -363px}
+.icon-games-WG1{background-position:-696px -188px}
+.icon-games-WG2{background-position:-760px -181px}
+.icon-games-WG3{background-position:-822px -184px}
+.icon-games-WG4{background-position:-887px -181px}
+.icon-games-WG5{background-position:-432px 0}
+.icon-games-WG11{background-position:-353px 0}
+.icon-games-VR{background-position: 2px -418px}
+.icon-games-SB{background-position: -760px -360px}
+.icon-games-SGE{background-position:-1082px -363px}
+.icon-games-JDB{background-position:-959px -363px}
+.icon-games-KY{background-position:-893px -363px}
+.icon-games-WM{background-position:-60px -418px}
+.icon-games-PSE{background-position:-825px -364px}
+.icon-games-FT{background-position:-1020px -364px}
+.AppMain-played{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background:#fafafa;width:100%;height:54px;border-bottom:1px solid #e9e9e9;padding:10px;overflow:hidden}
+.playedtit{width:75px;font-size:14px;flex-shrink:0}
+.playedlist{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;justify-content:flex-start;flex-wrap:nowrap;flex-shrink:0;overflow:hidden;overflow-x:auto}
+.playedlist a{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:44px;height:44px;border-radius:40px;border:1px solid #e9e9e9;justify-content:center;margin-right:10px;background:#fff}
+.playedlist .icon-games{width:64px;height:64px;display:block;margin:0 auto;background-image:url(../images/iconsp.png);zoom:48%;margin-top:5px}
+#CssGaga{content:"180417202150,dep,334"}

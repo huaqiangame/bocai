@@ -1,0 +1,107 @@
+@charset 'utf-8';
+
+.login_main{
+	width:100%;
+	background: #eee;
+	padding:30px 0;
+	margin-bottom:-10px;
+}
+.login_main .login_bg{
+	margin: 0 auto;
+	padding:18px 30px;
+	width:980px;
+	height:480px;
+	border:1px solid #e1e1e2;
+	border-radius: 2px;
+	background: url(../images/loginBg.png) no-repeat 450px 220px #fff;
+}
+.login_title{
+	border-bottom:1px dashed #e0e3e6;
+}
+.login_title h2{
+	font-size:24px;
+	font-weight:bold;
+	color: #ff2c55;
+}
+.login_title p{
+	font-size:14px;
+	color:#646464;
+	margin:6px 0;
+}
+.login_input{
+	padding:50px;
+	margin-left:40px;
+}
+.user_commom_style{
+	margin-bottom:10px;
+	position: relative;
+}
+.user_commom_style>span{
+	color:#333;
+	padding-right:5px;
+	font-size:12px;
+	font-weight:0;
+	width:12%;
+	text-align: right;
+	display:inline-block;
+}
+.user_commom_style input{
+	width:280px;
+	height:36px;
+	border:1px solid #e7e8e8;
+	background-color:#fff;
+	color:#A9A9A9;
+	font-size:12px;
+	padding-left:10px;
+}
+.user_commom_style em{
+	margin-left:8px;
+	color:red;
+	display:none;
+}
+.user_commom_style .icon-chenggong{
+	color: #71b83d;
+}
+.btn_submit{
+	margin-top:20px;
+	margin-left:77px;
+}
+.btn_submit button.btn-danger{
+	background:#e4393c;
+}
+.btn_submit button.btn-default{
+	background:#717074;
+	margin-left:30px;
+	color:#fff;
+}
+.btn_submit button{
+	padding:8px 15px;
+	font-size:14px;
+	color:#fff;
+	width:120px;
+}
+.btn_submit button.btn-danger:hover{
+	background:#ce1c1f;
+}
+.btn_submit a{
+	text-decoration:underline;
+	color:red;
+	margin-left:20px;
+}
+.btn_submit a:hover{
+	text-decoration: underline !important;
+}
+.check_box{
+	padding-top:10px;
+	margin-left:77px;
+}
+.check_box input{
+	vertical-align:sub;
+	margin-right:5px;
+}
+.v_code{
+	height:36px;
+	position: absolute;
+	right:412px;
+	top:0;
+}

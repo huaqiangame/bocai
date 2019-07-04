@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0059)https://www.julialt.com/report/selfbankreport?userid=228342 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<title>杏耀娱乐 </title>
+<link rel="stylesheet" href="./list(1).css">
+<link rel="stylesheet" href="./reset(1).css">
+<link rel="stylesheet" href="./activity(1).css">
+<link href="./dialogUI(1).css" media="all" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="./jquery-1.7.min.js(1).下载"></script>
+<script type="text/javascript" src="./main.js(1).下载"></script>
+<script type="text/javascript" src="./jquery.dialogUI.js(1).下载"></script>
+
+<!--//日历-->
+<script type="text/javascript" src="./jquery.dynDateTime_setClass.js(1).下载"></script>
+<script type="text/javascript" src="./calendar-utf8.js(1).下载"></script>
+<script type="text/javascript" src="./common.js(1).下载"></script>
+<link rel="stylesheet" type="text/css" media="all" href="./calendar-blue(1).css">
+
+<script>
+
+function searchWait(){
+    $(".mask_list").show();
+}
+$(function(){
+
+  var isAir = !!getCookie("isclient") && getCookie("kernel") == 2;
+     $("input.formCheck").click(function(){
+            searchWait();
+    });
+
+     if(isAir){
+      var a_blank = document.getElementsByTagName("a");
+      for(var i=0,b=a_blank.length;i<b;i++){
+        var aList =a_blank[i];
+        if(aList.target == "_blank"){
+           //aList.target="";
+           aList.removeAttribute("target");
+        }
+      }
+    }
+        //直接点击团队span
+$(".search_br span").unbind("click").click(function(){
+var data = $(this).attr("data");
+$(".search_br span").removeClass("hover");
+$(this).addClass("hover");
+if(data=="person")
+    $("input[name='type'],input[name='ptype'],input[name='ischild']").eq(0).prop("checked", true);
+else
+    $("input[name='type'],input[name='ptype'],input[name='ischild']").eq(1).prop("checked", true);
+});
+})
+</script>
+
+</head>
+<body>
+
+<div class="mask_list">
+<div>加载中，请稍后...</div>
+</div>
+<div id="subContent_bet_re">
+<script>
+//充提记录
+function checkForm(obj)
+{
+    if( jQuery.trim(obj.starttime.value) != "" )
+    {
+        if( false == validateInputDate(obj.starttime.value) )
+        {
+            $.alert("时间格式不正确");
+            obj.starttime.focus();
+            $('.mask_list').hide();
+            return false;
+        }
+    }
+    if( jQuery.trim(obj.endtime.value) != "" )
+    {
+        if( false == validateInputDate(obj.endtime.value) )
+        {
+            $.alert("时间格式不正确");
+            obj.endtime.focus();
+            $('.mask_list').hide();
+            return false;
+        }
+    }
+}
+
+function GetRequest() {
+    
+    var url = location.search; //获取url中"?"符后的字串
+     var theRequest = new Object();
+     if (url.indexOf("?") != -1) {
+        var str = url.substr(1);
+        strs = str.split("&");
+        for(var i = 0; i < strs.length; i ++) {
+           theRequest[strs[i].split("=")[0]]=(strs[i].split("=")[1]);
+        }
+     }
+     return theRequest;
+}
+
+$(function (){
+  var Request = new Object();
+  Request = GetRequest();
+  var ordertype = Request['ordertype'];
+  var status = Request['status'];
+  if(ordertype > 0) $("#ordertype").val(ordertype);
+  if(status > 0) $("#status").val(status);
+});
+</script>
+<form action="" method="get" name="search" onsubmit="return checkForm(this)">
+    <input type="hidden" name="userid" value="228342">
+    <div class="gy_search">
+        <div class="inlineBlock">
+            <label>日期：</label>
+            <span id="today" style="display:none;">2018-12-11</span>
+            <div class="calendar_input_kuang1 input_kuang2">
+                <input type="text" value="2018-12-11 00:00:00" name="starttime" id="starttime" class="input_02 team">
+                <span class="calendar_icon"></span>
+            </div>
+            <span class="z">至</span>
+            <div class="calendar_input_kuang1 input_kuang2">
+                <input type="text" value="2018-12-12 00:00:00" id="endtime" name="endtime" class="input_02 team">
+                <span class="calendar_icon"></span>
+            </div>
+        </div>
+        <div class="inlineBlock">
+            <label>从</label> 
+            <select name="ordertype" id="ordertype" class="team">
+                <option value="0">所有类型</option>
+                                <option value="1">充值</option>
+                                <option value="2">提款</option>
+                                <option value="3">上下级转账</option>
+                                <option value="4">活动</option>
+                                <option value="5">日工资/返水</option>
+                                <option value="6">分红</option>
+                                <option value="7">第三方转账</option>
+                                <option value="8">其他</option>
+                            </select>
+        </div>
+        <div class="inlineBlock">
+            <select name="status" id="status" class="team">
+                <option value="0">所有状态</option>
+                <option value="1">成功</option>
+                <option value="2">失败</option>
+            </select>
+        </div>
+        <input name="" type="submit" value="查询" class="formCheck">
+    </div>
+</form>
+<table width="100%" border="0" cellspacing="1" cellpadding="0" class="grayTable">
+    <tbody><tr>
+        <th>时间</th>
+        <th>用户名</th>
+        <th>账变编号</th>
+        <th>类型</th>
+        <th>收入</th>
+        <th>支出</th>
+        <th>余额</th>
+        <th>状态</th>
+        <th>备注</th>
+    </tr>
+                <tr>
+                <td colspan="9" class="no-records">请选择查询条件之后进行查询</td>
+                </tr>
+              <tr>
+        <td colspan="4">本页合计</td>
+        <td>+0.0000</td>
+        <td>-0.0000</td>
+        <td colspan="3">--</td>
+      </tr>  
+    </tbody></table>
+    <div class="list_page">
+         <span class="page"></span>
+    </div>
+        <script type="text/javascript">
+        jQuery(document).ready(function() {
+            
+            jQuery("#starttime").dynDateTime({
+                 ifFormat: "%Y-%m-%d 00:00:00",
+                 daFormat: "%l;%M %p, %e %m,  %Y",
+                 align: "Br",
+                 electric: true,
+                 singleClick: false,
+                 button: ".next()", //next sibling
+                 rangDay : 16,//允许选择前几天
+                 onSelect:function(){
+                     var o = this,today,sDay_f,today_s,sDay_s,rangDay_s,rangDay_d,rangDay_f,dayReduce;
+                     //根据format格式化
+                     //今天
+                     today = new Date($("#today").text());
+                     o.opts.today_f = o.opts.today_f || today;
+                     //被选择的那一天
+                     sDay_f = o.date.print(o.opts.ifFormat);
+                     //获取格林尼治时间到今天的毫秒数
+                     today_s = Date.parse(o.opts.today_f);
+                     //获取格林尼治时间到选择那天的毫秒数
+                     sDay_s = Date.parse(o.date);//获取秒
+                     //计算出最早一天的毫秒数
+                     rangDay_s = today_s - o.opts.rangDay*3600*24*1000;
+                     //转换成标准时间
+                     rangDay_d = new Date(rangDay_s);
+                     //根据format格式化输出被允许的指定天数的最早一天
+                     rangDay_f = rangDay_d.print(o.opts.ifFormat);
+                     //计算当前选择的那天距离今天的差值
+                     dayReduce = (today_s-sDay_s)/3600/24/1000;
+                     //如果超过指定天数
+                    if(dayReduce > o.opts.rangDay){
+                        $.alert("最多只能查询" + o.opts.rangDay + "天的数据");
+                        $("#starttime").val(rangDay_f);
+                     }else{
+                        $("#starttime").val(sDay_f);
+                     }
+                     $("#starttime").change();
+                 },
+                 showOthers: true,
+                 weekNumbers: true
+                 //showsTime: true
+             });
+            
+             jQuery(".starttime table td.day").live("click",function(){
+                 var start = jQuery("#starttime").val();
+                 var end = jQuery("#endtime").val();
+                 checkStartAndEnd(start,end);
+             });
+
+             function checkStartAndEnd(startTime,endTime){
+                 if(! validateInputDate(startTime) )
+                 {
+                     jQuery("#starttime").val('');
+                     $.alert("时间格式不正确,正确的格式为:2009-06-10 10:59");
+                 }else if( !checkdateInRange(startTime, 16) ) {
+                     jQuery("#starttime").val('');
+                     $.alert("目前仅提供查询近16天内的记录！");
+                 }
+                 if(endTime != "")
+                 {
+                     if(startTime>endTime)
+                     {
+                         $.alert("输入的时间不符合逻辑");
+                     }
+                 }
+             }
+             jQuery("#endtime").dynDateTime({
+                 ifFormat: "%Y-%m-%d 00:%M:00",
+                 daFormat: "%l;%M %p, %e %m,  %Y",
+                 align: "Br",
+                 //position:Array(380,30),
+                 electric: true,
+                 singleClick: false,
+                 button: ".next()", //next sibling
+                 onUpdate:function(){
+                     $("#endtime").change();
+                 },
+                 showOthers: true,
+                 weekNumbers: true,
+                 showsTime: true
+             });
+             jQuery("#endtime").change(function(){
+                 jQuery("#recentproject").attr('value','0');
+                 if(! validateInputDate(jQuery("#endtime").val()) )
+                 {
+                     jQuery("#endtime").val('');
+                     $.alert("时间格式不正确,正确的格式为:2009-06-10 10:59");
+                 }
+                 if($("#starttime").val()!="")
+                 {
+                     if($("#starttime").val()>$("#endtime").val())
+                     {
+                         $("#starttime").val("");
+                         $.alert("输入的时间不符合逻辑.");
+                     }
+                 }
+             });
+     });
+        </script>
+
+</div>
+<div style="clear: both"></div>
+<script type="text/javascript">
+if(window.top.location.href.indexOf("report")>0){
+    $(".tab-first").remove();
+  }
+</script>
+<script type="text/javascript" src="./base.js.下载"></script>
+<script>
+   window.onload=function(){
+        // if(window.top.IFRAME_MODAL_OPENING){ 
+        //     return;
+        // }
+
+        var bodyHeight = $("body").height();
+        //设置父级ifarme高度
+        jQuery("#mainFrame").setHeight({height:bodyHeight});
+        //获取Url标题base.js中
+        jQuery(".topContent ul li a").html(jQuery.getUrlParam("tit"));
+        //如果有图片
+
+        if(window.top.VERSION != 'X'){ 
+            //document.write("WHAT ARE U DOING!")
+        }
+    }
+
+    $(function(){
+        //页码处理
+        /*var len = $('.pageinfo > *').length;
+        $('.pageinfo > *').each(function(i,v){
+          var txt = $(v).text();
+          if(i >= len - 2 && isNaN(txt))$(v).addClass('last-two');
+        });*/
+
+        //报表所有页面 搜索时 输入用户名 去掉前后空格
+        $('.inputNospace').blur(function(){ 
+            $(this).val($(this).val().replace(/\s*/g,''))
+        })
+        //声音开关
+        $("#soundCtl").click(function(){
+            _sound._soundCtl();
+            changeClass();
+        });
+
+        //根据cookie设置class
+        function changeClass(){
+            if(_sound._checkCookie()){
+                $("#soundCtl").removeClass().addClass('soundon');
+            }else{
+                $("#soundCtl").removeClass().addClass('soundoff');
+            }
+        }
+
+    });
+
+    function postMessage(url,title,width,height,modal){ 
+      var width = width || 1040;
+      var height = height || 580;
+      if(typeof(url) == "object"){return}
+      var modal = modal || 'show_modal';
+        window.top.postMessage({
+            action: modal,
+            title: title,
+            url: url,
+            width: width,
+            height: height
+        }, '*')
+    }
+
+</script>
+ 
+ </body></html>

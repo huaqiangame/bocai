@@ -1,0 +1,146 @@
+@charset 'utf-8';
+.header{
+	height:0.5rem;
+}
+.header .header_logo .header_logo{
+	width:1.27rem;
+	height:0.36rem;
+	margin-top:8px;
+}
+.header .header_down a{
+	font-size:0.18rem;
+}
+.header .header_down i{
+	font-size:0.23rem;
+}
+
+.home_notice{
+	background: #fff;
+	padding:0.1rem;
+	border-bottom:1px solid #ccc;
+}
+.home_notice .am-fl i{
+	color:red;
+	font-size:0.18rem;
+}
+.home_notice .am-fl em{
+	color:#333;
+}
+.home_notice .am-fr i{
+	color:#989898;
+}
+
+.home_main{
+	background: #fff;
+	margin-top:0.15rem;
+}
+.home_main .home_main_list{
+	text-align:center;
+	padding:0.2rem 0 0.1rem;
+}
+.home_main .home_main_list a{
+	display:block;
+}
+.home_main .home_main_list i{
+	font-size:0.4rem;
+	line-height:0.42rem;
+}
+.home_main .home_main_list .icon-fucaikuai3{
+	color:#e01506;
+}
+.home_main .home_main_list .icon-zhongqingshishicailogo{
+	color:#fa7e00;
+}
+.home_main .home_main_list h3{
+	margin:0;
+	color:#333;
+	font-weight:normal;
+	line-height:0.1rem;
+	margin-top:0.1rem;
+}
+.home_main .home_main_list em{
+	color:#989898;
+	font-size:0.12rem;
+
+}
+
+.home_main .new_home_main_list{
+	text-align:center;
+	padding:0.2rem 0 0.1rem;
+}
+.home_main .new_home_main_list a{
+	display:block;
+}
+.home_main .new_home_main_list i{
+	font-size:0.4rem;
+	line-height:0.42rem;
+}
+.home_main .new_home_main_list.icon-fucaikuai3{
+	color:#e01506;
+}
+.home_main .new_home_main_list .icon-zhongqingshishicailogo{
+	color:#fa7e00;
+}
+.home_main .new_home_main_list h3{
+	margin:0;
+	color:#333;
+	font-weight:normal;
+	line-height:0.1rem;
+	margin-top:0.1rem;
+}
+.home_main .new_home_main_list em{
+	color:#989898;
+	font-size:0.12rem;
+
+}
+
+
+.fc3d_c{
+	color:#00b7ee;
+}
+.pl3_c{
+	color:#38b366;
+}
+.gameBet_balls .gameBet_left img{
+	width: 100%;
+}
+
+
+.mobileMoneyInfo{
+	color: #ff9831;
+}
+.mobileMoneyHover {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	height: 100%;
+	width:100%;
+	display: none;
+}
+.mobileMoneyHover .moneyInfoTable{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20%;
+	background: #fff;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.mobileMoneyHover .moneyInfoTable tr th{
+	color: #333;
+	padding: 3px 0;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+.mobileMoneyHoverClose{
+	border:none;
+	padding: 8px 0 !important;
+	font-size: 16px;
+	color: #007bf4 !important;
+}
+.home_main .home_main_list, .home_main .new_home_main_list{
+    border: .5px solid #e0e0e0;
+    height: 122px;
+}

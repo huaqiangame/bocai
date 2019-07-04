@@ -1,0 +1,76 @@
+@charset 'utf-8';
+
+.betRecord_top{
+	height:50px;
+	line-height:50px;
+	background: #f8f8f8;
+	margin-bottom:10px;
+	width:100%;
+}
+.betRecord_top strong{
+	color:#000;
+	font-size:14px;
+	padding-left:60px;
+}
+.betRecord_top span{
+	font-size:14px;
+	color:#000;
+	padding-left:40px;
+}
+.betRecord_top span em{
+	color:#e4393c;
+}
+.betRecord_tab{
+	height:76px;
+	line-height: 76px;
+	background: #f8f8f8;
+}
+.betRecord_tab .tle{
+	font-size:14px;
+	color:#000;
+	font-weight:bold;
+}
+.betRecord_tab .bet_common_bor{
+	background: #fff;
+	border:1px solid #cecece;
+	height:30px;
+	line-height:27px;
+	padding:0 10px;
+	margin-right:5px;
+	color:#666;
+	display:inline-block;
+	cursor:pointer;
+	font-weight:bold;
+}
+.bet_time .active , .bet_status .active{
+	border:2px solid #4aa9db;
+}
+.betRecord_tab .category{
+	margin-left:25px;
+	margin-right:60px;
+}
+.betRecord_tab .bet_time{
+	margin-right:70px;
+}
+.betRecord_tab .category .form-group{
+	width:90px;
+	display:inline-block;
+	height:30px;
+}
+.betRecord_tab .category .form-group .form-control{
+	border-radius:0;
+	font-size:12px;
+	padding:0;
+	font-weight: bold;
+	height:30px;
+}
+.bet_info .table>thead th{
+	border-top:1px solid #ddd !important;
+	text-align: center;
+}
+.bet_info .table>tbody td{
+	text-align:center;
+}
+.betRecord_main .bet_paging{
+	margin-left:246px;
+}

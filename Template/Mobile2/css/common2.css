@@ -1,0 +1,219 @@
+@charset 'utf-8';
+
+html {
+	font-size:625%;
+} 
+body {
+	font-size:0.16rem;
+	background: #efeef4;
+}
+ul{
+	padding:0;
+}
+em,i{
+	font-style:normal;
+}
+li{
+	list-style:none;
+}
+p,h2,table.am-table,ul,h3,h4,h6,h5{
+	margin:0;
+}
+hr{
+	margin-top:0.16rem;
+	margin-bottom:0.16rem;
+}
+.am-form input[type=number]:focus, .am-form input[type=search]:focus, .am-form input[type=text]:focus, .am-form input[type=password]:focus, .am-form input[type=datetime]:focus, .am-form input[type=datetime-local]:focus, .am-form input[type=date]:focus, .am-form input[type=month]:focus, .am-form input[type=time]:focus, .am-form input[type=week]:focus, .am-form input[type=email]:focus, .am-form input[type=url]:focus, .am-form input[type=tel]:focus, .am-form input[type=color]:focus, .am-form select:focus, .am-form textarea:focus, .am-form-field:focus{
+	box-shadow:none;
+}
+#pay_alipay .mar-lr20 li{
+	margin: 10px 0;
+}
+.am-table-sss{
+	font-size:0.14rem !important;
+	margin-top: 0.1rem !important;
+}
+.am-table-sss th{
+	padding: 0.02rem !important;
+	background: #f2f7ff !important;
+	font-weight: normal !important;
+}
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+.am-progress{
+	height:0.2rem;
+	margin-bottom:0.2rem;
+	margin-bottom:0;
+	border-radius: 0.1rem;
+}
+.am-progress-bar{
+	font-size:0.12rem;
+	line-height:0.2rem;
+	border-radius:0.1rem;
+}
+.am-modal-btn{
+	font-size:0.16rem;
+}
+.am-modal-hd{
+	font-size:0.18rem;
+	font-weight:500;
+}
+.am-datepicker tr.am-datepicker-header{
+	font-size:0.16rem;
+}
+.am-datepicker td{
+	font-size:0.14rem;
+}
+.am-modal-actions-header{
+	padding:0.1rem;
+	font-size:0.14rem;
+}
+.am-modal-actions-group .am-list>li>a{
+	padding:0.1rem;
+}
+.am-list>li>a{
+	padding:0.1rem 0;
+}
+.am-list-date{
+	font-size: 0.13rem;
+    top: 0.13rem;
+}
+.isplay_no{
+	display: none;
+}
+.am-btn{
+	padding: 0.5em 0.1em;
+	font-size: 0.16rem;
+}
+.am-form-group{
+	margin-bottom:0;
+}
+.am-form input[type=number], .am-form input[type=search], .am-form input[type=text], .am-form input[type=password], .am-form input[type=datetime], .am-form input[type=datetime-local], .am-form input[type=date], .am-form input[type=month], .am-form input[type=time], .am-form input[type=week], .am-form input[type=email], .am-form input[type=url], .am-form input[type=tel], .am-form input[type=color], .am-form select, .am-form textarea, .am-form-field{
+	padding:0.05rem;
+	font-size:0.16rem;
+}
+.am-table>tbody>tr>td, .am-table>tbody>tr>th, .am-table>tfoot>tr>td, .am-table>tfoot>tr>th, .am-table>thead>tr>td, .am-table>thead>tr>th{
+	padding:0.07rem;
+}
+.am-divider{
+	margin:0;
+}
+.border_b_0{
+	border-bottom:0 !important;
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.margin_0{
+	margin:0 !important;
+}
+.padding_lr_5{
+	margin-left:0.05rem;
+	margin-right:0.05rem;
+}
+.k3_color{
+	color:#e01506 !important;
+}
+.bg_fff{
+	background: #fff;
+}
+.btn_red{
+	background-color: #da3a3f;
+	border-color: #da3a3f;
+}
+.nav_bg{
+	background: linear-gradient(#dc0505, #b00e04);
+	display: block;
+}
+/*底部导航*/
+.bottom_navbar{
+	height:0.55rem;
+}
+.bottom_navbar .am-navbar-nav{
+	background:#22292c;
+	color:#fff;
+}
+.bottom_navbar .bottom_navbar_list{
+	margin-top:0.04rem;
+}
+.bottom_navbar .bottom_navbar_list i{
+	font-size:0.25rem;
+	line-height:0.30rem;
+}
+.bottom_navbar .bottom_navbar_list .am-navbar-label{
+	font-size:0.14rem;
+}
+.bottom_navbar .active{
+	color:#f5d96e;
+}
+.am-slider-a5 .am-control-nav li a.am-active{
+	background-color: #faea70;
+}
+.bg_green{
+	background: #2ed57b !important;
+}
+.activity_h1 {
+    font-size: 0.2rem !important;
+}
+/*底部说明*/
+.bottom_explain{
+	padding:0.09rem;
+	margin:0 0.13rem;
+	border:1px solid #f8e2b9;
+	background: #fffdeb;
+}
+.bottom_explain p{
+	font-size:0.18rem;
+	line-height:0.25rem;
+	color:#f46e00;
+}
+/* 复制提示 */
+.copy-tips{
+	position:fixed;
+	z-index:999;
+	bottom:50%;
+	left:50%;
+	margin:0 0 -20px -80px;
+	padding:6px;}
+.copy-tips-wrap{
+	padding:10px 20px;
+	text-align:center;
+	border:1px solid #F4D9A6;
+	background-color:#FFFDEE;
+	font-size:14px;
+}
+/*头部切换*/
+.winners_tab{
+	width:2.3rem;
+	margin:0.07rem  auto 0!important;
+	border-radius:0.04rem;
+	border:1px solid #fff;
+	height:0.34rem;
+	line-height:0.3rem;
+}
+.winners_tab em{
+	width:1.15rem;
+	height:0.34rem;
+	text-align:center;
+	display:inline-block;
+}
+.winners_tab em.active{
+	color:#dc2e2e;
+	background: #fff;
+}
+.bank_pass{
+	text-align:right;
+	padding-right:0.25rem;
+	padding-top:0.1rem;
+}
+.bank_pass a{
+	color:#dc2e2e;
+}

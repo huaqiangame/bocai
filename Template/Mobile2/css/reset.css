@@ -1,0 +1,439 @@
+@charset "utf-8";
+/* CSS Document */
+a{cursor:pointer;}
+header .bar-nav-top-left{left:1%;}
+header .bar-nav-top-right{right:1%;}
+header .bar-nav-top-lxkf{right:5%;}
+.login-yes{display:none;}
+.c_red {
+    color: #ff005a;
+    padding: 0 5px;
+}
+.red{color:#fff;padding: 0 5px;}
+#issueText{    color: #caebda;}
+.remark{color: #caebda !important;margin: 15px 0 5px!important;}
+em, i, b, sub, sup{font-style:normal;}
+td em{width: auto;
+padding: 2px 3px;
+margin: 0px 2px;
+border-radius: 3px;
+background: #c6ba01;
+color: #fff; 
+font-weight: bold;
+font-family: "宋体";
+}
+.fl{ float:left; }
+.fr{ float:right; }
+.clr{ clear:both; }
+.textl{ text-align:left; }
+.textr{ text-align:right; }
+.indent{ text-indent:20px; }
+.lh24{ line-height:24px; }
+.tc{ text-align:center; }
+.fb{ font-weight:bolder; }
+.btp{ border-top:1px solid #ddd; }
+.bbt{ border-bottom:1px solid #ddd; }
+.bbl{ border-left:1px solid #ddd; }
+.bbr{ border-right:1px solid #ddd; }
+.b0{ border:0px!important; }
+.b1{ border:1px solid #ddd; }
+
+.c_0{ color:#0a0101; }
+.c_3{ color:#333; }
+.c_5{ color:#555; }
+.c_6{ color:#666; }
+.c_8{ color:#888; }
+.c_9{ color:#9fa0a0; }
+.c_e1{ color:#e1e1e1; }
+.c_a2{ color:#a2acb3; } 
+.c_red{ color:#ff005a;padding:0 5px } 
+.c_blue{ color:#3f81c7; } 
+.c_green{ color:#00a368; }
+.c_fenhong{ color:#d3022a;}
+.c_yell{ color:#f2b800; } 
+.c_zise{ color:#9d209e; }
+.c_org{ color:#ffbf30; }
+.c_juhuanse{ color:#fd6834; }  
+.c_cc{ color:#ccc; }
+.c_gray{ color:#c8b897} /** 灰色 **/
+.c_hese{ color:#63514f} /** 灰褐色 **/
+.c_lanse{ color:#005bac; } 
+.c_huibai{ color:#a2acb3; } /* 灰白色 */
+.c_hailan{ color:#358DE6; }
+.c_wite{ color:#fff; } 
+
+.bgc_c{ background-color:#ccc; }
+.bgc_c7{ background-color:#f7f8f8; } 
+.bgc_org{ background-color:#ffa201;}
+.bgc_gray{ background-color:#f3f3f3; }
+.bgc_blue{ background-color:#16a0d3;}
+.bgc_c:hover{ background-color:#ADB1B3; }
+.bgc_org:hover{ background-color:#EFAF42;}
+.bgc_blue:hover{ background-color:#117ea6;}
+.bgc_gray:hover{ background-color:#E8E8E8; }
+.bgc_hailan{ background-color:#1ca4dc; }
+.bgc_hailan:hover{ background-color:#33AEE0; }
+.bgc_blue:hover{ background-color:#306DAE; }
+.bgc_3{ background-color:#333; }
+.bgc_wite{ background-color:#fff; } 
+.bgc_green{ background-color:#6eb92b; }
+.bgc_fenhong{ background-color:#fd7d83; } 
+.bgc_yellow{ background-color:#FF9C30; }
+.bgc_yellow:hover{ background-color:#c87316; }
+.bgc_zise{ background-color:#9f1994; }
+.bgc_szise{background-color: #900385; }
+.bgc_e{ background-color:#eee; }
+
+.bg_zyell
+{
+  background-color:#5691d7;
+ }
+ .bg_purple
+ {
+       background-color:#ff9726;
+ }
+ .bg_green
+ {
+       background-color:#5691d7;
+     }
+ .bg_blue
+ {
+       background-color:#ff9726;
+     }
+
+.toast.success {
+  background: rgba(25, 169, 123, 0.8);
+  border-radius: 1rem;
+  color: white;
+  padding: 0 .8rem;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.8rem;
+  width: auto;
+}
+
+.rui-title{height:auto; padding:5px 0;}
+.rui-title i {
+    display: inline-block;
+    background: url(../images/icon-msg.png) no-repeat left;
+    background-size: 100% auto;
+    margin-right: 4px;
+    width: 6%;
+}
+.swiper-container{padding-bottom:0px;}
+/*.swiper-pagination{top:100px;}*/
+.rui-least-open
+{
+    width: 100%;
+    margin: 2% 0px;
+    height: 110px;
+    background: #fff;
+    overflow: hidden;
+}
+.learst_openNumber > p{padding:5px 0; margin:0;}
+.learst_openNumber > p > i{font-style:normal;}
+.learst_openNumber
+{
+    padding: 10px 5%;
+    overflow: hidden;
+}
+
+.learst_openNumber .pull-left
+{
+    width: 65%;
+    height: auto;
+    padding: 4% 0px;
+}
+.learst_openNumber .pull-left a
+{
+    width: 30px;
+    height: 30px;
+    margin: 0px 4px;
+    background: #e33737;
+    color: #fff;
+    border-radius: 50%;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+.learst_openNumber .pull-right
+{
+    width: 30%;
+    height: auto;
+    padding: 4% 0px;
+    text-align: right;
+}
+/*9宫格*/
+.ui-grid-9{
+	background:#fff;
+}
+.ui-grid-9 .col-33{padding:10px 5px;border-right:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5; text-align:center;}
+.ui-grid-9 .col-33 > p{margin:0; padding:0;}
+/*主题重置*/
+header .bar .button-link{
+  background: #fff;
+}
+/*分页样式*/
+.member-pag{ overflow: hidden; width: 100%; padding: 10px 0; clear:both; }
+.member-pag ul{ margin-top:2px; }
+.member-pag li{ display:inline-block; margin: 0 4px;}
+.member-pag li a{background: linear-gradient(#dcb16d,#b08d4b); display: block; padding: 0 8px; border: 1px solid #eee; height: 24px; line-height: 24px; border-radius: 3px; }
+.member-pag li a:hover{ border-color: #f33d3d; color: #f33d3d;}
+.member-pag li.cur a{ background: #f33d3d; color: #fff; border-color: #f33d3d;}
+.member-pag p{ line-height: 30px;}
+
+
+/**购彩大厅**/
+.ypeil{
+    margin: 5px 0;
+    color: #fff;
+}
+.ysaizi{
+    margin: 5px 0;
+    color: #fff;
+}
+.dice{
+    background-image: url(http://imagess-google.com/system/common/dice/diceK3.png);
+    display: inline-block;
+    background-size: 200% 600%;
+    vertical-align: middle;
+    height: 22px;
+    width: 22px;
+}
+.dice1{
+    background-position: 0 0;
+}
+.dice2{
+    background-position: 0 -100%;
+}
+.dice3{
+    background-position: 0 -200%;
+}
+.dice4{
+    background-position: 0 -300%;
+}
+.dice5{
+    background-position: 0 -400%;
+}
+.dice6{
+    background-position: 0 -500%;
+}
+.choice_lottery_playdetail_right{
+	box-sizing: border-box;
+	height:100%;
+	cursor:pointer;
+}
+.play_select_insert .lineMore-item{
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    padding-top: 5px;
+}
+.choice_lottery_playdetail_left
+{
+   display: inline-block;
+    font-size: 18px;
+    border-radius: .2em;
+    border: 1px solid hsla(0,0%,100%,.5);
+    vertical-align: top;
+    height: 36px;
+    margin: 7px 0;
+    line-height: 33px;
+    padding: 0 .4em;
+}
+.choice_lottery_playdetail_right .icon{color:#caebda; font-weight:bold;margin: 7px 10px;}
+.play_select_container
+{
+    width: 100%;
+    padding: 0px;
+    background: #22563f;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+    height: 130%;
+}
+.play_select_container .play_select_insert
+{
+    width: 100%;
+        padding: 2% 5%;
+    background: #22563f;
+	padding-bottom: 100px;
+}
+.play_select_container .play_select_insert ul.play_select_tit
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+}
+.play_select_container .play_select_insert ul.play_select_tit li
+{
+    width: 93px;
+    float: left;
+    line-height: 25px;
+    /*padding: 0px 7px;*/
+    border: 1px solid #ddd;
+    margin: 3px;
+	list-style-type:none;
+	font-size:12px;
+    text-align:center;
+    height: 97px;
+}
+.play_select_container .play_select_insert ul.play_select_tit li.curr
+{
+    border-color: #f4c829;
+    color: #fff;
+}
+.play_select_container .play_select_insert ul.play_select_tit li.curr a
+{
+    color: #fff;
+    font-size: 16px;
+    padding-top: 5px;
+}
+.betting-record-container .ui-btn-group .ui-btn-lg:active
+{
+    color: #e43939;
+}
+table#fn_getoPenGame th,table#fn_getoPenGame td{font-size:12px;}
+.Betting_Issue_CountDown{border-bottom:1px solid #ddd;}
+
+#PageSwitch
+{
+    width: 190px;
+    background-color: #fff;
+	margin-top:50px;
+	display:none;
+	z-index:3000;
+    position: absolute;
+    right: 0;
+}
+#PageSwitch a
+{
+    display: inline-block;
+    width: 95px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #e7e7e7;
+    text-align: center;
+    color: #333;
+        float: left;
+}
+#PageSwitch a:nth-child(odd){
+    border-right: 1px solid #d0d0d0;
+}
+/** 选球区域 **/
+
+.Choice_Ball_Container
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 10px;
+    padding-bottom: 230px;
+        background: #317455;
+        min-height: 610px;
+}
+.Choice_Ball_Container p.remark{text-align:center; margin:0; padding:0; font-size:12px;}
+.Choice_Ball_Container .ball_list_ul
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    -weikit-display: flex;
+    -moz-display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+	padding:0; margin:0;
+	text-align:center;
+	list-style:none;
+}
+
+.ball_list_ul .ball_item
+{
+	display:block;
+	float:left;
+    height: 1%;
+	overflow:hidden;
+	padding:0 10px 10px 10px;
+	margin:0;
+	width:25%;
+	list-style-type:none;
+}
+.ball_list_ul .ball_item a
+{
+    display:inline;
+    width: 100%;
+    padding: 10px 0px;
+    color: #333;
+    border: 1px solid #ddd;
+    float: left;
+    text-align: center;
+}
+.ball_list_ul .ball_item a b
+{
+    display: block;
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #fff;
+}
+.ball_list_ul .ball_item a p
+{
+    display: block;
+    padding: 0px 2px;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    height: 16px;
+    line-height: 16px;
+    font-size: 10px;
+    overflow: hidden;
+    color: #caebda;
+	margin:0;
+}
+
+.ball_list_ul .ball_item a.curr
+{
+    /*background: #e43939;
+    color: #fff;*/
+	border-color:#e43939;
+}
+.ball_list_ul .ball_item a.curr b
+{
+    /*color: #fff;*/
+}
+.ball_list_ul .ball_item a.curr p
+{
+    /*color: #fff;*/
+}
+
+/*** 快三投注选号的样式 ***/
+.setmoney5,.setmoney10,.setmoney50,.setmoney100,.setmoney1000{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	border-radius:50%;
+	background:#f60;
+	font-size:10px;
+	cursor:pointer;
+	margin:5px 2px 5px 2px;
+	color:#fff;
+}
+.cz_openNumb ul{  display:block; overflow:hidden;float:left; margin: 0px; height: 46px;}
+.cz_openNumb ul li{ width:1.5em; height:1.5em; line-height:1.5em; text-align:center; text-indent:-999px; margin-right:10px; margin-right:15px\9; float:left; background:url(../images/open_num.png) no-repeat; background-size:103%; }
+.cz_openNumb ul li:last-child{ margin-right:0px; }
+.cz_openNumb ul li.open_numb_1{ background-position: 0 3px;}
+.cz_openNumb ul li.open_numb_2{ background-position: 0 -28px; }
+.cz_openNumb ul li.open_numb_3{ background-position: 0 -59px; }
+.cz_openNumb ul li.open_numb_4{ background-position: 0 -90px; }
+.cz_openNumb ul li.open_numb_5{ background-position: 0 -121px; }
+.cz_openNumb ul li.open_numb_6{ background-position: 0 -151px; } 
+.cz_openNumb ul li.open_numb_gif{ background:url(../images/open_num.gif) no-repeat center;background-size:100%; }

@@ -1,0 +1,268 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: '微软雅黑';
+}
+ul, li, dl, dt, dd, form {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.swiper-container {
+    width:100%;
+} 
+.page-bodybox .banner-game{
+			width:1060px;
+	margin:0 auto;
+}
+.page-bodybox .news-wrap-c .news-wrap-box .news-wrap-ctr .news-wrap-ky{
+	width:1000px;
+	height:40px;
+	background: url("../images/news_bg.png") left top no-repeat;
+	position:absolute;top:255px;
+	margin-left:25px;
+}
+.swiper-container .swiper-wrapper .swiper-slide img{
+	width: 100%;
+	display: block;
+}
+.swiper-pagination-bullet{
+	width: 12px !important;
+	height: 12px !important;
+}
+.swiper-pagination-bullet-active{
+	background: #fff !important;
+}
+.swiper-pagination-bullet{
+	opacity:0.7 !important;
+}
+.page-bodybox{
+	width: 100%;
+	float: left;
+	background: url(../images/game/bg05.jpg) #10061F left top no-repeat;
+	position:relative;
+}
+.page-body{
+	width: 1000px;
+	height:730px;
+	margin:5px auto;
+	padding-top: 30px;
+	background: rgb(35, 37, 55);
+	background: url(../images/page_body_bg.png) center top no-repeat;
+	background-size: 100% 100%;
+}
+.swiper-container{
+	float: right;
+	width: 100%;
+
+}
+.page-body .wibox{
+	width: 60%;
+	float: left;
+	margin-left: 5%;
+}
+.page-body .nu{
+	display: block;
+	width:100%;
+	height:463px;
+	margin-bottom: 2px;
+	background:url('../images/game/lotteryLobby_login_m.jpg') 100% 0px / 100% no-repeat;
+}
+.page-body .nu:hover{
+	background:url('../images/game/lotteryLobby_login_m_h.jpg') 100% 0px / 100% no-repeat;
+}
+.page-body .iibox{
+	position: relative;
+	width: 30%;
+	height: 700px;
+	float: left;
+	margin-left: 2px;
+	background: #4d5158;
+}
+.page-body .iibox ul{
+	width: 100%;
+}
+.page-body .iibox .vn li{
+	position: relative;
+	width: 100%;
+	height: 55px;
+	background: #393939;
+	border-bottom:1px solid #000000;
+	border-top:1px solid #545454;
+}
+.page-body .iibox .vn li:first-child{
+	border-top: none;
+	height: 64px;
+}
+.page-body .iibox .vn li:first-child span{
+	margin-top: 9px;
+} 
+.page-body .iibox .vn li:first-child em{
+	height: 64px;
+}
+.page-body .iibox .vn li:first-child em i{
+	margin-top: 25px;
+}
+.page-body .iibox .vn li:first-child a{
+	margin-top: 22px;
+}
+.page-body .iibox .vn li span{
+	display: block;
+	float: left;
+	color: #fff;
+	font-size: 16px;
+	line-height: 55px;
+	margin-left: 20px;
+}
+.page-body .iibox .vn li a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+	float: right;
+	margin-top: 13px;
+	background: url(../images/lottery_quest_icon.png) 100% 100%;
+	background-position: -300px -30px;
+}
+.page-body .iibox .vn li em{
+	display: none;
+	width: 5px;
+	height:55px;
+	background: #4fabe9;
+	position: absolute;
+	left: 0;
+	top: 0; 
+}
+.page-body .iibox .vn li em i{
+	display: block;
+	width: 0px;
+	height: 0px;
+	margin-top: 17px;
+	border-left: 10px solid #4fabe9;
+	border-right: 10px solid transparent;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+.page-body .iibox .vn li:hover{
+	background: #2a2a2a;
+}
+.page-body .iibox .vn li:hover>em{
+	display: block;
+}
+
+
+
+
+
+.page-body .iibox .vc li{
+	position: relative;
+	width: 100%;
+	height: 55px;
+	background: #f8f8f8;
+	border-bottom:1px solid #E9E9E9;
+	border-top:1px solid #fff;
+}
+.page-body .iibox .vc li:first-child{
+	border-top: none;
+	height: 64px;
+}
+.page-body .iibox .vc li:first-child span{
+	margin-top: 9px;
+} 
+.page-body .iibox .vc li:first-child em{
+	height: 64px;
+}
+.page-body .iibox .vc li:first-child em i{
+	margin-top: 25px;
+}
+.page-body .iibox .vc li:first-child a{
+	margin-top: 22px;
+}
+.page-body .iibox .vc li span{
+	display: block;
+	float: left;
+	color: #393939;
+	font-size: 16px;
+	line-height: 55px;
+	margin-left: 20px;
+}
+.page-body .iibox .vc li a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+	float: right;
+	margin-top: 13px;
+	background: url(../images/lottery_quest_icon.png) 100% 100%;
+}
+.page-body .iibox .vc li em{
+	display: none;
+	width: 5px;
+	height:55px;
+	background: #4fabe9;
+	position: absolute;
+	left: 0;
+	top: 0; 
+}
+.page-body .iibox .vc li em i{
+	display: block;
+	width: 0px;
+	height: 0px;
+	margin-top: 17px;
+	border-left: 10px solid #4fabe9;
+	border-right: 10px solid transparent;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+.page-body .iibox .vc li:hover{
+	background: #eaeaea;
+}
+.page-body .iibox .vc li:hover>em{
+	display: block;
+}
+.iibox .new{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 92px;
+	height: 16px;
+	line-height: 16px;
+	color: #fff;
+	text-align: center;
+	background: url(../images/lottery_game_bg.png) no-repeat 100% 100%; 
+}
+.iibox .top{
+	position: absolute;
+	right: 0;
+	top:350px;
+	width: 92px;
+	height: 16px;
+	line-height: 16px;
+	color: #fff;
+	text-align: center;
+	background: url(../images/lottery_game_bg.png) no-repeat 100% 100%; 
+}
+.swiper-slide{
+	float: left;
+	box-sizing: content-box;
+}
+.swiper-wrapper{
+	height: auto !important;
+}
+.swiper-slide{
+	height: auto !important;
+}
+.swiper-slide{
+	height: 235px !important;
+	overflow: hidden;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 200%;
+	margin-top: -235px;
+}
+
+.swiper-slide img:hover{
+	margin-top: 0;
+}

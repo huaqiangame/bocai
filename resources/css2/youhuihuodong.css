@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: '微软雅黑';
+}
+
+ul, li, dl, dt, dd, form {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.bg_fff {
+	font-size: 12px;
+background:#141414;
+
+}
+.swiper-slide {
+	float: left;
+	box-sizing: content-box;
+	margin-left:-28px;
+}
+.swiper-slide {
+	height: auto !important;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide img {
+	width: 100%;
+	display: block;
+}
+
+.swiper-pagination-bullet {
+	width: 12px !important;
+	height: 12px !important;
+}
+
+.swiper-pagination-bullet-active {
+	background: #fff !important;
+}
+
+.swiper-pagination-bullet {
+	opacity: 0.7 !important;
+}
+.news-wrap-c .news-wrap-box .news-wrap-ctr .news-wrap-ky{
+	width:1000px;
+	height:40px;
+	background: url("../images/news_bg.png") left top no-repeat;
+	position:absolute;top:255px;
+}
+.page-bodybox{
+background: url(../images/memberexclusiveii_bg.jpg) 100% -230px no-repeat ;
+	width: 100%;
+	float: left;
+	position:relative;
+
+}
+
+.page-bodybox .page-bodycenter{
+	width: 1000px;
+	margin: 0 auto;
+	background:none;
+
+}
+.page-bodybox .page-bodycenter .swiper{
+ right:-225px;
+}
+
+.page-body {
+	width: 1000px;
+	height:auto;
+	float: left;
+	margin: 0 auto;
+}
+.page-body ul {
+	width: 960px;
+	//float: left;
+	//margin-left: 20px;
+	//margin-top: 20px;
+	//position: relative;
+	height: auto;
+	//background: #2a2a2a;
+	margin: 0 auto;
+	display:block;
+}
+
+.page-body ul li {
+	width: 100%;height: auto;float: left;text-align: center;
+}
+
+.page-body ul li:before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	content: "";
+	background-color: #202020;
+	border-left: solid 1px #3D3D3D;
+}
+
+.page-body ul li:after {
+	width: 12.5%;
+	float: left;
+	background-color: #202020;
+	border-left: solid 1px #3D3D3D;
+}
+
+.page-body ul li a {
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: #ACADB2;
+	text-align: center;
+	line-height: 43px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	border-bottom: 2px solid #202020;
+}
+
+.page-body ul li a:hover {
+	border-bottom: 2px solid #3D3D3D;
+}

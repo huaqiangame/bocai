@@ -1,0 +1,65 @@
+@charset 'utf-8';
+
+.header{
+	height:80px;
+	width:100%;
+	background:url(../images/htpTop.jpg) no-repeat;
+	line-height:80px;
+}
+.header p{
+	font-size:20px;
+	color:#425267;
+	font-weight:bold;
+	text-shadow: 0 1px 1px #adadad;
+}
+.header i{
+	font-size:40px;
+	color:#425267;
+	display:inline-block;
+	background: #fff;
+	width:38px;
+	border-radius:50%;
+	height:38px;
+	line-height:40px;
+	margin:22px 30px 0 10px;
+}
+
+.main{
+	background: #fff;
+	height:auto;
+	box-shadow:0px 0px 10px #ccc;
+	padding:10px 20px;
+}
+
+.how .img{
+	height:35px;
+	width:100%
+}
+.how img{
+	height:31px;
+}
+.how .how_content{
+	padding:15px;
+	border:1px solid #ccd3db;
+	border-radius:8px;
+}
+.how .how_content p{
+	margin:0;
+	font-size:14px;
+	line-height:19px;
+}	
+.play .play_title{
+	padding:19px 0;
+}
+.play .play_title img{
+	height:31px;
+}
+.play .play_content{
+	width:100%;
+	border:1px solid #ccd3db;
+	border-radius:8px;
+	padding:15px;
+}
+.play .play_content img{
+	width:100%;
+}

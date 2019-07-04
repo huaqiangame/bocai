@@ -1,0 +1,52 @@
+body{background:#fff;font:14px PingFang sc,Microsoft YaHei,Arial Narrow}
+a,a:hover{color:#333;text-decoration:none}
+b,h1,h2,h3{font-weight:400}
+body,dd,dl,dt,h1,h2,h3,h4,img,ol,p,ul{margin:0;padding:0}
+ol{list-style-position:inside}
+dl,ul{list-style:none}
+img{display:inline-block;border:0;vertical-align:middle}
+body div{line-height:none}
+em,i{font-style:normal}
+.fl li,.l,.nav li{float:left}
+.r{float:right}
+.fl li,.oh{overflow:hidden}
+.mar{margin:0 auto}
+.re,.top-channel{position:relative}
+.ab{position:absolute}
+.c{clear:both}
+.tc{text-align:center}
+.header{width:100%;height:110px;background:url(../hongbao/headBg.png) no-repeat;background-size:100% 100%}
+.w1000{margin:0 auto;width:1000px;overflow:hidden;clear:both}
+.logo{margin-top:18px}
+.nav{margin-top:36px;}
+.nav a{float:left;line-height:34px;padding:0 16px;color:#fff}
+.nav .this{background:url(../hongbao/navBg.png) no-repeat;background-size:100% 100%;color:#670101}
+.content{width:100%;background:url(../hongbao/bg.png) no-repeat center top #73100b;min-height:800px}
+.mt80{margin-top:80px;height:366px}
+.hbMessage{font-size:38px;color:#832507;font-weight:bold;line-height:80px;text-align:center}
+.hbClock{line-height:180px;font-size:36px;font-weight:bold;color:#ffe342;text-align:center}
+.hbClock span{color:#fff}
+.tips{margin-top:26px;margin-bottom:10px}
+#msg_tip_show{line-height:26px;color:#fff;font-size:16px;width:800px}
+.artContent{border:2px solid #8d160d;background:#611307;padding:18px 16px 16px 16px;}
+.artBox{margin-top:-2px;padding:20px;border:2px dashed #85412a}
+.tit{display:block;margin:20px auto}
+.desc01,.desc02{line-height:30px;color:#fff;font-size:14px}
+.desc02{margin:30px 0;color:#efc016}
+.biao{
+  width:100%;
+}
+.biao td{
+  text-align:center;
+  color:#fff;
+  background: #6f010c;
+  font-size:15px;
+  height: 35px;
+  border: 1px solid #fff;
+}
+.biaotou td{
+  color:#ffff6c;
+  background: #570109;
+}
+.huang{color:#00ffff}
+.copy{line-height:50px;text-align:center;color:#fff;margin:20px 0 30px 0}

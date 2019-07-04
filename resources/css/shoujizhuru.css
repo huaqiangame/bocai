@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑';
+}
+
+ul, li, dl, dt, dd, form {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+body {
+    font-size: 12px;
+    height: 100%;
+}
+
+#topbox {
+    min-width: 1000px;
+    width: 100%;
+    float: left;
+    background: #09080C;
+}
+
+#topbox .topcenterbox {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#topbox .topcenterbox .topcenter {
+    width: 100%;
+    float: left;
+}
+
+#topbox .topcenterbox .topcenter .topleft {
+    width: 140px;
+    height: 36px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #fff;
+    float: left;
+    text-align: left;
+    border: 2px solid #252424;
+    border-radius: 5px;
+    background: #2A2C2E;
+    background: -moz-linear-gradient(top, #3d383a 0%, #353338 13%, #2e3133 19%, #323036 27%, #2c2c2c 50%, #1c1a17 75%, #1c1c1c 91%, #231c1b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3d383a), color-stop(13%,#353338), color-stop(19%,#2e3133), color-stop(27%,#323036), color-stop(50%,#2c2c2c), color-stop(75%,#1c1a17), color-stop(91%,#1c1c1c), color-stop(100%,#231c1b));
+    background: -webkit-linear-gradient(top, #3d383a 0%,#353338 13%,#2e3133 19%,#323036 27%,#2c2c2c 50%,#1c1a17 75%,#1c1c1c 91%,#231c1b 100%);
+    background: linear-gradient(to bottom, #3d383a 0%,#353338 13%,#2e3133 19%,#323036 27%,#2c2c2c 50%,#1c1a17 75%,#1c1c1c 91%,#231c1b 100%);
+    box-sizing: border-box;
+    padding: 5px 30px 0 10px;
+    margin-top: 6px;
+}
+
+#topbox .topcenterbox .topcenter .topleft .ele-lang-title {
+    display: inline-block;
+    vertical-align: top;
+    letter-spacing: 1px;
+    background: url(../images/lang_circle.png) 0px 2px no-repeat;
+    padding-left: 30px;
+    background-position: 0 -39px;
+    line-height: 20px;
+}
+
+#topbox .topcenterbox .topcenter .topright {
+    float: right;
+    padding: 0 1px;
+    border-bottom: 4px solid red;
+}
+
+#topbox .topcenterbox .topcenter .topright .ele-lang-title {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 88px;
+    height: 46px;
+    line-height: 46px;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+
+#mianbox {
+    width: 100%;
+    min-width: 1000px;
+    float: left;
+    background: url(../images/webTroubleshooting_bg.png)center top no-repeat;
+    background-size:100% 100%;
+	position:relative;
+}
+
+#mianbox .miancenterbox {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#mianbox .miancenterbox .mianleft {
+    width: 50%;
+    float: left;
+    padding: 10% 0 0 3%;
+}
+
+#mianbox .miancenterbox .mianleft .bbn {
+    width: 100%;
+    height: 120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#mianbox .miancenterbox .mianleft .game {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: "微软雅黑";
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+#mianbox .miancenterbox .mianleft .wh {
+    width: 100%;
+    margin-top: 50px;
+    float: left;
+    margin-bottom: 8%;
+}
+
+#mianbox .miancenterbox .mianleft .wh span {
+    display: block;
+    float: left;
+    font-family: "微软雅黑";
+    color: #000;
+    font-size: 110px;
+}
+
+#mianbox .miancenterbox .mianleft .wh span:nth-child(2) {
+    line-height: 80px;
+}
+
+#mianbox .miancenterbox .mianleft .wh span:last-child {
+    color: #fff;
+}
+
+#mianbox .miancenterbox .mianleft .zh {
+    width: 100%;
+    float: left;
+}
+
+#mianbox .miancenterbox .mianleft .zh span {
+    display: block;
+    font-family: "微软雅黑";
+    color: #fff;
+    font-size: 18px;
+    float: left;
+}
+
+#mianbox .miancenterbox .mianleft .zh span:first-child {
+    font-size: 30px;
+    width: 100%;
+}
+
+#mianbox .miancenterbox .mianleft .zh span:nth-child(3) {
+    line-height: 14px;
+}
+
+#mianbox .miancenterbox .mianleft .zh span:nth-child(5) {
+    line-height: 14px;
+}
+
+#mianbox .miancenterbox .mianleft .ia {
+    color: #99A0A9;
+    margin-top: 5px;
+    float: left;
+    width: 100%;
+    font-size: 16px;
+}
+
+#mianbox .miancenterbox .mianright {
+    width: 50%;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 2%;
+}
+
+#mianbox .miancenterbox .mianright .sm {
+    width: 100%;
+    height: 636px;
+    background: url(../images/mobile.png) center right no-repeat;
+}
+
+#mianbox .miancenterbox .mianright .sm p {
+    width: 198px;
+    height: 198px;
+    /*background: url(../images/qrcode_loginN.png) center center no-repeat;*/
+    margin: 283px 0 0 186px;
+    float: left;
+}
+
+#footer {
+    min-width: 1000px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 13px;
+    color: #fff;
+    float: left;
+    text-align: left;
+    background: #2A2C2E;
+    background: -moz-linear-gradient(top, #3d383a 0%, #353338 13%, #2e3133 19%, #323036 27%, #2c2c2c 50%, #1c1a17 75%, #1c1c1c 91%, #231c1b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3d383a), color-stop(13%,#353338), color-stop(19%,#2e3133), color-stop(27%,#323036), color-stop(50%,#2c2c2c), color-stop(75%,#1c1a17), color-stop(91%,#1c1c1c), color-stop(100%,#231c1b));
+    background: -webkit-linear-gradient(top, #3d383a 0%,#353338 13%,#2e3133 19%,#323036 27%,#2c2c2c 50%,#1c1a17 75%,#1c1c1c 91%,#231c1b 100%);
+    background: linear-gradient(to bottom, #3d383a 0%,#353338 13%,#2e3133 19%,#323036 27%,#2c2c2c 50%,#1c1a17 75%,#1c1c1c 91%,#231c1b 100%);
+    box-sizing: border-box;
+}
+
+#footer .bottomcenterbox {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#footer .bottomcenterbox .bottomcenter {
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+}
+
+#footer .bottomcenterbox .bottomcenter p {
+    line-height: 25px;
+    text-align: center;
+}

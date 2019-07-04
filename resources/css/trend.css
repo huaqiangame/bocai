@@ -1,0 +1,796 @@
+.c_ba2636, a.c_ba2636:link, a.c_ba2636:visited {
+    color: #ba2636;
+}
+.selectWay{background:#f33d3d; padding:10px; height:1%; overflow:hidden; color:#fff; border-radius:5px 5px 0 0;}
+.dataTable {
+	font-size:12px;
+	text-align:center;
+	background:#f7f7f7
+}
+.dataTable td,.dataTable th {
+	height:22px;
+	line-height:2;
+	background-color:#f7f7f7;
+	white-space:nowrap;
+	border:1px solid #fff;
+}
+.dataTable td {
+	font-family:'宋体'
+}
+.dataTable th {
+	font-weight:normal
+}
+.dataTable thead th {
+	background-color:#f0e5c6;
+	text-align:center;
+}
+.dataTable .sort_top,.dataTable .sort_bottom {
+	cursor:pointer
+}
+.dataTable .sort_top strong,.dataTable .sort_bottom strong {
+	display:inline-block;
+	padding-right:10px;
+	background:url(../images/chart_icon.png?20140710) 28px -51px no-repeat
+}
+.dataTable .sort_bottom strong {
+	background-position:28px -68px
+}
+.dataTable .even td {
+	background-color:#e8f0f9
+}
+.dataTable .w22 {
+	width:22px
+}
+.dataTable .w20 {
+	width:20px
+}
+.dataTable .w14 {
+	line-height:14px;
+	padding:2px 0
+}
+.dataTable .lineh12 {
+	line-height:12px;
+	padding:2px 0
+}
+.dataTable .bdb {
+	height:2px
+}
+.noSepline .dataTable .bdb {
+	display:none
+}
+.dataTable .bdb td {
+	background-color:#dbdbdb;
+	height:1px;
+	*height:2px;
+	border:0
+}
+.dataTable tr td.bd,.dataTable tr th.bd {
+	width:1px;
+	background:#dbdbdb;
+	font-size:0
+}
+.dataTable .qh {
+	color:#1e50a2;
+	cursor:pointer
+}
+.dataTable .cz_new {
+	position:absolute;
+	left:auto;
+	top:auto;
+	margin-top:3px;
+	*margin-top:0
+}
+.newLine td {
+	background-color:#fbf7b8
+}
+#wrapper {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1
+}
+.noPeriod {
+	padding:100px 0 100px 380px;
+	font-size:14px
+}
+.noPeriod h3 {
+	font:bold 14px/50px "微软雅黑"
+}
+.warnIcon {
+	background:url(http://caipiao.163.com/caipiao/img/icon_check.png) no-repeat -56px -51px;
+	height:50px;
+	width:50px;
+	margin-right:10px;
+	display:block;
+	overflow:hidden;
+	position:absolute;
+	margin-left:-70px
+}
+.f_darkRed {
+	color:#d2b0b0
+}
+.f_red {
+	color:#d2b0b0
+}
+.f_brown {
+	color:#d6bd9a
+}
+.f_blue {
+	color:#b6bccb
+}
+.f_green {
+	color:#abc2c3
+}
+.f_purple {
+	color:#c8b7cd
+}
+.f_seaGreen {
+	color:#abc2a9
+}
+.f_lightBlue {
+	color:#aed2fd
+}
+.f_gray {
+	color:#ccc
+}
+.dataTable .bg_red,.dataTable .bg_orange,.dataTable .bg_green,.dataTable .bg_blue,.dataTable .bg_purple,.dataTable .bg_seaGreen,.dataTable .bg_pink,.dataTable .bg_dh {
+	color:#fff;
+	font-family:Arial
+}
+.span_red{background:red;display:block;border-radius:50%;width:20px;height:20px;line-height:20px;color:#fff;font-weight: bolder;}
+.bg_plum td,.bg_plum .c_727171 {
+	background-color:#ecc0af;
+	color:#fff
+}
+.dataTable .bg_orange {
+	background-color:#e2b46f
+}
+.ds{
+	background-color: #707972 !important;
+}
+.dataTable .bg_green {
+	background-color:#8dbcbd
+}
+.dataTable .bg_blue {
+	background-color:#a3b5d4
+}
+.dataTable .bg_purple {
+	background-color:#c2a9c8
+}
+.dataTable .bg_seaGreen {
+	background-color:#97bf94
+}
+.dataTable .bg_red {
+	background-color:#c84c59
+}
+.dataTable .bg_pink {
+	background-color:#fee3e3;
+	color:#f99
+}
+.dataTable .bg_dh {
+	background-color:#949494
+}
+.dataTable i.bg_red,.dataTable i.bg_orange,.dataTable i.bg_green,.dataTable i.bg_blue,.dataTable i.bg_purple,.dataTable i.bg_seaGreen {
+	display:inline-block;
+	padding:0 1px;
+	height:22px;
+	line-height:21px;
+	min-width:18px;
+	_width:18px
+}
+td.ft8 {
+	font-size:8px
+}
+td.ft8 i {
+	display:block;
+	width:17px;
+	-webkit-transform:scale(0.7);
+	font-family:Arial
+}
+#tableDataLoading {
+	line-height:300px;
+	height:300px
+}
+.dataTable .ball_red,.dataTable .ball_blue,.dataTable .ball_violet,.dataTable .ball_brown,.dataTable .ball_green,.dataTable .ball_gray,.dataTable .ball_plum,.dataTable .ball_goral,.dataTable .ball_cornflower,.dataTable .ball_voilet,.dataTable .ball_upon,.dataTable .ball_skyBlue,.dataTable .ball_gap,.dataTable .ball_lian,.dataTable .ball_orange,.dataTable .ball_repeate,.dataTable .ball_real,.realBall,.dataTable .s_ball {
+	background-position:center center;
+	color:#fff;
+	background:#f33d3d;
+	/*border-radius:50%;*/
+	font-family:verdana;
+}
+.dataTable span.ball_red{
+	display: block;
+	line-height: 17px;
+	height: 18px;
+	width:18px;
+	-webkit-background-size: 10px;
+	border-radius: 50%;
+}
+.dataTable span.ball_violet{
+	display: block;
+	background:#CE3096;
+	border-radius: 50%;
+	line-height: 17px;
+	height: 18px;
+	width:18px;
+}
+.dataTable .ball_red {
+	background-position:center -86px
+}
+.dataTable .ball_blue {
+	background-position:center -64px
+}
+.dataTable .ball_green {
+	background-position:center -108px
+}
+.dataTable .ball_brown {
+	background-position:center -196px
+}
+.dataTable .ball_gray {
+	background-position:center -218px
+}
+.dataTable .ball_plum {
+	background-position:center -240px
+}
+.dataTable .ball_goral {
+	background-position:center -262px
+}
+.dataTable .ball_cornflower {
+	background-position:center -284px
+}
+.dataTable .ball_voilet {
+	background-position:center -152px
+}
+.dataTable .ball_skyBlue {
+	background-position:center -174px
+}
+.dataTable .ball_orange {
+	background-position:center -130px
+}
+.dataTable .ball_repeate {
+	background-position:center -367px
+}
+.dataTable .ball_gap,.dataTable .ball_lian {
+	background-position:center -174px
+}
+.dataTable .ball_upon {
+	background-position:center -152px
+}
+.dataTable .ball_real,.dataTable .ball_realBall:hover {
+	background-position:center -42px;
+	color:#fff
+}
+.dataTable .presele .ballBlue,.dataTable .presele .ballBlue:hover {
+	background-position:center -64px;
+	color:#fff
+}
+.dataTable .s_ball {
+	position:absolute;
+	color:#fff;
+	background-color:#f9a606;
+	border-radius:7px;
+	width:13px;
+	height:13px;
+	line-height:13px;
+	margin:-7px 0 0 13px;
+	_margin:-7px 0 0 8px;
+	z-index:98;
+	font-size:10px;
+	background-position:-3px -323px;
+	background-color:none\8;
+	-webkit-transform:scale(0.9)
+}
+.noLost #cpdata .f_darkRed,.noLost #cpdata .f_red,.noLost #cpdata .f_brown,.noLost #cpdata .f_blue,.noLost #cpdata .f_green,.noLost #cpdata .bg_plum,.noLost #cpdata .f_seaGreen,.noLost #cpdata .f_purple,.noLost #cpdata .f_lightBlue,.noLost #cpdata .f_gray {
+	color:#f7f7f7
+}
+.noLost #cpdata .bg_plum .f_darkRed,.noLost #cpdata .bg_plum .f_red,.noLost #cpdata .bg_plum .f_brown,.noLost #cpdata .bg_plum .f_blue,.noLost #cpdata .bg_plum .f_green,.noLost #cpdata .bg_plum .bg_plum,.noLost #cpdata .bg_plum .f_seaGreen,.noLost #cpdata .bg_plum .f_purple,.noLost #cpdata .bg_plum .f_lightBlue,.noLost #cpdata .bg_plum .f_gray .noLost #cpdata .bg_plum {
+	color:#ecc0af;
+	background-color:#ecc0af
+}
+.dataTable #cpdata td.ball_omit_5,.dataTable #cpdata td.ball_omit_11,.dataTable #cpdata td.ball_omit_m {
+	background-color:#99C
+}
+.noLost #cpdata td.ball_omit_5,.noLost #cpdata td.ball_omit_11,.noLost #cpdata td.ball_omit_m {
+	color:#99C
+}
+.dataTable tr td.ball_omit_5 {
+	color:#000
+}
+.dataTable tr td.ball_omit_11 {
+	color:#06f
+}
+.dataTable tr td.ball_omit_m {
+	color:#f00
+}
+.noLost #cpdata td.nohit {
+	color:#fee3e3
+}
+.parameter {
+	padding:10px;
+	background:#f7f7f7;
+	font-size:12px
+}
+.parameter h3 {
+	text-align:left;
+	font-weight:bold;
+	color:#666;
+	position:relative;
+	z-index:10
+}
+.parameter .explain {
+	height:60px;
+	overflow:hidden
+}
+.parameter .explain li {
+	line-height:20px
+}
+.parameter .showall,.parameter .hide {
+	color:#c00;
+	cursor:pointer;
+	margin-left:20px;
+	display:inline;
+	white-space:nowrap
+}
+.parameter .showall i,.parameter .hide i {
+	display:inline-block;
+	width:0;
+	height:0;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+	border-width:0 4px 4px;
+	*border-width:0 5px 5px;
+	border-color:transparent transparent #ba2636;
+	border-style:solid;
+	_border-style:solid dotted;
+	zoom:1;
+	margin-left:2px
+}
+.parameter .showall i {
+	border-top-color:#ba2636;
+	border-width:4px 4px 0
+}
+.parameter .gotoBuy {
+	float:right;
+	height:25px;
+	padding:0 9px;
+	background:#ff0006 url("../images/head_repeat.png") repeat-x 0 -72px;
+	border-radius:2px;
+	line-height:25px;
+	color:#fff
+}
+.parameter .gotoBuy:hover {
+	text-decoration:none
+}
+.dataLoading {
+	background:#fff;
+	position:absolute;
+	right:0;
+	bottom:138px;
+	text-align:center
+}
+.dataLoading img,.dataLoading span {
+	display:inline-block;
+	vertical-align:middle;
+	margin:0 10px;
+	font-size:12px
+}
+.dataTable .countDown {
+	position:relative;
+	height:20px;
+	line-height:21px;
+	text-align:center
+}
+.dataTable .countDown p {
+	position:absolute;
+	top:-1px;
+	left:2px;
+	white-space:nowrap;
+	height:22px;
+	line-height:22px
+}
+.dataAnalysis {
+	height:27px;
+	line-height:27px;
+	text-align:right;
+	border:solid #dedede;
+	border-width:1px 0;
+	background:url("../images/chart_repeat.png?20130719") repeat-x 0 -133px;
+	font-size:12px;
+	position:relative
+}
+.dataAnalysis h3,.dataAnalysis h2 {
+	float:left;
+	padding-left:10px;
+	font-weight:bold;
+	color:#ba2636
+}
+.dataAnalysis label {
+	cursor:pointer;
+	font-weight:bold;
+	margin:0 3px
+}
+body .lightOffState {
+	z-index:400
+}
+body .floatPanelLightOff,body .chart_area_lightOffState {
+	z-index:310
+}
+.toolBoxCon {
+	position:fixed;
+	_position:absolute;
+	bottom:267px;
+	left:50%;
+	margin-left:494px;
+	z-index:220
+}
+.toolBox {
+	font-size:12px;
+	width:42px;
+	padding-top:1px;
+	text-align:center;
+	overflow:hidden;
+	zoom:1;
+	border:1px solid #dedede;
+	background:#fff
+}
+.panelAngle {
+	position:absolute;
+	right:0;
+	top:0
+}
+.panelAngle .toolBox {
+	position:absolute;
+	bottom:0;
+	right:-44px;
+	background:#fff
+}
+.toolBox li {
+	width:42px;
+	height:42px;
+	overflow:hidden;
+	zoom:1;
+	background:url("../images/chart_repeat.png") repeat-x 0 -89px #fff;
+	border-bottom:1px solid #dedede;
+	position:relative;
+	cursor:pointer;
+	float:left
+}
+.toolBox li.hover {
+	background-position:0 -45px;
+	border-color:#ffd1d1;
+	z-index:5
+}
+.toolBox li em {
+	height:37px;
+	margin-top:5px;
+	line-height:14px;
+	display:block
+}
+.toolBox li i.arrow {
+	position:absolute;
+	top:36px;
+	right:18px;
+	z-index:10;
+	width:0;
+	height:0;
+	overflow:hidden;
+	margin:0;
+	border-width:4px 4px 0;
+	border-color:#d02f45 transparent transparent;
+	border-style:solid;
+	_border-style:solid dotted;
+	-webkit-transition:-webkit-transform .2s ease-in;
+	-moz-transition:-moz-transform .2s ease-in;
+	-ms-transition:-ms-transform .2s ease-in;
+	-o-transition:-o-transform .2s ease-in;
+	transition:transform .2s ease-in;
+	zoom:1
+}
+.toolBox li.drawOpen i.arrow,.toolBox li.betAreaOpen i.arrow {
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+	-ms-filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2)
+}
+.toolBox li.turnOff {
+	line-height:42px
+}
+.toolBox li.turnOn {
+	font-weight:bold;
+	line-height:42px
+}
+.toolBox li.draw .drawTool {
+	background:#fff;
+	display:none;
+	border-top:1px solid #dedede
+}
+.toolBox li.hover .drawTool {
+	border-color:#ffd1d1
+}
+.toolBox li.drawOpen {
+	height:auto
+}
+.toolBox li.drawOpen em {
+	font-weight:bold
+}
+.toolBox li.drawOpen .drawTool {
+	display:block
+}
+.toolBox li.draw .drawTool a {
+	display:block;
+	height:26px;
+	text-align:center;
+	border:1px solid #fff
+}
+.toolBox li.draw .drawTool a:hover {
+	background-color:#f7f6f6;
+	border-color:#fff
+}
+.toolBox li.draw .drawTool a.active,.toolBox li.draw .drawTool a.active:hover {
+	border-color:#ffbdc5
+}
+.toolBox li.draw .drawTool i {
+	display:inline-block;
+	margin-top:5px;
+	cursor:pointer;
+	height:18px;
+	width:24px;
+	background:url("../images/chart_icon.png?20140710") no-repeat scroll 0 0
+}
+.toolBox li.draw .drawTool .tool_square i {
+	background-position:-1px -32px
+}
+.toolBox li.draw .drawTool .tool_circle i {
+	background-position:-28px -32px
+}
+.toolBox li.draw .drawTool .tool_line i {
+	background-position:-54px -32px
+}
+.toolBox li.draw .drawTool .tool_curve i {
+	background-position:-80px -32px
+}
+.toolBox li.draw .drawTool .tool_clear i {
+	background-position:-105px -32px
+}
+.toolBox li.draw .drawTool .tool_back i {
+	background-position:-130px -32px
+}
+.toolBox li.draw .active {
+	border:1px solid #6c80a0
+}
+.toolBox li.betArea {
+	background-position:0 0;
+	border-color:#ac2339;
+	z-index:10
+}
+.toolBox li.betArea {
+	color:#fff
+}
+.toolBox li.betArea i {
+	border-color:#fff transparent transparent
+}
+.toolBoxCon .fix1024 {
+	position:relative;
+	right:40px
+}
+.floatPanel .fix1024 {
+	right:-4px
+}
+body .main_near {
+	margin-bottom:0
+}
+.refuse-select {
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-khtml-user-select:none;
+	user-select:none
+}
+.js-is-green,.js-is-red,.js-is-yellow,.js-is-blue {
+	cursor:pointer
+}
+.jtipWraper-above i {
+	background-position:-33px -64px;
+	bottom:-7px;
+	_bottom:-13px;
+	top:auto;
+	z-index:9999
+}
+.refuse-select {
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	user-select:none
+}
+input[type=radio]:active,input[type=checkbox]:active {
+	background-color:#f9f9f5;
+	border-color:#658cae
+}
+#dataWrap {
+	position:relative;
+	overflow:hidden
+}
+#chart_area {
+	position:relative
+}
+#tableAndCanvas {
+	position:relative
+}
+.hideFoldLine .js-foldLines {
+	display:none
+}
+.data_table {
+	font-size:12px;
+	text-align:center;
+	background:#f7f7f7
+}
+.data_table td {
+	height:22px;
+	background-color:#f7f7f7;
+	white-space:nowrap;
+	border:1px solid #fff;
+	font-family:'宋体'
+}
+.data_table tr .br01 {
+	width:1px;
+	background-color:#dbdbdb;
+	font-size:0
+}
+.data_table .w22 {
+	width:22px
+}
+.presele th,.presele td,.preSqu th,.preSqu td {
+	background:#eaeaea;
+	white-space:nowrap;
+	height:20px;
+	line-height:20px
+}
+.presele td {
+	background:url("../images/ball18px.png") no-repeat center 0 #eaeaea;
+	color:#999;
+	cursor:pointer;
+	font-family:Arial
+}
+.presele td:hover {
+	background-position:center -21px;
+	color:#d3979f
+}
+.presele td.presele_tit:hover,.presele td.bgnone:hover,.presele td.lineh12:hover {
+	background-image:none;
+	color:#333
+}
+.presele2 td {
+	background:#eaeaea;
+	cursor:pointer;
+	color:#b2b2b2;
+	font-family:Arial;
+	line-height:12px;
+	padding:3px 0
+}
+td.presele_tit {
+	background-image:none;
+	color:#2b2b2b;
+	cursor:default
+}
+.presele .noball {
+	background:#eaeaea;
+	color:#000;
+	cursor:default;
+	white-space:nowrap;
+	color:#999
+}
+tr.preSqu td {
+	background-image:none;
+	background-color:#eaeaea
+}
+tr.preSqu td:hover {
+	background-image:none
+}
+tr.preSqu td.hasactive {
+	cursor:pointer;
+	color:#999;
+	text-align:center
+}
+tr.preSqu td.hasactive:hover {
+	color:#d3979f
+}
+tr.preSqu td.active,tr.preSqu td.active:hover {
+	color:#fff
+}
+.presele .ic_delete,.presele .ic_add {
+	display:inline-block;
+	width:10px;
+	height:10px;
+	vertical-align:middle;
+	background:transparent url("../images/ssq_full.png") no-repeat;
+	cursor:pointer;
+	margin:0 0 0 2px
+}
+.presele .ic_delete {
+	background-position:-291px -58px
+}
+.presele .ic_add {
+	background-position:-291px -73px
+}
+tr.presele td.active {
+	background-position:center -42px;
+	color:#fff
+}
+tr.presele td.ball_red,tr.presele td.ball_red:hover {
+	background-position:center -87px;
+	color:#fff;
+	background-image:url("../images/ball18px.png")
+}
+tr.presele td.ball_blue,tr.presele td.ball_blue:hover {
+	background-position:center -344px;
+	color:#fff
+}
+.presele .noball,.presele_small .noball {
+	background:#eaeaea;
+	color:#000;
+	cursor:default;
+	white-space:nowrap;
+	color:#999
+}
+tr.presele td.bg_yellow,tr.presele td.bg_yellow:hover {
+	background-color:#e2b46f;
+	color:#fff
+}
+tr.presele td.bg_green,tr.presele td.bg_green:hover {
+	background-color:#8dbcbd;
+	color:#fff
+}
+tr.presele td.bg_red,tr.presele td.bg_red:hover {
+	background-color:#c84c59;
+	color:#fff
+}
+.betOption {
+	position:relative;
+	padding:10px;
+	border-top:1px solid #dbdbdb;
+	background:#fff
+}
+.betOption .center {
+	text-align:center
+}
+.btn_pink,.btn_blue {
+	vertial-align:middle;
+	background:#fff url("../images/ssq_full.png");
+	width:70px;
+	height:22px;
+	text-align:center;
+	border:0;
+	border-radius:2px;
+	cursor:pointer
+}
+.btn_pink {
+	background-position:-157px -53px;
+	color:#920500
+}
+.btn_blue {
+	background-position:-87px -53px;
+	color:#015d89
+}
+.betOption select {
+	margin:0 4px 0 6px
+}
+.betOption .btn_blue {
+	margin-right:30px
+}
+.betOption .right {
+	position:absolute;
+	right:10px;
+	top:10px
+}
+.betOption .right label {
+	margin:0 5px 0 0
+}
+.dataTable .nohit {
+	background:#fee3e3;
+	color:#f99
+}
+.lhc_b{margin:5px;padding:5px 4px;color:#fff;border-radius: 15px;}
+/*
+tr.hovercolor:hover{background: red;}*/

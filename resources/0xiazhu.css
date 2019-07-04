@@ -1,0 +1,183 @@
+div.f_select0 {
+	line-height: 48px;
+	padding-left: 100px;
+	text-align: left;
+	user-select: none;
+}
+
+div.f_select0 span {
+	width: 38px;
+	height: 38px;
+	display: inline-block;
+	margin: 0 6px;
+	border: 1px solid #c0c5d2;
+	line-height: 38px;
+	font-size: 18px;
+	box-shadow: 0 1px 3px #d4d4d4, inset 0 -1px 5px #fff;
+	text-align: center;
+	background: linear-gradient(180deg, #fff 0, #f1efef);
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+div.f_select0 span.red0 {
+	color: #dc3b40;
+}
+div.f_select0 span.red1 {
+	color: #fff;
+	background: linear-gradient(180deg, #ff6669 30%, #e53a3d);
+	box-shadow: inherit;
+	border: 1px solid #e94548;
+}
+
+div.f_select0 span.blue0 {
+	color: #218ddd;
+}
+div.f_select0 span.blue1 {
+	color: #fff;
+	background: linear-gradient(180deg, #33a8ff 30%, #228ede);
+	box-shadow: inherit;
+	border: 1px solid #2994e3;
+}
+
+div.f_select0 span.green0 {
+	color: #38b366;
+}
+div.f_select0 span.green1 {
+	color: #fff;
+	background: linear-gradient(180deg, #41e07c 30%, #38b467);
+	box-shadow: inherit;
+	border: 1px solid #3cb569;
+}
+ul.lhc_tm_liangmian
+{
+	padding: 0 20px;
+}
+ul.lhc_tm_liangmian>li
+{
+	float: left;
+	width: 83px;
+	margin: 8px 14px;
+	text-align: center;
+}
+ul.lhc_tm_liangmian>li>a
+{
+	color:#000;
+	font-size: 24px;
+	box-shadow: 0 1px 5px #d4d4d4;
+	display: block;
+	background: linear-gradient(180deg, #fff 0, #f1efef 90%, #f7f7f7);
+	border-radius: 5px;
+	border: 1px solid #c0c5d2;
+	line-height: 50px;
+	min-width: 52px;
+}
+ul.lhc_tm_liangmian>li.curr>a
+{
+	background: linear-gradient(180deg,#d64b15 30%,#ea6a31);
+	border: 1px solid #d24c10;
+	color: #fff;
+	box-shadow: inherit
+
+}
+ul.lhc_bb_tmbb
+{
+	padding: 0 20px;
+}
+ul.lhc_bb_tmbb>li
+{
+	float: left;
+	width: 112px;
+	margin: 8px 12px;
+	text-align: center;
+}
+ul.lhc_bb_tmbb>li>a
+{
+	color:#000;
+	font-size: 24px;
+	box-shadow: 0 1px 5px #d4d4d4;
+	display: block;
+	background: linear-gradient(180deg, #fff 0, #f1efef 90%, #f7f7f7);
+	border-radius: 5px;
+	border: 1px solid #c0c5d2;
+	line-height: 50px;
+	min-width: 52px;
+}
+ul.lhc_bb_tmbb>li>a .bet-item-eg-box{font-size: 12px; color: #666; line-height: 18px; padding:0 5px 5px;}
+ul.lhc_bb_tmbb>li.curr>a
+{
+	background: linear-gradient(180deg,#d64b15 30%,#ea6a31);
+	border: 1px solid #d24c10;
+	color: #fff;
+	box-shadow: inherit
+
+}
+ul.lhc_bb_tmbb>li.curr>a .bet-item-eg-box{color: #fff;}
+ul.m_xuanze_bet2 li
+{
+	margin: 6px;
+	display: inline-block;
+	padding: 0px 17px;
+    line-height: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #dc3b40;
+}
+ul.m_xuanze_bet2 li.curr
+{
+	background: #dc3b40;
+    border: 1px solid #dc3b40;
+    color: #fff;
+}
+
+div.selectMultiple
+{
+	background: white;
+}
+div.selectMultiple span
+{
+	padding: 0 5px;
+}
+div.selectMultiple input
+{
+	width: 80px;
+	border: 1px solid gray;
+}
+div.selectMultiple>div:first-child
+{
+	padding: 6px;
+	border-bottom: 1px solid gray;
+}
+div.selectMultiple>div:last-child
+{
+	padding: 4px;
+	padding-bottom:6px;
+}
+
+li.ssc_winning_sum_gif>span:last-child
+{
+	color:black;
+}
+
+ul.lhc_tm_liangmianm{padding-left: 2px; font-size: 18px}
+ul.lhc_tm_liangmianm>li{float: left;width:25%;}
+ul.lhc_tm_liangmianm>li>div{border-radius: 5px;background: #faf9f6;	margin: 6px;padding: 2px;text-align: center;border: 1px solid #dfdfdf;}
+ul.lhc_tm_liangmianm>li.curr>div{background: #dc3b40;color: white;border: 1px solid #dc3b40}
+ul.lhc_tm_liangmianm>li>div{border: 1px solid #dfdfdf}
+ul.lhc_tm_liangmianm>li>div>span{font-size: .66em;}
+ul.lhc_tm_liangmianm>li>div>span:first-child{font-size: 1em;color: #dc3b40}
+ul.lhc_tm_liangmianm>li.curr>div>span:first-child{color: #fff;}
+ul.lhc_tm_liangmianm>li>div>span{display: block;}
+
+ul.lhc_bb_tmbbm{padding: 12px; font-size: 18px}
+ul.lhc_bb_tmbbm>li{float: left;width:33.3333333%;}
+ul.lhc_bb_tmbbm>li>div{border-radius: 5px;background: #faf9f6;	margin: 6px;padding: 2px;text-align: center;border: 1px solid #dfdfdf;}
+ul.lhc_bb_tmbbm>li.curr>div{background: #dc3b40;color: white;border: 1px solid #dc3b40}
+ul.lhc_bb_tmbbm>li>div{border: 1px solid #dfdfdf}
+ul.lhc_bb_tmbbm>li>div>span{font-size: .66em;}
+ul.lhc_bb_tmbbm>li>div>span:first-child{font-size: 1em;color: #dc3b40}
+ul.lhc_bb_tmbbm>li.curr>div>span:first-child{color: #fff;}
+ul.lhc_bb_tmbbm>li>div>span.nums{font-size: .6em;color: #888; padding: .2em}
+ul.lhc_bb_tmbbm>li.curr>div>span.nums{color: #fff;}
+ul.lhc_bb_tmbbm>li>div>span{display: block;}

@@ -1,0 +1,54 @@
+
+body{}
+.login_bg{
+width:734px;height:322px;margin:0 auto;background:url('https://cdn.igsttech.com/Web.Portal/Common/Content/Views/Account/LoginToGame/bg.png');
+}
+.login_bg .login_input{
+	float:left;width:392px;height:322px;padding:20px;
+}
+
+
+.login_input .login_title{
+	position:absolute; top:20px;left:440px;
+	width:400px;
+	height:200px;
+	float:right;
+	margin-left:15px;
+	//border-bottom:1px dashed #e0e3e6;
+}
+.login_input .login_title h3{
+	
+	margin:0;color:#fff;font-family:'Microsoft YaHei';font-size:36px
+}
+.login_input .login_title p{
+color:#fff;margin-top:.5em
+}
+.login_bg .login_input form{
+position:relative;padding:5px 20px
+}
+.login_bg .login_input form input{
+display:block;width:298px;height:35px;margin-bottom:12px;padding-left:50px;color:#292929;line-height:35px;border:none;background-position:center center
+}
+.login_bg .login_input form input::-webkit-input-placeholder{
+color:inherit
+}
+.login_bg .login_input form input:-ms-input-placeholder{color:inherit}
+.login_bg .login_input form input::-moz-placeholder{color:inherit}
+.login_bg .login_input form input.placeholdersjs{color:inherit}
+.login_bg .login_input form input#login_account{
+background:url('https://cdn.igsttech.com/Web.Portal/Common/Content/Views/Account/LoginToGame/user.png') no-repeat center center
+}
+.login_bg .login_input form input#login_password{
+background:url('https://cdn.igsttech.com/Web.Portal/Common/Content/Views/Account/LoginToGame/pwd.png') no-repeat center center
+}
+.login_bg .login_input form #check-code-wrapper{
+	margin-right:100px
+} 
+.login_bg .login_input form #check-code-wrapper .two_code img{height:30px;margin-left:190px;margin-top:-85px;}
+.login_bg .login_input form #check-code-wrapper input{width:167px;height:33px;padding-left:10px;background-color:transparent;border:1px solid #000}
+.login_bg .login_input form #check-code-wrapper #captcha{height:31px;top:1px;right:1px}
+.login_bg .login_input form #login-box{width:85px;height:35px;margin-right:20px;color:#fff;line-height:31px;vertical-align:baseline;background:#262626;border:none}
+.login_bg .login_input form #login-box:hover{background:#3b3b3b}
+#logingame-logo{width:341px;height:70px}#logingame-logo img{height:100%;max-width:90%}#logingame-right{background-color:#000;float:right;width:341px;height:322px;padding-top:80px;text-align:center}#logingame-right span{display:block;margin:15px auto 30px;color:#fff}#logingame-right button.joinus{width:123px;height:34px;color:#a1a1a1;line-height:30px;background-color:transparent;border:1px solid #a1a1a1}#logingame-right button.joinus:hover{color:#fff;border:1px solid #fff}
+.login_bg .login_input form #forget{color:#a1a1a1;background-color:transparent;border:none}
+.login_bg .login_input form #forget:hover{color:#fff}

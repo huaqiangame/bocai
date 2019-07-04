@@ -1,0 +1,399 @@
+/* CSS Document */
+/* 头部*/
+.top{ background:#ededed; height:30px; line-height:30px;}
+.top .fr span{ color:#666666; float:left; overflow:hidden; display:inline-block}
+.top .fr span a{ color:#666666; position:relative}
+.top .fr span i{ color:#999999; font-size:12px;}
+.top .fr>em{ float:left; color:#dddddd; margin:0px 8px;}
+.top .fr span a.c_red{ margin-left:10px;}
+.top .fr span a.c_red:hover{ text-decoration:underline}
+.top .fr span a.bg_gray { padding:0px 10px; border-radius:3px;}
+.top .fr span a img { margin-right:5px;}
+.top .fr span b{ position:absolute;left: 0px;bottom: -14px;color: #c6c6c6;}
+.top_nav{ background:url(../images/bj1.jpg) no-repeat; background-repeat: repeat-x; height:219px;}
+.top_nav .img1{ margin-top:20px;}
+
+/*导航*/
+.banner{ background:#d4a964;}
+.banner .bann_dowm{ background:#bd0d0d; float:left; width:235px;}
+.banner .bann_dowm span{ color:#ffffff; font-size:16px; line-height:42px; text-align:center; display:block; cursor:pointer}
+
+.banner ul.bann_list{ float:left; overflow:hidden; display:inline-block; }
+.banner ul.bann_list li{ width:90px; line-height:42px; float:left; text-align:center}
+.banner ul.bann_list li a{ color:#ffffff; font-size:16px; line-height:32px; height:32px; border-radius:5px; width:auto; padding:5px 11px; *+display:block; *+width:64px; }
+.banner ul.bann_list li a:hover{ background:url(../images/btn.png) center no-repeat; background-size:100% 100% }
+.bann_dowm ul{ height:auto; overflow:hidden; border:1px solid #d21e1e; background:#fff;width:233px; position:absolute; display:none;}
+.bann_dowm ul li{ border-bottom:1px solid #ddd; padding:6px 0px 6px 16px;    overflow: hidden;}
+.bann_dowm ul li:hover{ background:#f6f6f6}
+.bann_dowm ul li:hover img{transform:rotate(360deg); transition:0.3s; -moz-transform:rotate(360deg); -webkit-transform:rotate(360deg); -o-transform:rotate(360deg); -moz-transition:0.3s; -webkit-transition:0.3s; -o-transition:0.3s; }
+.bann_dowm ul li a img{ margin-right:10px; float:left}
+.bann_dowm ul li a i{ color:#333333; font-size:16px; float:left}
+.bann_dowm ul li a em{ color:#999999; font-size:12px;display: inline-block;
+    float: right;
+    width: 90px; margin-right:5px;
+    overflow: hidden; margin-top:2px;}
+
+.bann_dowm ul li a em.news{ background:#ff910e; color:#fff; padding:2px 3px; position:relative}
+.bann_dowm ul li a em b{ position:absolute; margin-top:11px; margin-left:-6px; color:#ff910e}
+
+.banner ul.bann_list li dl{ position:absolute; z-index:99; background:#d21e1e; width:105px; display:none;padding: 5px 0px; border:1px solid #fff; border-top:0px; *+margin-left:-50px;}
+.banner ul.bann_list li dl a{ line-height:35px !important}
+/*底部*/
+.foot { background:#e43939; overflow:hidden}
+.foot .foot_top{ border-bottom:1px solid #f14848; padding:22px 0px;overflow:hidden}
+.foot .foot_top .foot_logo{ width:245px; padding-top:10px; text-align:center}
+.foot .foot_top .foot_logo img{ margin-bottom:20px;}
+.foot .foot_midle dl{ float:left; overflow:hidden; margin:0px 50px;overflow:hidden}
+.foot .foot_midle dl dt{ color:#ffffff; font-size:18px; line-height:35px;}
+.foot .foot_midle dl dd{ color:#ffffff; font-size:12px; font-family:"宋体"; line-height:25px;}
+.foot .foot_midle dl dd a{ color:#ffffff;}
+.foot .foot_midle dl dd a:hover{ text-decoration:underline}
+.foot .two_code{  margin-left:30px; text-align:center;overflow:hidden}
+.foot .two_code p{ text-align:center; font-size:18px; color:#fff; margin-bottom:16px; line-height:35px;}
+
+.foot_bottom{ border-top:1px solid #de2727; padding:15px 0px; text-align:center; color:#fff; font-family:"宋体";overflow:hidden }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

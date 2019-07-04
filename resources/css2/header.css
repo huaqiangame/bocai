@@ -1,0 +1,457 @@
+﻿@charset 'utf-8';
+
+
+.header{
+	background: #F8F8F8;
+	border-bottom:1px solid #e8e8e8;
+	height:30px;
+	line-height:30px;
+}
+.header .container{
+	position:relative;
+}
+.header .pull-right>a:first-child{
+	margin-right:20px;
+}
+.header .pull-right a:hover{
+	color:red;
+}
+.header .pull-right>span{
+	background:#d7d7d7;
+	width:1px;
+	height:15px;
+	display:inline-block;
+	position:absolute;
+	top:8px;
+	right:74px;
+}
+.user_login_info1 .user_header{
+	margin:0;
+	position: relative;
+}
+.user_login_info li{
+	float: left;
+	padding-left:20px;
+	height:30px;
+	position:relative;
+}
+.user_login_info  .user_login_info2 li{
+	padding:0;
+	text-align: center;
+	width:100%;
+}
+.user_login_info li a:hover{
+	color:red;
+	text-decoration:underline;
+}
+.user_login_info1 .img-circle{
+	width:22px;
+	height:22px;
+	margin:0 3px 3px 0;
+}
+.user_login_info2 .iconfont{
+	font-size:12px;
+}
+.user_login_info1 .info_sum_box{
+	padding:8px;
+	position:absolute;
+	left:0px;
+	top:30px;
+	background: #fff;
+	z-index:8888;
+	width:260px;
+	border-radius:3px;
+}
+.user_login_info1 .info_sum_box em{
+	color:#f06701;
+	font-weight:bold;
+}
+.user_login_info1 .info_sum_box .info_sum{
+	border-bottom:1px dashed #ddd;
+}
+.user_login_info3 .iconfont{
+	font-size:12px;
+}
+.user_login_info3{
+	cursor:pointer;
+}
+.user_login_info3>span{
+	border:1px dotted #6b6b6b;
+	display:inline-block;
+	padding:0 3px;
+	line-height:18px;
+}
+.user_login_info .user_login_info1 .user_info{
+	padding:2px 7px;
+	background:#ffba00;
+	margin-left:5px;
+	font-size:13px;
+	color:#fff;
+	border-radius:2px;
+	text-shadow:1px 1px 1px #333;
+}
+.user_login_info2_i{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid white;
+	margin-top: -10px;
+}
+.user_login_info2 .user_login_info2_list{
+	position:absolute;
+	top:33px;
+	left:21px;
+	background: #fff;
+	padding:5px;
+	z-index: 777;
+	margin-left:-16px;
+	width:100%;
+	text-align:center;
+	box-shadow:4px 4px 8px rgba(0,0,0,0.3);
+}
+.user_login_info2_list a{
+	display:block;
+	line-height:25px;
+}
+.refresh_money{
+	transition: All 0.4s ease-in-out;
+	-webkit-transition: All 0.4s ease-in-out;
+	-moz-transition: All 0.4s ease-in-out;
+	-o-transition: All 0.4s ease-in-out;
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); /* Internet Explorer */
+	-moz-transform:rotate(0deg); /* Firefox */
+	-webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+	-o-transform:rotate(0deg); /* Opera */
+	display: inline-block;
+}
+.nav_logo{
+	height:94px;
+	background: url(../images/homeback.jpg) repeat-x;
+}
+.nav_logo .container{
+	position:relative;
+	background: none;
+	height:95px;
+}
+.nav_logo .nav_logo_h1{
+	text-indent:-9999px;
+	background:url(../images/logo1.png) no-repeat ;
+	width:435px;
+	height:62px;
+	margin-top: 20px;
+  margin-bottom: 10px;
+}
+.nav_logo .nav_img{
+	position:absolute;
+	top:3px;
+	left:473px;
+}
+.nav_logo .nav_kefu{
+	padding-top:34px;
+}
+.nav_logo .nav_kefu a{
+	border:1px solid #fff;
+	border-radius: 3px;
+	font-size:13px;
+	padding:3px 5px;
+	color:#fff;
+}
+.nav_logo .nav_kefu a:hover{
+	text-decoration:none;
+	color:#e6d951;
+	border-color:#e6d951;
+}
+
+.nav_list{
+	height:42px;
+	background-color:#d4a964;
+}
+.nav_list .container{
+	/*background-color: #d21e1e;*/
+}
+.nav_list li{
+	float:left;
+	height:42px;
+	line-height:42px;
+	position:relative;
+}
+.nav_list .active a{
+	color: #ee0000;
+}
+.nav_list li a{
+	color:#fff;
+	width:100px;
+	float:left;
+	height:42px;
+	text-align:center;
+	font-size:14px;
+	background-color:#d4a964;
+}
+.nav_list li i{
+	font-size:17px;
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-webkit-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+}
+.nav_list .line a:after{
+	  content: "";
+    background: #fff;
+    width: 1px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(17deg);
+}
+.nav_list li a:hover{
+	text-decoration:none;
+	color: #f9e410;;
+}
+.page{
+	text-align:center;
+	margin:10px auto;
+	clear:both;
+}
+.page li{list-style:none;display:inline;}
+a.num{
+	display:inline;
+	padding :1px 5px;
+	margin:0 5px;
+	border:1px solid #ccc;
+}
+a.active{
+	display:inline;
+	padding :3px 7px;
+	margin:0 5px;
+	background:#000;
+	color:#fff;
+}
+.page a:hover{
+	display:inline;
+	padding :2px 5px;
+	margin:0 5px;
+	background:#000;
+	color:#fff;
+}
+a.prev:hover,  a.next:hover{
+	background:none;
+	color:#000;
+	padding:0;
+	margin:0;
+}
+a.first,a.end,a.first:hover,a.end:hover, a.prev, a.next{
+	border:1px solid #ccc;
+	margin:0 auto;
+	padding :2px 5px !important;
+}
+
+.collectBank_ra svg.icon{
+	width: 20px;
+	height: 20px;
+}
+
+.help_tab_content{
+	display: none;
+}
+.help_tab_content:first-child{
+	display: block;
+}
+.backLeft a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.backLeftLottery{
+	position: absolute;
+	left: 0;
+	top: 33px;
+	background: #fff;
+	padding: 10px 0;
+	z-index: 9999;
+	box-shadow: 5px 5px 12px rgba(0,0,0,.25);
+	border-radius: 6px;
+	clear: both;
+}
+.backLeftLottery .user_login_info2_i{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid white;
+	left: 89px;
+	top: 6px;
+}
+.backLeftLottery .aLotteryList{
+	height: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #e3e3e3;
+	padding: 10px 0;
+}
+.backLeftLottery .aLotteryListTitle{
+	color: #8c8c8c;
+	text-align: center;
+	font-size: 15px;
+	padding: 7px 0 10px;
+	float: left;
+	width: 90px;
+	font-weight: normal;
+}
+.backLeftLottery .aLotteryList dd{
+	overflow: hidden;
+	height: 100%;
+	float: left;
+	width: 290px;
+}
+.backLeftLottery .aLotteryList dd a{
+	text-decoration: none;
+	margin-bottom: 5px;
+	margin-top: 2px;
+	border-radius: 3px;
+	width: 80px;
+	height: 26px;
+	display: inline-block;
+	text-align: center;
+	line-height: 26px;
+	border: 1px solid #d1dbd7;
+	font-size: 13px;
+	color: #333;
+	margin-left: 10px;
+}
+.backLeftLottery .aLotteryList dd a:hover{
+	color: #fff;
+	background: #000;
+}
+/* .backLeftLottery .aLotteryListK3{
+	width: 224px;
+} */
+.backLeftLottery .aLotteryListK3 a{
+	float: left;
+}
+.backLeftLottery .aLotteryListSSC{
+	/*width: 92px;*/
+}
+.backLeftLottery .aLotteryListDPC{
+	border-right: none !important;
+}
+
+.moneyInfo{
+	color: #ff9831;
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+}
+.backLeftLottery2{
+	position: absolute;
+	left: 0;
+	top: 150px;
+	background: #fff;
+	padding: 10px 0;
+	z-index: 9999;
+	box-shadow: 5px 5px 12px rgba(0,0,0,.25);
+	border-radius: 6px;
+	clear: both;
+}
+.backLeftLottery2 .user_login_info2_i{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid white;
+	left: 89px;
+	top: 6px;
+}
+.backLeftLottery2 .aLotteryList{
+	height: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #e3e3e3;
+	padding: 10px 0;
+}
+.backLeftLottery2 .aLotteryListTitle{
+	color: #8c8c8c;
+	text-align: center;
+	font-size: 15px;
+	padding: 7px 0 10px;
+	float: left;
+	width: 90px;
+	font-weight: normal;
+}
+.backLeftLottery2 .aLotteryList dd{
+	overflow: hidden;
+	height: 100%;
+	float: left;
+	width: 290px;
+}
+.backLeftLottery2 .aLotteryList dd a{
+	text-decoration: none;
+	margin-bottom: 5px;
+	margin-top: 2px;
+	border-radius: 3px;
+	width: 80px;
+	height: 26px;
+	display: inline-block;
+	text-align: center;
+	line-height: 26px;
+	border: 1px solid #d1dbd7;
+	font-size: 13px;
+	color: #333;
+	margin-left: 10px;
+}
+.backLeftLottery2 .aLotteryList dd a:hover{
+	color: #fff;
+	background: #000;
+}
+/* .backLeftLottery2 .aLotteryListK3{
+	width: 224px;
+} */
+.backLeftLottery2 .aLotteryListK3 a{
+	float: left;
+}
+.backLeftLottery2 .aLotteryListSSC{
+	/*width: 92px;*/
+}
+.backLeftLottery2 .aLotteryListDPC{
+	border-right: none !important;
+}
+.keufBox{
+	  background: url(../images/service.gif);
+    color: #e4393c!important;
+    display: inline-block;
+    background-position: 0 0;
+    height: 25px;
+    width: 87px;
+    position: relative;
+    margin-left: 8px;
+		margin-top: 3px;
+}
+.keufBox:hover{
+	  background-position: -87px 0;
+}
+
+
+.moneyInfoHover{
+	position:absolute;
+	border-radius: 3px;
+	overflow: hidden;
+	left: 54px;
+	top: 0;
+	display: none;
+}
+.moneyInfoHover .moneyInfoTable{
+	background: #455467;
+}
+.moneyInfoHover tr{
+
+}
+.moneyInfoHover tr th{
+	white-space: nowrap;
+	padding: 4px 10px;
+	text-align: center;
+	box-shadow: 0 1px 0 #505e70, 1px 0 0 #505e70;
+	color: #fff;
+}

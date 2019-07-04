@@ -1,0 +1,578 @@
+@charset 'utf-8';
+
+.ssc_lottery li:last-child{
+  border-right: 1px solid  #ddd !important;
+}
+.ssc_logo .ssc_logo_icon{
+  font-size: 60px;
+  position: relative;
+  margin-top: 23px;
+  display: block;
+}
+#ssc_winning_sum{
+  overflow: hidden;
+  display: table;
+  margin: 0 auto;
+}
+#ssc_winning_sum li{
+  display: inline-block;
+  margin: 0 5px;
+  width: 42px;
+  height: 48px;
+  font-size: 22px;
+  line-height: 42px;
+  color: #a12836;
+  text-align: center;
+}
+.lhc_sxTextUl{
+  overflow: hidden;
+  display: flex;
+  margin-left: 14px;
+}
+.lhc_sxTextUl .lhcsxText{
+  display: inline-block;
+  margin: 0 2px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+}
+.ssc_logo .ssc_logo_icon:after{
+  content: '';
+  height: 1px;
+  width: 36px;
+  z-index: 1;
+  box-shadow: 0 0 10px 2px #b7a4a4;
+  background: #dac9c9;
+  position: absolute;
+  bottom: -28px;
+  left:50%;
+  margin-left: -18px;
+}
+.ssc_winning_sum_gif{
+  background: url(../images/ballOpening.gif);
+  background-repeat: no-repeat;
+}
+.kl8_winning_sum_gif{
+  background: url(../images/ballOpening.gif);
+  background-repeat: no-repeat;
+  background-size: 25px 31px;
+}
+.lhc_winning_sum_gif{
+  background: linear-gradient(0deg,#f87b7e 0,#dc3b40 75%) ;
+  background: -webkit-linear-gradient(top,#f87b7e,#dc3b40 75%);
+}
+.lhc_red_bg{
+    background: linear-gradient(0deg,#f87b7e 0,#dc3b40 75%) !important;
+    background: -webkit-linear-gradient(top,#f87b7e,#dc3b40 75%) !important;
+    border: 1px solid #e94548 !important;
+    color: #fff !important;
+    box-shadow: inherit !important;
+    border-radius: 50%;
+    font-size: 14px;
+}
+.lhc_blue_bg{
+    background: linear-gradient(0deg,#6ebefa 0,#218ddd 75%) !important;
+    background: -webkit-linear-gradient(top,#6ebefa,#218ddd 75%) !important;
+    border: 1px solid #2994e3 !important;
+    color: #fff !important;
+    box-shadow: inherit !important;
+    border-radius: 50%;
+    font-size: 14px;
+}
+.lhc_green_bg{
+  background: linear-gradient(0deg,#69d893 0,#38b366 75%) !important;
+  background: -webkit-linear-gradient(top,#69d893,#38b366 75%) !important;
+    border: 1px solid #3cb569 !important;
+  color: #fff !important;
+  box-shadow: inherit !important;
+  border-radius: 50%;
+  font-size: 14px;
+}
+.selectNmuverBox  a.lhc_red_color{
+  color: #dc3b40;
+}
+.selectNmuverBox  a.lhc_blue_color{
+  color: #218ddd;
+}
+.selectNmuverBox  a.lhc_green_color{
+  color: #38b366;
+}
+#ssc_winning_sum .lhc_winning_sum_gif{
+  color: #fff;
+  box-shadow: 0 1px 1px #bbb59c;
+  border-radius: 50%;
+  font-size: 14px;
+  position: relative;
+}
+.eachPrice{
+    width: 70px;
+    height: 23px;
+	line-height: 23px;
+    padding: 4px 5px;
+    border: 1px solid #ddd;
+    margin: 0 3px;
+}
+.bjpks_winning_sum_gif{
+  background: url(../images/ballOpening.gif);
+  background-repeat: no-repeat;
+  background-size: 35px 40px;
+}
+.ssc_winning_sum_bg{
+  background: url(../images/ballOpenBg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#bet_filter{
+  padding: 15px;
+  border-bottom: 1px solid #e7e7e8;
+}
+#bet_filter .bet_filter_item{
+  position: relative;
+  padding-top: 10px;
+}
+#bet_filter .bet_filter_item:first-child{
+  padding-top:0;
+}
+#bet_filter .bet_filter_item .title{
+  width: 64px;
+  display: inline-block;
+  margin-left: 22px;
+}
+#bet_filter .bet_filter_item .title:after{
+  content: '';
+  position: absolute;
+  left: 5px;
+  bottom: -11px;;
+  width: 1px;
+  height: 54px;
+  background: #e7e7e8;
+  display: block;
+}
+#bet_filter .bet_filter_item .title:before{
+  content: '';
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 1px solid #e7e7e8;
+  background: #fff;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  z-index: 2;
+}
+#bet_filter .bet_option{
+  display:inline-block;
+}
+#bet_filter .bet_option .bet_options{
+  padding: 4px 6px;
+  border-radius: 3px;
+  color: #555;
+  margin-right: 15px;
+  cursor: pointer;
+}
+#bet_filter .bet_option .bet_options:hover{
+  background: #ff9726;
+  color: #fff;
+}
+#bet_filter .curr{
+  background: #ff9726;
+  color: #fff !important;
+}
+.selectNmuverBox{
+  overflow: hidden;
+}
+.selectNmuverBox .numberTitle{
+    width: 63px;
+    height: 26px;
+    background: #455467;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    border-radius: 0 3px 3px 0;
+    margin: 11px 0;
+    margin-right: 25px;
+    position: relative;
+    display:inline-block;
+    float: left;
+}
+.selectNmuverBox .numberTitleLast{
+    position: absolute;
+    display: block;
+    right: -5px;
+    top: 8px;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #455467;
+    border-bottom: 5px solid transparent;
+}
+.g_Number_Section .selectNumbers{overflow: hidden;margin: 0 auto;}
+.selectNumbers .lhclmPeil{
+  display: block;
+  text-align: center;
+}
+.selectNumbers .lhclmselectNumber{
+    width: 83px;
+    box-shadow: 0 1px 5px #d4d4d4;
+    display: inline-block;
+    background: linear-gradient(180deg,#fff 0,#f1efef 90%,#f7f7f7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f7f7f7",GradientType=0);
+    border-radius: 5px;
+    border: 1px solid #c0c5d2;
+    line-height: 50px;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    min-width: 52px;
+    text-decoration: none;
+}
+.selectNumbers .lhctmbbselectNumber{
+    width: 112px;
+    box-shadow: 0 1px 5px #d4d4d4;
+    display: inline-block;
+    background: linear-gradient(180deg,#fff 0,#f1efef 90%,#f7f7f7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f7f7f7",GradientType=0);
+    border-radius: 5px;
+    border: 1px solid #c0c5d2;
+    line-height: 50px;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    min-width: 52px;
+    text-decoration: none;
+}
+.selectNumbers .lhctmbbselectNumber .lmbbNumber{
+  font-size: 12px;
+  line-height: 16px;
+  transform: translateY(-6px);
+  margin: 0 4px;
+  color: #666;
+}
+.selectNumbers .curr div.lmbbNumber{
+  color: #fff;
+}
+.lhclm a.curr{
+    background: linear-gradient(180deg,#d64b15 30%,#ea6a31);
+    background: -moz-linear-gradient(to bottom,#d64b15 30%,#ea6a31 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d64b15",endColorstr="#ea6a31",GradientType=0);
+    border: 1px solid #d24c10;
+    color: #fff;
+    text-decoration: blink;
+    box-shadow: inherit;
+}
+.selectNmuverBox .selectNumbers{
+    float: left;
+    min-width: 500px;
+    max-width: 509px;
+    text-align: center;
+    margin: 5px 0;
+    display: inline-block;
+}
+.selectNmuverBox .selectNumbers .curr{
+    background: linear-gradient(180deg,#d64b15 30%,#ea6a31);
+    background: -moz-linear-gradient(to bottom,#d64b15 30%,#ea6a31 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d64b15",endColorstr="#ea6a31",GradientType=0);
+    border: 1px solid #d24c10;
+    color: #fff;
+    text-decoration: blink;
+    box-shadow: inherit;
+}
+.selectNmuverBox .selectNumber{
+    width: 38px;
+    height: 38px;
+    float: left;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 6px;
+    background: #cecece;
+    border: 1px solid #c0c5d2;
+    line-height: 38px;
+    font-size: 18px;
+    color: #000;
+    box-shadow: 0 1px 3px #d4d4d4,inset 0 -1px 5px #fff;
+    text-align: center;
+    background: linear-gradient(180deg,#fff 0,#f1efef);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f1efef",GradientType=0);
+    background: #f7f7f7\0;
+    filter: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.selectNmuverBox .selectNumberFilters{
+    width: 94px;
+    float: left;
+    padding-left: 6px;
+}
+.selectNmuverBox .selectNumberFilter:hover{
+    background: linear-gradient(180deg,#d64b15 30%,#ea6a31);
+    background: -moz-linear-gradient(to bottom,#d64b15 30%,#ea6a31 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d64b15",endColorstr="#ea6a31",GradientType=0);
+    border: 1px solid #d24c10;
+    color: #fff;
+    text-decoration: blink;
+    box-shadow: inherit;
+}
+.selectNmuverBox .selectNumberFilter{
+    display: block;
+    float: left;
+    width: 21px;
+    height: 21px;
+    background: #fff;
+    border: 1px solid #c1c6d2;
+    margin: 2px 3px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 18px;
+    box-shadow: inset 0 -1px 5px #fff;
+    background: linear-gradient(180deg,#fff 0,#f1efef);
+    text-decoration: none;
+}
+.selectMultiple{
+    text-align: center;
+    font-size: 16px;
+}
+.selectMultiple .zhushu{
+    color: #f37036;
+}
+.selectMultiple .selectMultipleNumber{
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0 5px;
+}
+.selectMultiple .reduce{
+    background: #f4f4f4;
+    height: 30px;
+    line-height: 28px;
+    width: 21px;
+    text-align: center;
+    float: left;
+    border: 1px solid #e3e4e6;
+    color: #686869;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+.selectMultiple .noReduce{
+    color: #c3c8d3 !important;
+    cursor: default !important;
+}
+.selectMultiple .selectMultipInput{
+    border: 1px solid #cecece !important;
+    font-size: 16px;
+    width: 60px;
+    margin: 0!important;
+    float: left;
+    color: #686869;
+    height: 30px;
+    padding: 4px 5px;
+    text-align: center;
+    border-radius: 0;
+    vertical-align: baseline;
+}
+.selectMultiple .add{
+    background: #f4f4f4;
+    height: 30px;
+    line-height: 28px;
+    width: 21px;
+    text-align: center;
+    float: left;
+    border: 1px solid #e3e4e6;
+    color: #686869;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+.selectMultiple .selectMultipleCon{
+    border: 1px solid #cecece;
+    height: 30px;
+    padding: 0 5px;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 0;
+    vertical-align: baseline;
+    font-size: 16px;
+    color: #000;
+}
+.selectMultiple .selectMultipleOldMoney{
+   color: #f37036;
+}
+.yBettingLists{
+  margin: 10px 0;
+  padding:5px;
+}
+.yBettingLists .yBettingList{
+
+}
+.yBettingLists .numberBox{
+
+}
+.yBettingLists .number{
+  width: 190px !important;
+}
+.yBettingLists .numberInfo{
+  color: red;
+  text-decoration: underline;
+}
+.yBettingLists .yBettingDiv{
+  display: inline-block;
+  float: left;
+}
+.yBettingLists .yBettingZhushu{
+  width: 94px;
+  text-align: center;
+}
+.yBettingLists .yBettingTimes{
+    width: 68px;
+    text-align: center;
+}
+.yBettingLists .rmb{
+    width: 40px;
+    text-align: center;
+}
+.yBettingLists .maxMoneyNumber{
+    color: red;
+    text-align: center;
+}
+.g_text{
+  overflow: hidden;
+}
+.g_text #text{
+  line-height: 1.8em;
+  height: 180px;
+  background: none;
+  border: 0;
+  resize: none;
+  width: 686px;
+  padding: 10px;
+  color: #666;
+  background: #fff;
+  border: 1px solid #cacaca;
+}
+.g_text .remove_btn,.g_text .test_istrue,.g_text .empty_text{
+  float: left;
+  display: inline-block;
+  line-height: 28px;
+  color: #666;
+  height: 30px;
+  padding: 0 15px;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-right: 10px;
+  min-width: 55px;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px 0;
+  border: 1px solid #cacaca;
+  background: #fff;
+  margin: 0 5px;
+}
+.g_text .remove_btn{
+    margin-left: 12px;
+}
+.play_select_prompt{
+  position: relative;
+}
+.play_select_prompt .see{
+  margin-right: 10px;
+  position: relative;
+  font-size: 13px;
+  color: #ff9831;
+  text-decoration: underline;
+}
+.play_select_prompt .see_model{
+  display: none;
+  position: absolute !important;
+  right: 0;
+  top: 43px;
+  width: 60px;
+  background: #2e4158;
+  margin-left: 8px;
+  color: #fff;
+  border-radius: 4px;
+  position: relative;
+  z-index: 999;
+}
+.play_select_prompt .seee_model_p{
+  margin: 0;
+  line-height: 23px;
+}
+.yBettingType{
+  display: inline-block;
+}
+.opencode_info{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  cursor: pointer;
+}
+
+.kl8_qw .kl8_qw_number{
+    height: 42px;
+    width: 92px;
+    line-height: 42px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0 6px;
+    background: #cecece;
+    border: 1px solid #c0c5d2;
+    line-height: 38px;
+    font-size: 18px;
+    color: #000;
+    box-shadow: 0 1px 3px #d4d4d4, inset 0 -1px 5px #fff;
+    text-align: center;
+    background: linear-gradient(180deg,#fff 0,#f1efef);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#f1efef",GradientType=0);
+    filter: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.kl8_qw  .curr{
+    background: linear-gradient(180deg,#d64b15 30%,#ea6a31);
+    background: -moz-linear-gradient(to bottom,#d64b15 30%,#ea6a31 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d64b15",endColorstr="#ea6a31",GradientType=0);
+    border: 1px solid #d24c10;
+    color: #fff;
+    text-decoration: blink;
+    box-shadow: inherit;
+}
+#ssc_winning_sum.open_number{width: 100%; padding: 0 12px;}
+.number-box{
+  vertical-align: top;
+  display: table-cell;
+  margin: 0.3em;
+  text-align: center;
+}
+.open_number .number-box em{
+  height: 30px;display: block;
+  width: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  box-shadow:0 1px 1px #bbb59c; border-radius: 50%; color: #fff; margin-bottom: .4em;
+}
+.open_number .number-box em.red{background: linear-gradient(0deg,#f87b7e 0,#dc3b40 75%); background: -webkit-linear-gradient(top,#f87b7e,#dc3b40 75%);}
+.open_number .number-box em.blue{background: linear-gradient(0deg,#6ebefa 0,#218ddd 75%); background: -webkit-linear-gradient(top,#6ebefa,#218ddd 75%);}
+.open_number .number-box em.green{background: linear-gradient(0deg,#69d893 0,#38b366 75%); background: -webkit-linear-gradient(top,#69d893,#38b366 75%);}
+.open_number .number-box span{
+  font-size: 14px;
+  color: #333;display: block;width: 100%;
+}
+.number-box.plus{
+  width: 1em;
+}
+.number-box.plus em{
+  color: #333;
+  box-shadow: none;
+  font-size: 1.1em;
+  line-height: 30px;
+  width: 100% !important;
+}
+

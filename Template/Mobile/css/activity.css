@@ -1,0 +1,237 @@
+@charset 'utf-8';
+
+.activity_h1{
+	font-size:0.2rem !important;
+}
+.activity_list{
+	background: #fff;
+	margin-top:0.15rem;
+	padding:0.05rem 0.2rem 0;
+}
+.activity_list .icon{
+	font-size:0.4rem;
+	margin-top:0.06rem;
+}
+.activity_list .activity_list1{
+	width:0.45rem;
+	height:0.45rem;
+	background: #fe8580;
+	border-radius: 50%;
+	text-align:center;
+	line-height:0.45rem;
+	margin-top:0.05rem;
+}
+.activity_list .activity_list1 em{
+	width:0.27rem;
+	height:0.27rem;
+	font-size:0.18rem;
+	color:#fff;
+	background: #fe8580;
+	border-radius:50%;
+	display:inline-block;
+	text-align:center;
+	line-height:0.25rem;
+	border:0.01rem solid #fff;
+}
+.activity_list .activity_list2{
+	/*width:2.6rem;*/
+	margin-left:0.15rem;
+}
+.activity_list .activity_list2 p{
+	font-size:0.18rem;
+	color:#000;
+}
+.activity_list .activity_list2 em{
+	width:2rem;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	display:inline-block;
+	font-size:0.16rem;
+	color:#686868;
+}
+.activity_list .activity_list3 .iconfont{
+	line-height:0.55rem;
+	color:#989898;
+}
+
+.promotion_img img{
+	width:100%;
+}
+.promotion_grade{
+	margin:0.15rem;
+}
+.promotion_grade p{
+	padding-bottom:0.05rem;
+	font-size:0.18rem;
+}
+.promotion_grade p span{
+	color:#000;
+}
+.promotion_grade p em{
+	color:#ed0404;
+}
+.promotion_btn:active{
+	border-bottom:red;
+	top:0.05rem;
+}
+.promotion_btn{
+	width:80%;
+	height:0.50rem;
+	border-bottom:0.05rem solid #bababa;
+	border-radius:0.04rem;
+	background: #e8e8e8;
+	margin:0 auto;
+	text-align:center;
+	position:relative;
+}
+.promotion_btn strong{
+	font-size:0.27rem;
+	color:#666;
+	width:100%;
+	height:100%;
+	display: inline-block;
+}
+.promotion_main{
+	padding:0 0.15rem;
+}
+.promotion_h2{
+	font-size:0.2rem;
+	border-left:0.06rem solid #109a5a;
+	padding-left:0.1rem;
+	color:#109a5a;
+	margin:0.25rem 0;
+	font-weight:400;
+}
+.promotion_rule thead th{
+	text-align:center;
+	background: #f2f7ff;
+}
+.promotion_rule tbody td{
+	text-align:center;
+}
+.promotion_explain p{
+	font-size:0.18rem;
+	color:#000;
+}
+
+
+.winners_info {
+	background: #fff;
+}
+.winners_info li{
+	border-bottom:1px solid #ccc;
+	padding:0.1rem 0.2rem;
+}
+.winners_info li .am-circle{
+	width:0.47rem;
+	height:0.47rem;
+}
+.winners_info li .winners_info_main{
+	margin-left:0.15rem;
+}
+.winners_info li .winners_info_main p{
+	font-size:0.16rem;
+	color:#000;
+	height:0.2rem;
+	line-height:0.26rem;
+}
+.winners_info li .winners_info_main p em{
+	color:#0079ff;
+}
+.winners_info li .winners_info_main p strong{
+	color:#e80d2d;
+	font-weight:normal;
+}
+.winners_info li  .icon-arrowright{
+	color:#ccc;
+	line-height:0.42rem;
+}
+.winners_info .winners_num{
+	color:#333;
+	width:0.28rem;
+	height:0.28rem;
+	text-align:center;
+	line-height:0.28rem;
+	margin-top:0.1rem;
+}
+.winners_info .winners_one,.winners_info .winners_two,.winners_info .winners_three{
+	border-radius:50%;
+	color:#fff;
+}
+.winners_info .winners_one{
+	background: radial-gradient(circle at 25px 25px,#c12f33,#ca9293);
+}
+.winners_info .winners_two{
+	background: radial-gradient(circle at 25px 25px,#2b82cc,#53b0fe);
+}
+.winners_info .winners_three{
+	background: radial-gradient(circle at 25px 25px,#c57532,#f8a968);
+}
+
+.userinfo_img img{
+	width:100%;
+	height:1.6rem;
+}	
+.userinfo_main{
+	border-bottom:1px solid #d0d0d0;
+	position:relative;
+	text-align:center;
+	padding-bottom: 0.2rem;
+}
+.userinfo_main .img{
+	margin-top:-0.56rem;
+}
+.userinfo_main .img img{
+	width:1.12rem;
+	height:1.12rem;
+	border:2px solid #fff;
+}
+.userinfo_main .user_name{
+	font-size:0.2rem;
+	color:#333;
+}
+.userinfo_main .user_zh{
+	font-size:0.15rem;
+	color:#666;
+	margin-bottom:0.05rem;
+}
+.userinfo_main .user_sex{
+	font-size:0.17rem;
+	background: #59adf2;
+	color:#fff;
+	padding:0 0.05rem;
+	border-radius:0.03rem;
+	display:inline-block;
+	margin-bottom:0.05rem;
+}
+.userinfo_main .user_other{
+	font-size:0.16rem;
+	color:#333;
+}
+.userinfo_main .user_other em:first-child{
+	margin:0 0.3rem;
+}	
+.userinfo_main .user_grade{
+	position:absolute;
+	right:0;
+	top:0.8rem;
+	color:#fff;
+	background: #da3a3f;
+	padding:0.02rem 0.15rem;
+	font-size:0.18rem;
+	border-radius:0.17rem  0 0 0.17rem ;
+}
+.user_like{
+	text-align:center;
+}
+.user_like h3{
+	font-size:0.2rem;
+	font-weight:normal;
+	margin-top:0.2rem;
+	margin-bottom:0.1rem;
+}
+.user_like .iconfont{
+	color:#999;
+	font-size: 0.56rem;
+}

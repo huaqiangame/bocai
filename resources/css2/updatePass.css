@@ -1,0 +1,136 @@
+@charset 'utf-8';
+
+body{
+	background: #eee;
+}
+.update_pass{
+	width:840px;
+	margin: 15px auto;
+	min-height:675px;
+	border:1px solid #ddd;
+	background: #fff;
+}
+.queue{
+	display:table;
+	width:100%;
+	padding-bottom:35px;
+	padding:35px 45px;
+	table-layout: fixed;
+}
+.queue li{
+	position: relative;
+	border-bottom:1px solid #ccc;
+	box-shadow:0 4px 0 #e3e3e3;
+	display:table-cell;
+}
+.queue li:last-child{
+	width:10px;
+}
+.queue li span{
+	font-size:12px;
+	line-height:55px;
+	margin-left:-15px;
+}
+.queue li i{
+	border-radius:50%;
+	background: #fff;
+	position:absolute;
+	width:16px;
+	height:16px;
+	display:block;
+	border:5px solid #e3e3e3;
+	bottom:-10px;
+	left:-5px;
+}
+.queue .now i{
+	border:3px solid #4aa9db;
+}
+.queue .right{
+	border-color:#4aa9db;
+	box-shadow:0 4px 0 #4aa9db;
+}
+.queue .right i{
+	color:#4aa9db;
+	border-radius:50%;
+	bottom:-5px;
+	left:-15px;
+	border:0px solid #4aa9db;
+	font-size:20px;
+}
+.update_form{
+	padding:30px 150px;
+}
+.update_form p{
+	position:relative;
+}
+.update_form p span,.drop_menu span{
+	font-size:12px;
+	color:#666;
+	padding-right:20px;
+	width:100px;
+	display:inline-block;
+	text-align: right;
+}
+.update_form p input,.drop_menu input{
+	width:233px;
+	margin:10px 0;
+	border:1px solid #cecece;
+	height:30px;
+	font-size:12px;
+}
+.update_form .common_btn{
+	margin-left:104px;
+}
+.update_form .get_code{
+	height:28px;
+	line-height:28px;
+	width:85px;
+	text-align:center;
+	background: #eee;
+	position:absolute;
+	right:173px;
+	top:11px;
+	display:inline-block;
+}
+.update_form .form-group{
+	width:234px;
+	height:30px;
+	display:inline-block;
+}
+.update_form .form-group .form-control{
+	font-size:12px;
+	height:30px;
+	border-radius: 0;
+}	
+.update_form .answer{
+	margin-bottom:12px;
+}
+.drop_menu #s_city,.drop_menu #s_province{
+	height:25px;
+	border:0px;
+	text-align:center;
+	padding-left:26px;
+	outline:none;
+}
+.s_group{
+	border:1px solid #cecece;
+}
+.bankPass_list{
+	margin: 50px 25px;
+}
+.bankPass_list li{
+	margin-bottom: 10px;
+}
+.save_pass{
+    display:inline-block;
+    line-height:30px;
+    color:red;
+    padding: 0 15px !important;
+    border-radius:3px;
+    font-size:14px;
+    min-width:55px;
+    background: #000;
+}
+.save_pass:hover{
+    color: #fff;
+}

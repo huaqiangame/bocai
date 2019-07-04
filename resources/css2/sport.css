@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Î¢ÈíÑÅºÚ';
+}
+
+ul, li, dl, dt, dd, form {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.bg_fff {
+	font-size: 12px;
+    background-repeat: no-repeat;
+}
+.swiper-container {
+	width: 100%;
+}
+
+.swiper-slide {
+	float: left;
+	display:block;
+	box-sizing: content-box;
+	margin:0 auto;
+}
+
+.swiper-wrapper {
+	height: auto !important;
+}
+
+.swiper-slide {
+	height: auto !important;
+	margin-left:-30px;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide img {
+	width: 100%;
+	display: block;
+}
+
+.swiper-pagination-bullet {
+	width: 12px !important;
+	height: 12px !important;
+}
+
+.swiper-pagination-bullet-active {
+	background: #fff !important;
+}
+
+.swiper-pagination-bullet {
+	opacity: 0.7 !important;
+}
+.news-wrap-c .news-wrap-box .news-wrap-ctr .news-wrap-ky{
+	width:1000px;
+	height:40px;
+	background: url("../images/news_bg.png") left top no-repeat;
+	position:absolute;top:255px;
+}
+
+.page-bodybox{
+	width: 100%;
+	height:auto;
+	float: left;
+	position:relative;
+	margin: 0 auto;
+
+}
+
+.page-bodybox .page-bodycenter{
+	width: 1000px;
+	margin: 0 auto;
+	background:none;
+
+}
+.page-bodybox .page-bodycenter .swiper{
+ right:-225px;
+}
+
+.page-body {
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	top:100px;
+	margin-bottom: 20px;
+	background: url(../images/page_body_bg.png) center top no-repeat;
+    background-size: 100% 100%;
+	 
+}
+
+.page-body ul {
+	width: 960px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	position: relative;
+	height: 45px;
+	background: #2a2a2a;
+}
+
+.page-body ul li {
+	position: relative;
+	float: left;
+	width: 12.5%;
+}
+
+.page-body ul li:before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	content: "";
+	background-color: #202020;
+	border-left: solid 1px #3D3D3D;
+}
+
+.page-body ul li:after {
+	width: 12.5%;
+	float: left;
+	background-color: #202020;
+	border-left: solid 1px #3D3D3D;
+}
+
+.page-body ul li a {
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: #ACADB2;
+	text-align: center;
+	line-height: 43px;
+	font-size: 16px;
+	font-family: "Î¢ÈíÑÅºÚ";
+	border-bottom: 2px solid #202020;
+}
+
+.page-body ul li a:hover {
+	border-bottom: 2px solid #3D3D3D;
+}
+
+
+.news-wrap{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}

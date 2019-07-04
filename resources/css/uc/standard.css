@@ -1,0 +1,52 @@
+﻿/*標準化*/
+body, html, div, p, ul, li, ol, dl, dt, dd, img, a, h1, h2, h3, h4, h5, h6, em, span, strong, input, table, caption, tr, td, th {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*margin padding 標準化*/
+
+/*標題 font-size 的標化*/
+h1,h2,h3,h4,h5,h6
+{font-size:100%}
+/*移除清單list-style樣式*/
+ol,ul
+{list-style:none;}
+/*font-style,font-weight*/
+address,caption,cite,code,dfn,em,strong,th,var
+{font-style:normal; font-weight:normal;}
+/*del table border*/
+table
+{border-collapse:collapse;border-spacing:0;}
+/*del fieldset and img border*/
+fieldset,img
+{border:0;}
+/*caption and th text-align:left*/
+caption,th
+{text-align:left;}
+/*del q的引號*/
+q:before,q:after
+{content:'';}
+
+/*clear float*/
+.clearfix:before, .clearfix:after { content:""; display:table;}
+.clearfix:after { clear:both;}
+.clearfix { *zoom:1;}
+a {
+    outline: none;  /* for Firefox Google Chrome  */
+    behavior:expression(this.onFocus=this.blur());  /* for IE */
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: #333;
+}
+a:visited {
+    text-decoration: none;
+}

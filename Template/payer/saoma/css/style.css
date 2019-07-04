@@ -1,0 +1,207 @@
+* { 
+	margin:0px; 
+	padding:0px;
+}
+html, body{	
+	height:100%;
+	overflow: hidden;
+
+}
+html>body{		/*-- for !IE6.0 --*/
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	
+}
+body {
+	border:8px solid #ffffff;
+	background-color: #ffffff;min-width:230px;
+}
+a{text-decoration:none;}
+#mainDiv {
+	width: 100%;
+	height: 100%;
+    padding:60px 0px 25px 0px;;
+	
+	
+}
+#centerDiv{
+	width: 100%;
+	height: 100%;
+	background-color:#00CCFF;
+	padding-left:115px;
+}
+#mainDiv>#centerDiv{		/*-- for !IE6.0 --*/	
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 56px;
+	left: 0px;
+	right: 0px;
+	bottom: 20px;
+	
+}
+#left{
+width:115px;
+height:100%;
+background:url(slide.jpg) repeat-y;
+position:absolute;
+left:0px;
+}
+#lhead{
+background:url(left-head.jpg) left top no-repeat;
+height:25px;
+	font-size:14px;
+	color:#FF9933;
+    text-align:center;
+	line-height:25px;
+}
+#right{
+width:100%;
+height:100%;
+background:#ffffff;
+position:absolute;
+overflow-y:auto;
+border:1px #003366 solid;
+padding:20px 0 0 10px;
+font-size:12px;
+font-family:"ËÎÌו";
+}
+#centerDiv>#right{
+width:auto;
+height:auto;
+position:absolute;
+top:0px;
+right:0px;
+left:115px;
+bottom:0px;
+}
+#topDiv{
+	width:100%;
+	height:56px;
+
+	background:url(head-bg.jpg) repeat-x;
+	position:absolute;
+	top:0px;
+	overflow:hidden;
+}
+#topDiv ul{
+list-style:none;
+font-size:12px;
+
+width:100%;
+margin:0;
+padding:0;
+}
+#topDiv ul li{
+float:left;
+width:15%
+}
+#topDiv ul li a {
+display:block;
+width:100%;
+height:25px;
+line-height:25px;
+background:url(menu-bg.jpg) repeat-x;
+color:#FFFFFF;
+direction:none;
+text-align:center;
+border-bottom:1px #000066 solid;
+border:1px #06597D solid;
+}
+#tmenu{
+width:100%;
+position:absolute;
+left:12%;
+bottom:0;
+padding-left:15%;
+margin-left:-15%;
+}
+#current{
+background:#ccc;
+height:25px;
+line-height:25px;
+margin:-20px 0 0 -10;
+overflow:hidden;
+}
+#bottomDiv{
+	width:100%;
+	height:20px;
+	background:url(bottom.jpg) repeat-x;
+	position:absolute;
+	bottom:0px;
+	bottom:-1px;		 /*-- for IE6.0 --*/
+}
+#left ul{
+list-style:none;
+font-size:12px;
+margin:5px 0 0 8px;
+}
+#left ul li a{
+display:block;
+width:102px;
+height:25px;
+line-height:25px;
+background:url(menu-bg.jpg) repeat-x;
+color:#FFFFFF;
+direction:none;
+text-align:center;
+border-bottom:1px #000066 solid;
+border:1px #06597D solid;
+}
+#left ul li a:hover{
+
+background:url(menu-bg.jpg) 0px 25px;
+color:#99FFCC;
+direction:none;
+text-align:center;
+border-bottom:1px #000066 solid;
+}
+#form{
+width:500px;
+height:99%;
+//margin:0 auto;
+
+
+}
+fieldset{
+width:800;
+//margin:1 auto;
+line-height:35px;
+padding-left:20PX;
+}
+
+table{
+font-size: 12px;
+width:800px;
+}
+table td {
+padding: 1px;
+}
+table td p{
+padding: 1px;
+}
+
+.hr {
+background: url(http://www.336hyw.com/css/design/uline.gif) repeat-x center center;
+}
+
+
+input
+{
+    border-right: #7b9ebd 1px solid;
+    padding-right: 2px;
+    border-top: #7b9ebd 1px solid;
+    padding-left: 2px;
+    font-size: 12px;
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,  StartColorStr=#ffffff,  EndColorStr=#cecfde);
+    border-left: #7b9ebd 1px solid;
+    cursor: hand;
+    color: black;
+    padding-top: 2px;
+    border-bottom: #7b9ebd 1px solid;
+}

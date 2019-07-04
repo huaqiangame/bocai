@@ -1,0 +1,654 @@
+@charset 'utf-8';
+
+.am-tabs-d2 .am-tabs-nav>.am-active:after{
+	border-bottom-color: #da3a3f;
+}
+.am-tabs-d2 .am-tabs-nav>.am-active a{
+	color: #da3a3f;
+}
+.am-tabs-d2 .am-tabs-nav>.am-active{
+	border-bottom: 2px solid #da3a3f;
+	background-color: #eeeeee;
+}
+.userHome_h1{
+	font-size: 0.2rem !important;
+}
+.show_money{
+	display: none;
+}
+.my_header{
+	background: #fff;
+}
+.my_header .my_info{
+	border-bottom:1px solid #ccc;
+	padding:0.17rem 0.2rem;
+}
+.my_header .my_info .icon-shuaxin{
+	font-size:0.22rem;
+	line-height:0.71rem;
+	color:#666;
+	transition:all 0.4s;
+	display:none;
+}
+.my_header .img img{
+	width:0.71rem;
+	height:0.71rem;
+}
+.my_header .my_header_content {
+	margin-left:0.15rem;
+}
+.my_header .my_header_content p{
+	font-size:0.18rem;
+	line-height:0.35rem;
+	color:#000;
+}
+.my_header .my_header_content p em{
+	
+}
+.my_header .my_header_content p strong{
+	font-weight:normal;
+	color:red;
+}
+.my_operation_money li a{
+	display:block;
+}
+.my_operation_money li{
+	padding:0.1rem 0 0.05rem;
+}
+.my_operation_money{
+	text-align:center;
+}
+.my_operation_money em{
+	display:block;
+	font-size:0.16rem;
+	color:#333;
+}
+.my_operation_money i{
+	font-size:0.26rem;
+	line-height:0.26rem;
+}
+.my_operation_money .icon-chongzhi{
+	color:#ff2323;
+}
+.my_operation_money .icon-tixian{
+	color:#ee983d;
+}
+
+.my_operation_money .icon-jiaoyijilu{
+	color:#4ad2c8;
+}
+
+.my_operation_money .icon-touzhujilu{
+	color:#62a5f6;
+}
+
+.my_set_list{
+	background: #fff;
+	padding-left:0.2rem;
+	margin-top:0.15rem;
+}
+.my_set_list li{
+	border-bottom:1px solid #ccc;
+	padding:0.1rem 0.2rem 0.1rem 0;
+}
+.my_set_list li:last-child{
+	border:none;
+}
+.my_set_list a{
+	display:block;
+}
+.my_set_list .square_bg{
+	width:0.28rem;
+	height:0.28rem;
+	border-radius:0.03rem;
+	color:#fff;
+	text-align:center;
+	line-height:0.3rem;
+	display: inline-block;
+}
+.my_set_list .icon-wode{
+	background: #7885ca;
+}
+.my_set_list .icon-safe{
+	background: #81c784;
+}
+.my_set_list .icon-shuju{
+	background: #63b4f6;
+}
+.my_set_list .icon-tubiao15{
+	background: #ffb74d;
+}
+.my_set_list span{
+	font-size:0.18rem;
+	color:#333;
+	padding-left:0.08rem;
+}
+.my_set_list .icon-arrowright{
+	color:#ccc;
+	float:right;
+}
+
+
+.bank_recharge .bank_form_list{
+	margin-top:0.15rem;
+}
+.bank_recharge .bank_form_list li{
+	background: #fff;
+	padding:0 0.1rem;
+	border-bottom:1px solid #ddd;
+}
+.bank_recharge .bank_form_list li .bank_form_left{
+	font-weight:normal;
+	font-size:0.18rem;
+	line-height:0.45rem;
+}
+.bank_recharge .bank_form_list li .bank_right_select{
+	display:inline-block;
+	width:68%;
+	margin-top:0.06rem;
+}
+.bank_recharge .bank_right_select #doc-select-1,.select_common{
+	font-size:0.18rem !important;
+	border:none !important;
+}
+.bank_recharge .bank_form_list li .bank_right_input{
+	width:68%;
+}
+.bank_recharge .bank_right_input .copy_txt{
+	width:80%;
+	display:inline-block;
+	border:none;
+	background-color: #fff !important;
+	font-size:0.18rem;
+	color:#f46e00;
+}
+.bank_recharge .bank_right_input .input_txt{
+	width:80%;
+	display:inline-block;
+	border:none;
+	background-color: #fff !important;
+	font-size:0.18rem;
+	color:#333;
+	outline:none;
+	line-height:0.35rem;
+}
+.bank_recharge .bank_right_input .copu_btn{
+	text-align:center;
+	width:20%;
+	display: inline-block;
+	line-height:0.4rem;
+}
+.bank_recharge .am-btn{
+	width:90%;
+	height:0.44rem;
+	background:#c30d04;
+	margin: 0.4rem auto 0.3rem;
+	font-size:0.2rem;
+	border-color: #c30d04;
+}
+
+.wx_coed{
+	text-align:center;
+}
+.wx_coed .wx_coed_top{
+	font-size:0.18rem;
+	color:#333;
+	margin-top:0.5rem;
+}
+.wx_coed .wx_code_money{
+	font-size:0.18rem;
+	color:rgb(255, 165, 0);
+}
+.wx_coed .code{
+	width:2.8rem;
+	padding:0.3rem;
+	border:1px solid #ddd;
+	margin:0 auto;
+}
+.wx_coed .code img{
+	width:100%;
+	height:100%;
+}
+.wx_coed .wx_coed_bottom{
+	margin-left:0.4rem;
+	margin-top:0.2rem;
+}
+.wx_coed .wx_coed_bottom .iconfont{
+	font-size:0.3rem;
+	color:rgb(255, 165, 0);
+}
+.wx_coed .wx_coed_bottom em{
+	line-height:0.18rem;
+	text-align:left;
+	margin-left:0.05rem;
+	margin-top:0.06rem;
+}
+
+.tankMoney_main .take_balance{
+	border:none !important;
+	background-color:#fff !important;
+	color:#f46e00 !important;
+	font-weight:bold;
+	font-size:0.18rem;
+	margin-top:0.08rem;
+}
+.tankMoney_main .bank_right_input .icon{
+	font-size:0.4rem;
+	margin-bottom: 0.04rem;
+}
+.tankMoney_main .bank_right_input .bank_info{
+	display:inline-block;
+	margin-left:0.1rem;
+	margin-top:0.02rem;
+}
+.tankMoney_main .bank_right_input .bank_info em{
+	display:block;
+	color:#000;
+	font-size:0.18rem;
+	height:0.2rem;
+}
+.tankMoney_main .bank_right_input .iconfont{
+	line-height:0.5rem;
+	float:right;
+	color:#ccc;
+}
+.tankMoney_main .bank_form_list>li{
+	position:relative;
+}
+.tankMoney_main .bank_list_box{
+	position: absolute;
+	right:0.1rem;
+	top:0;
+	z-index:99;
+	padding:0.15rem;
+	background: #fff;
+	box-shadow:0 0 5px #888;
+	margin-top:0;
+	display:none;
+}
+.tankMoney_main .bank_list_box>li:last-child{
+	border-bottom:none;
+	text-align:center;
+	padding-top:0.05rem;
+}
+.billrecord_main .am-tabs-bd{
+	border:none;
+}
+.billrecord_main .am-list-news{
+	margin-top:0;
+}
+.billrecord_main{
+	margin:0;
+}
+.billrecord_main .am-list{
+	margin: 0 0 10px 0;
+}
+.billrecord_main .am-list>li{
+	font-size:0.16rem;
+}
+.billrecord_main .am-list>li:first-child{
+	border-top:none;
+}
+.billrecord_main .am-list>li{
+	line-height:0.28rem;
+}
+.billrecord_main .am-list .billrecord_time{
+	color:#989898;
+}
+.billrecord_main .am-list .what_type{
+	color:#666;
+}
+.billrecord_main .am-list .money{
+	color:red;
+}	
+.billrecord_main .am-tabs-nav a{
+	font-size:0.18rem;
+}
+.billrecord_main .am-tabs-nav li{
+	height:0.48rem;
+}
+
+.personalInfo_top {
+	font-size:0.18rem;
+	color:#333;
+}
+.personalInfo_top .personalInfo_header{
+	width:0.5rem;
+	height:0.5rem;
+}
+.personalInfo_top .special{
+	line-height: 0.43rem;
+}
+.personalInfo_top .personalInfo_input{
+	border:none;
+	text-align:right;
+	outline:none;
+}
+.personalInfo_top .sex{
+	line-height:0.2rem;
+	border:none;
+}
+.personalInfo_top .sex #doc-select-1{
+	border:none;
+/*	direction:rtl;*/
+	-moz-appearance: none;
+    -webkit-appearance:none;
+    appearance:none;  
+    outline:none;
+}
+.personalInfo_top .am-datepicker-date{
+	display:inline-block;
+	width:1rem;
+}
+.personalInfo_top .am-datepicker-date .am-form-field{
+	width:1rem;
+	border:none;
+	background: #fff;
+	text-align:center;
+	height:0.25rem;
+}
+.personalInfo_sbumit{
+	width:90%;
+	margin:0.3rem auto;
+}
+
+.update_header{
+	padding:0.15rem;
+	background: #fff;
+	text-align:center;
+}
+.update_header .update_header_list{
+	margin:0.25rem 0;
+}
+.update_header .update_header_list .am-datepicker-prev-icon,.update_header .update_header_list .am-datepicker-next-icon{
+	vertical-align:top;
+	color:#888;
+	font-size:0.2rem;
+}
+.update_header .update_header_title{
+
+}
+.update_header .update_header_title h3{
+	color:#333;
+	font-size:0.18rem;
+	font-weight:normal;
+}
+.update_header .update_header_title .icon-cross-ivt{
+	color:#888;
+	font-size:0.25rem;
+}
+.update_header_imgs_box{
+	width:70%;
+	overflow:auto;
+	display:inline-block;
+}
+.update_header_imgs_box .update_header_imgs{
+	width:17rem;
+	position:relative;
+}
+.update_header_imgs .update_header_watch{
+	width:0.64rem;
+	height:0.64rem;
+	margin:0 0.02rem;
+	border-radius:0.03rem;
+	float:left;
+}	
+.update_header .preview{
+	font-size:0.18rem;
+	color:#666;
+}
+.update_header .img img{
+	width:1.3rem;
+	height:1.3rem;
+	border-radius:0.03rem;
+	margin:0.05rem 0;
+}
+.update_header .update_header_name{
+	font-size:0.18rem;
+	color:#666;
+}
+.update_header .prev,.update_header .next{
+	display:inline-block;
+	line-height:0.79rem;
+}
+.update_header .update_header_bottom .save,.update_header .update_header_bottom .close{
+	padding-left:0.2rem;
+	padding-right:0.2rem;
+	color:#fff;
+	font-size:0.18rem;
+}
+/*个人信息*/
+.personalInfo2{
+	display:none;
+}
+.personalInfo2_box .personalInfo2_h{
+	padding:0.12rem;
+	background:linear-gradient(180deg,#6a202d,#3b052c);
+}
+.personalInfo2_box .personalInfo2_t{
+	margin:0.15rem 0;
+}
+.personalInfo2_box .personalInfo2_t .user_name_box{
+	padding-top:0.08rem;
+	padding-left:0.13rem;
+}
+.personalInfo2_box .personalInfo2_t .img img{
+	width:0.67rem;
+	height:0.67rem;
+	border:3px solid #7a4456;
+}
+.personalInfo2_box .personalInfo2_t .user_name{
+	font-size:0.18rem;
+	color:#fff;
+}
+.personalInfo2_box .personalInfo2_t .user_vip{
+	font-size:14px;
+	color:#fced08;
+	padding-left:0.26rem;
+	background:url(../images/vip-icon.png) no-repeat;
+	background-size: 22% ;
+	background-position: 0.12rem 0.03rem;
+}
+.personalInfo2_box .personalInfo2_t .user_grade{
+	font-size:14px;
+	color:#fff;
+}
+.personalInfo2_box .personalInfo2_t .user_fraction{
+	font-size:14px;
+	color:#fced08;
+	margin-left:0.07rem;
+}
+.personalInfo2_box .personalInfo2_b>p{
+	font-size:0.14rem;
+	color:#fff;
+}
+.personalInfo2_box .personalInfo2_b .y_progress{
+	margin-bottom:0.17rem;
+}
+.personalInfo2_box .personalInfo2_b .y_progress_l{
+	font-size:0.12rem;
+	color:#fff;
+}
+.personalInfo2_box .personalInfo2_b .y_progress_r{
+	font-size:0.14rem;
+	color:#fff;
+}
+.personalInfo2_box .personalInfo2_b .am-progress{
+	width:68%;
+	vertical-align:middle;
+	background: #746582;
+}
+.personalInfo2_box .personalInfo2_b .am-progress-bar{
+	background: #d27c43;
+	background:linear-gradient(0deg,#d7484f,#cfad39);
+	line-height:0.14rem;
+}
+.personalInfo2_f{
+	background: #fff;
+	margin-top:0.15rem;
+}
+.personalInfo2_f .personalInfo2_h2{
+	padding:0.06rem 0.1rem;
+}
+.personalInfo2_f .personalInfo2_h2 h2{
+	font-size:0.18rem;
+	color:#666;
+	font-weight:normal;
+}
+.personalInfo2_f .personalInfo2_h2 i{
+	font-size:0.23rem;
+	color:#999;
+	vertical-align:middle;
+}
+.personalInfo2_f .am-table{
+	
+}
+.personalInfo2_f .am-table th{
+	font-size:0.18rem;
+	color:#666;
+	background: #f2f4f7;
+	text-align:center;
+	font-weight:normal;
+}
+.personalInfo2_f .am-table td{
+	color:#666;
+	text-align:center;
+	font-size:0.18rem;
+}
+/*安全中心*/
+.security_h{
+	padding:0.22rem;
+	background: #444867;
+	background:linear-gradient(180deg,#4b4f6f,#2e304c);
+	text-align:center;
+}
+.security_h h4{
+	font-weight:normal;
+	color:#7f83af;
+}
+.security_h .security_h_stars{
+	margin:0.16rem 0;
+}
+.security_h .security_h_stars .current{
+	color:#f90;
+}
+.security_h .security_h_stars i{
+	color:#cdcdd1;
+	font-size:0.31rem;
+	margin:0 0.05rem;
+}
+.security_h .security_h_time{
+	color:#878996;
+	font-size:0.16rem;
+}
+.security_h .security_h_ress{
+	color: #878996;
+	font-size:0.16rem;
+}
+.security_h .security_h_ress a{
+	color:#878996;
+}
+.security_list em{
+	font-size:0.18rem;
+	vertical-align: top;
+	color:#ccc;
+}
+.security_close{
+	background: #fff;
+	margin-top:15px;
+	padding:0.1rem 0.2rem;
+}
+.security_close span{
+	font-size: 0.18rem;
+    color: #333;
+    padding-left: 0.08rem;
+}
+.security_close .icon-arrowright{
+	color: #ccc;	
+}
+/*银行卡管理*/
+.security6_main .security6_edit{
+	font-size:0.2rem;
+	color:#0e90d2;
+	line-height:0.5rem;
+}
+.security6_main .bank_form_list li{
+	padding-top:0.1rem;
+	padding-bottom:0.1rem;
+	padding-left:0.2rem;
+	padding-right:0.2rem;
+}
+/*今日盈亏*/
+.winloss_top{
+	background: #5f1a2d;
+	background: linear-gradient(180deg,#6a202d,#3b052c)
+}
+.winloss_top .winloss_money_text{
+	font-size:0.16rem;
+	color:#fced08;
+	padding-top:0.31rem;
+	text-align:center;
+}
+.winloss_top .winloss_money{
+	font-size:0.31rem;
+	color:#fced08;
+	padding-bottom:0.31rem;
+	text-align:center;
+}
+.winloss_top .winloss_activity{
+	color:#fae2e2;
+	padding:0.1rem;
+	font-size:0.16rem;
+	background: #440a2c;
+}
+.winloss_top .winloss_activity i{
+	margin-right:0.05rem;
+}
+.winloss_bottom{
+	margin-top:0.15rem;
+}
+.winloss_bottom .am-avg-sm-3{
+	background: #fff;
+	padding:0.15rem;
+}
+.winloss_bottom .am-avg-sm-3 li{
+	text-align:center;
+	padding:0.37rem 0;
+	border-bottom:1px solid #d0d0d0;
+}
+.winloss_bottom .am-avg-sm-3 li:nth-child(3n+1),.winloss_bottom .am-avg-sm-3 li:nth-child(3n+2){
+	border-right:1px solid #d0d0d0;
+}
+.winloss_bottom .am-avg-sm-3 li:nth-last-of-type(1),.winloss_bottom .am-avg-sm-3 li:nth-last-of-type(2),.winloss_bottom .am-avg-sm-3 li:nth-last-of-type(3){
+	border-bottom:none;
+}
+.winloss_bottom .money{
+	color:#ff6818;
+	font-size:0.22rem;
+}
+.winloss_bottom .money_text{
+	color:#333;
+	font-size:0.18rem;
+}
+/*公告*/
+.noticeContent{
+	padding:0.13rem;
+}
+.noticeContent .noticeContent_t{
+	
+}
+.noticeContent .noticeContent_t h2{
+	font-size:0.2rem;
+}
+.noticeContent .noticeContent_t p{
+	font-size:0.18rem;
+}
+.noticeContent .noticeContent_bd{
+	
+}
+.noticeContent .noticeContent_bd p{
+	font-size:0.18rem;
+	line-height:0.3rem;
+	margin-bottom:0.02rem;
+	color:#000;
+}

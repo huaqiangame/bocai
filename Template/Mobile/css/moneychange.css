@@ -1,0 +1,58 @@
+.AppChange-head{position:fixed;top:44px;left:0;width:100%}
+.AppChange-top{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;justify-content:space-between;padding:10px;background:#fff;border-bottom:1px solid #e9e9e9}
+.AppChange-top .label{font-size:16px}
+.switch{width:52px;height:31px;position:relative;border:1px solid #dfdfdf;background-color:#fdfdfd;box-shadow:#dfdfdf 0 0 0 0 inset;border-radius:20px;border-top-left-radius:20px;border-top-right-radius:20px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;background-clip:content-box;display:inline-block;-webkit-appearance:none;user-select:none;outline:none}
+.switch:before{content:'';width:29px;height:29px;position:absolute;top:0;left:0;border-radius:20px;border-top-left-radius:20px;border-top-right-radius:20px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;background-color:#fff;box-shadow:0 1px 3px rgba(0,0,0,.4)}
+.switch:checked{border-color:#64bd63;box-shadow:#64bd63 0 0 0 16px inset;background-color:#64bd63}
+.switch:checked:before{left:21px}
+.switch.switch-animbg{transition:background-color ease .4s}
+.switch.switch-animbg:before{transition:left .3s}
+.switch.switch-animbg:checked{box-shadow:#dfdfdf 0 0 0 0 inset;background-color:#64bd63;transition:border-color .4s,background-color ease .4s}
+.switch.switch-animbg:checked:before{transition:left .3s}
+.switch.switch-anim{transition:border cubic-bezier(0,0,0,1) .4s,box-shadow cubic-bezier(0,0,0,1) .4s}
+.switch.switch-anim:before{transition:left .3s}
+.switch.switch-anim:checked{box-shadow:#64bd63 0 0 0 16px inset;background-color:#64bd63;transition:border ease .4s,box-shadow ease .4s,background-color ease 1.2s}
+.switch.switch-anim:checked:before{transition:left .3s}
+.AppChange-sysmoney{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;justify-content:space-between;padding:10px;background:#fff;border-bottom:1px solid #e9e9e9}
+.sysmoney-l{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.AppChange-sysmoney .label{font-size:16px}
+.AppChange-sysmoney .val{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.credit{color:#fb5050}
+.refresh-icon{margin-left:10px}
+.refresh-icon svg{font-size:18px;color:#999}
+.AppChange-foot{position:fixed;bottom:-227px;left:0;width:100%;border-top:1px solid #e9e9e9;transition:.5s;-moz-transition:.5s;-webkit-transition:.5s;-o-transition:.5s}
+.AppChange-row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;justify-content:space-between;padding:10px;background:#fff;border-bottom:1px solid #e9e9e9}
+.AppChange-row .label{font-size:16px;width:40%}
+.AppChange-row .val{flex:1;width:60%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;justify-content:flex-end}
+.has-border{border:1px solid #e9e9e9}
+.AppChange-row .val select,.AppChange-row .val input{-webkit-appearance:none;-moz-appearance:none;appearance:none;border:0;width:100%;height:32px;line-height:32px;padding:0 10px;font-size:16px}
+.allchange,.allin{padding:5px 10px;background:#fb5050;color:#fff;border-radius:5px;font-size:14px;margin-left:10px}
+.AppChange-row .button{width:100%;height:40px;line-height:40px;font-size:16px;border-radius:5px;text-align:center;display:block}
+.button-submit{color:#fff;background:#fb5050}
+.AppChange-other{padding:10px;text-align:right;background:#f2f2f2}
+.AppChange-other a{color:blue;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;justify-content:flex-end}
+.down,.up{margin-left:5px;display:block}
+.down svg{transform:rotate(90deg);-ms-transform:rotate(90deg);-moz-transform:rotate(90deg);-webkit-transform:rotate(90deg)}
+.up svg{transform:rotate(-90deg);-ms-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-webkit-transform:rotate(-90deg)}
+.others{padding-top:200px;padding-bottom:246px;display:none}
+#CssGaga{content:"180417201639,dep,334"}
+.AppHeader{width:100%;height:44px;background:#ed1818;min-width:100%;-webkit-transform:translateY(0);transform:translateY(0);transition:-webkit-transform .3s .3s;transition:transform .3s .3s;transition:transform .3s .3s,-webkit-transform .3s .3s;overflow:hidden}
+.is-fixed{position:fixed;z-index:100;-webkit-font-smoothing:subpixel-antialiased}
+.AppHeader-inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:44px;line-height:44px;transition:-webkit-transform .3s;transition:transform .3s;transition:transform .3s,-webkit-transform .3s}
+.AppHeader-logo{padding-left:10px;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.AppHeader-back{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;align-items:center;color:#fff}
+.AppHeader-back .back-icon{-moz-transform:scaleX(-1);-webkit-transform:scaleX(-1);-o-transform:scaleX(-1);transform:scaleX(-1);filter:FlipH()}
+.AppHeader-back .txt{font-size:16px}
+.AppHeader-actions{display:-webkit-box;display:-ms-flexbox;display:flex;height:25px;line-height:25px;font-size:14px;margin-right:10px}
+.has-title{margin-left:-30px}
+.has-title-logined{margin-left:22px}
+.my-icon{color:#fff;font-size:24px}
+.AppHeader-white{background:#fff;color:#ed1818;border-radius:5px;margin-right:10px;text-align:center;padding:0 5px}
+.AppHeader-green{background:#5ebe42;color:#fff;border-radius:5px;text-align:center;padding:0 5px}
+.AppHeader-yellow{background:#fbd757;color:#784917;border-radius:5px;padding:0 5px;text-align:center}
+.AppHeader-title{flex:1;text-align:center}
+.AppHeader-title span{font-size:18px;color:#fff}
+.AppHeader-inner a{
+	margin-left:10px;
+	
+}

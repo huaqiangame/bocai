@@ -1,0 +1,273 @@
+/*kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk*/
+/*#gamepage .lottery-top{background:#fff; padding:10px;border-radius:5px;-webkit-box-shadow:2px 2px 2px #888;box-shadow:2px 2px 2px #888}*/
+.lottery-top{height:108px;}
+#gamepage .kjjq{
+	display:block;
+	float:left;
+	background:#f33d3d;
+	color:#fff;
+	border-radius:5px;
+	width:100%;
+	height:108px;
+	-webkit-box-shadow:2px 2px 2px #888;box-shadow:2px 2px 2px #888
+}
+#gamepage .lot-logo{margin-top:16px; margin-left:15px; width:198px; height:76px;}
+#gamepage .lot-time{margin-top:10px; margin-left:200px; width:198px; text-align:center; height:93px;}
+#gamepage .lot-time strong{padding: 0 4px; font-weight:normal; font-size:14px;}
+.lot-time .shij{text-align:center;height: 45px; width:138px; margin-left:30px;}
+.lot-time .shij .bj {
+    float:left;
+    font-size: 20px;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    width: 44px;
+}
+.lot-time .shij .bj span {
+    font-size: 18px;
+    letter-spacing: 4px;
+    padding-left: 4px;
+    text-align: center;
+}
+
+.lot-time .shij em {
+	float:left;
+    line-height:44px;
+	font-style:normal;
+}
+.lot-kjinfo{width:198px; margin-right:20px; margin-top:10px;}
+.lot-kjinfo strong{padding: 0 4px; font-weight:normal; font-size:14px;}
+.kaijq {
+    width: 100%;
+	margin-top:15px;
+	margin-left:30px;
+}
+.qiusty-1 {
+}
+ul[class*="qiusty"] {
+}
+ul[class*="qiusty"] li {
+	display:inline-block;
+    border-radius: 50%;
+    color: #f33d3d;
+    text-align: center;
+    background: rgba(0, 0, 0, 0) url("../images/game/xy28-ball.png") repeat scroll 0 0 / 100% 100%;
+}
+.qiusty-1 li{
+    font-size: 29px;
+    height: 42px;
+    line-height: 42px;
+    margin-right: 8px;
+    width: 42px;
+}
+#gamepage .jinqi{
+	display:block;
+	float:right;
+	background:#fff;
+	border-radius:5px;
+	width:100%;
+	height:auto;
+	/*-webkit-box-shadow:2px 2px 2px #888;box-shadow:2px 2px 2px #888;*/
+	position:relative;
+}
+#gamepage .jinqi .lishi {
+    border-radius: 5px;
+    display: block;
+	margin-top:5px;
+    height: 615px;
+    overflow-y: scroll;
+    width: 100%;
+    z-index: 70;
+}
+#gamepage .jinqi .lishi table {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+	color:#666;
+	/*background:#f33d3d;*/
+}
+#gamepage .jinqi .lishi table th,#gamepage .jinqi .lishi table td{color:#666; text-align:center; height:28px; line-height:28px; border-bottom:1px solid #eee}
+#gamepage .kjopenclose{
+	position:absolute; width:18px; height:15px; line-height:15px; overflow:hidden; text-align:center; font-size:12px; left:0; top:0; background:#f33d3d;border-radius: 5px 0 5px 0; border-bottom:1px solid #ddd; border-right:1px solid #ddd; cursor:pointer;
+}
+.lotter-list{
+	background:#f33d3d;
+	border-radius:5px 5px 0 0;
+	padding:8px 10px;
+}
+.lotter-list .lot-item dd{display:inline-block; padding:3px 10px; color:#fff; font-size:16px; border-radius:4px; cursor:pointer;}
+.lotter-list .lot-item dd.cur,.lotter-list .lot-item dd:hover{background:#fff; color:#f33d3d;}
+.lotter-list .lot-item  dd a{display:block; width:100%; height:100%; color:#fff;}
+.lotter-list .lot-item dd.cur a,.lotter-list .lot-item dd:hover a{background:#fff; color:#f33d3d;}
+/*#j_play_select{
+	background:#f8f8f8;
+	
+	padding:8px 10px; border-left:1px solid #f33d3d;border-right:1px solid #f33d3d;
+}*/
+.play_select_tit li{display:inline-block; margin-left:10px; padding:2px 5px;cursor:pointer;border-radius:3px;}
+.play_select_tit li.curr{
+	background:#ff9726;
+	color:#fff;
+}
+
+/*#gameBet{ background:#eee; padding:10px;border-radius: 0 0 5px 5px;border:1px solid #f33d3d; border-top:none;}*/
+/*12-27 修改*/
+.gameBet_balls{width:730px;border-radius:5px;background:#fff; float:left; padding-bottom:20px;}
+.gameBet_openlists{width:310px;border-radius:5px; float:right;}
+.gameBet_left,.gameBet_right{
+	overflow:hidden;
+}
+.gameBet_left{width:100%;}
+.gameBet_left .addtobetbtn{
+    background: #d21e1e;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    width: 160px;
+	border:none;
+}
+/*.k3hzzx,.k3sthtx,.k3sthdx,.k3sbthbz,.k3slhtx,.k3slhdx,.k3ethfx,.k3ethdx,.k3ebthbz{display:block; text-align:center; margin-top:20px; padding-bottom:50px; background:url(../images/game/check_ball_bg.jpg) no-repeat center bottom;}*/
+.k3sthtx .ball_number,.k3slhtx .ball_number{
+    float: none;
+    width: 180px;
+    border: 1px solid #ddd;
+    background: #EEE !important;
+    margin: 20px auto 0;
+    display: block;
+}
+.bet-num-box ul{display:block; text-align:center; margin-top:20px; }
+.bet-num-box li{display:inline-block;}
+.bet-num-box .ball_number{
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    background: url(../images/tz_numb_bg.jpg) no-repeat center;
+    color: #333;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.k3sthtx .ball_number,.k3sthdx .ball_number,.k3slhtx .ball_number,.k3slhdx .ball_number{width:auto; padding:0 10px;}
+.bet-num-box .ball_number.curr{background:#D21E1F !important; color:#fff;}
+
+/*和值直选样式重置*/
+/*.k3hzzx{background:none;}*/
+.k3hzzx .ball_number{    
+    width: 52px;
+    height: 52px;
+    line-height: 52px;}
+.bet-num-box .ball_aid{display:block;}
+
+
+/*.gameBet_right{width:100%; margin-top:20px;}*/
+.xiad-left{float:left; width:688px; height:170px;
+}
+.xiad-left dl {
+    display: block;
+    font-size: 12px;
+    height: 170px;
+    width:688px;
+	border-radius:5px;
+    overflow-y: auto;
+	border:1px solid #ccc;
+		margin-left:3%;
+}
+.xiad-left dl dd{overflow: hidden; height: 38px; line-height: 38px; border-bottom: 1px dashed #ddd;padding:0 5px;background-color:#f5ecec;}
+.xiad-left dl dd:hover{background:#fff;}
+.xiad-left dl dd .orderprice:focus{border-color:#f33d3d;}
+.xiad-left dl dd span{
+    display: block;
+    float: left;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 180px;
+	cursor:pointer;
+    width: 104px;
+}
+.xiad-left dl dd a{color:#999;}
+.xiad-left dl dd ul{display: block; width:416px; float: left; text-align: right;}
+.xiad-left dl dd ul li{ display: block; float: left; }
+.xiad-left dl dd ul li input{ width: 40px; padding: 0 4px; text-align: center; height: 20px; line-height:20px; color: #999; font-size: 12px; border: 1px solid #ddd; margin:0 3px}
+.xiad-left dl dd ul li.sc{float: right; padding-right:5px;}
+.xiad-left dl dd ul li a{ display: block; margin-top:13px; width: 25px; height: 13px; line-height:13px; overflow: hidden; }
+
+.d62d2d {
+    color: #d62d2d;
+}
+
+.xiad-righ{float:left; width:100%; height:40px; text-align:center;}
+
+.xiad-righ .li21{width:294px; height:40px; line-height:40px; text-align:center; background:#f33d3d; color:#fff;border-radius:5px; cursor:pointer; margin-left:13px;margin-top:5px;}
+.xiad-righ .li21 span{padding:0 10px;}
+.xiad-righ .li21 strong{ font-weight:normal;}
+.li22{
+    width: 158px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 18px;
+    background: #d21e1e;
+    color: #fff;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0px auto;
+    clear: both;
+    border-radius: 3px;
+}
+.li22 span{display:block;}
+.li23{
+    margin-left:13px;
+}
+/*投注记录*/
+.history-box{
+	height:1%; overflow:hidden;
+}
+/*统一报表格式*/
+table.mem-biao{ border: 1px solid #fff;border-radius:5px}
+.mem-biao tbody{ border-bottom:none;  text-align: center; }
+.mem-biao thead th:first-child{border-radius:5px 0 0 0;}
+.mem-biao thead th:last-child{border-radius:0 5px 0 0;}
+.mem-biao thead th{height: 40px; line-height:40px; font-weight: normal; font-size: 12px;background: #f33d3d; color: #fff; text-align:center;border: 1px solid #eee; }
+
+.mem-biao tbody td{ padding: 10px 4px; color: #888; border: 1px solid #eee; }
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+	.cl:after, .clearfix:after {
+    content: "\20";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+.l {
+    float: left !important;
+    _display: inline;
+}
+
+.r {
+    float: right !important;
+    _display: inline;
+}

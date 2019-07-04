@@ -1,0 +1,170 @@
+@charset 'utf-8';
+
+.recharge_main_tab{
+	padding-top:15px;
+}
+.quick_recharge_top,.quick_recharge_bottom{
+	margin:10px;
+	padding:16px 20px;
+}
+.collectBank_list{
+	width:510px;
+}
+.collectBank_list .collectBank_ra{
+	margin-bottom:10px;
+}
+.collectBank_spe{
+	padding:8px 0;
+}
+.collectBank_ra{
+	width:119px;
+	height:32px;
+	display: inline-block;
+	border:1px solid #d3d3d3;
+	padding-top:1px;
+	padding-left:8px;
+	cursor:pointer;
+	position:relative;
+	margin-right:5px;
+}
+.r_right{
+	position:absolute;
+	width:0px;
+	height:0px;
+	bottom:0;
+	right:0;
+	font-size:12px;
+	border-bottom:20px solid #4aa9db;
+	border-left:20px solid transparent;
+}
+.r_right .r_right_con{
+	position:absolute;
+	font-size:14px;
+	color:#fff;
+	top:1px;
+	right:0px;
+}
+.collectBank_list .collectBank_ra .quick_img_box{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+.collectBank_list .collectBank_ra .quick_img{
+	width: 20px;
+	height: 20px;
+}
+.collectBank_ra .iconfont{
+	color:#d3d3d3;
+	vertical-align: middle;
+}
+.collectBank_ra .icon{
+	font-size:20px;
+	vertical-align:middle;
+	margin:0 3px;
+}
+.collectBank_ra em{
+	vertical-align: middle;
+}
+.checked{
+	border:1px solid #4aa9db !important;
+}
+.checked .icon-yuanquanxuanzhong{
+	color: #4aa9db !important;
+}
+.sum{
+	font-size:14px;
+	color:#fff;
+	background: #2e4158;
+	width:20px;
+	height:20px;
+	display:inline-block;
+	border-radius:50%;
+	text-align:center;
+	line-height:21px;
+}
+.qrecharge_title strong{
+	font-size:14px;
+	margin-left:5px;
+}
+.qrecharge_title span{
+	font-size:14px;
+}
+.collectBank .collectBank_l{
+	width:10%;
+	text-align: left;
+	display:inline-block;
+	margin-top:3px;
+}
+.collectBank .collectBank_info{
+	color:red;
+	width:33%;
+	display:inline-block;
+}
+.collectBank .copy_text{
+	cursor:pointer !important;
+	color:#4aa9db;
+}
+.quick_recharge_bottom .btn{
+	margin:55px auto 55px;
+	width:116px;
+	display:block;
+}
+.quick_rechargeb_input{
+	padding:20px 0;
+}
+.quick_rechargeb_input input{
+	height:30px;
+	padding:5px;
+	width:233px;
+	color:#666;
+	margin:10px 0;
+	display: inline-block;
+	border:1px solid #cecece;
+}
+.quick_rechargeb_input .bankName{
+	margin-left:100px;
+}
+.choiceBank_box{
+	padding:16px 20px;
+	margin:10px;
+}
+.choiceBank_box .choiceMoney_l{
+	width:10%;
+	text-align:left;
+	display:inline-block;
+}
+.choiceBank , .choiceMoney{
+	margin-left:80px;
+	margin-top:10px;
+}
+.choiceBank_box .btn{
+	margin-left:149px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.zfb_main .collectBank_l{
+	width:25% !important;
+}
+.zfb_main .quick_recharge_top{
+	width:540px;
+}
+.zfb_main .two_code{
+	width:260px;
+	margin-right:10px;
+	margin-top:10px;
+}
+.zfb_main .two_code p{
+	font-size: 14px;
+	text-align:center;
+	padding-top:10px;
+}
+.zfb_main .two_code .img{
+	width:90px;
+	height:90px;
+	margin:0 auto;
+}
+.zfb_main .two_code img{
+	width:90px;
+	height:90px;
+	display: block;
+}

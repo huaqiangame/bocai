@@ -1,0 +1,65 @@
+﻿.AppHeader {
+    background: #ed1818;
+}
+.dialog-html .dialog-btn-confirm {
+    border-color: #fb5050;
+    background-color: #fb5050;
+}
+.botpop {
+    background: #fb5050;
+}
+.poppage-head {
+    background: #fb5050;
+}
+.poppage-submenu a.active {
+    background: #fb5050;
+}
+.AppForm-item .AppForm-item-icon{
+    border: 1px solid #fb5050;
+    color: #fb5050;
+}
+.button-submit{
+    background: #fb5050;
+}
+.button-submit.button-disabled{
+    background: #fb5050;
+}
+
+.AppInfo-tab a,.AppList-tab a,.AppCash-tab a{
+    border: 1px solid #fb5050;
+    color:#fb5050;
+    border-right: 0;
+}
+.AppInfo-tab a.active,.AppList-tab a.active,.AppCash-tab a.active,.AppCash-subtab a.active{
+    background: #fb5050;
+    border: 1px solid #fb5050;
+}
+.AppInfo-tab a:last-child,.AppList-tab a:last-child,.AppCash-tab a:last-child{
+    border-right: 1px solid #fb5050;
+}
+.AppInfo-item .AppInfo-item-icon{
+    color: #fb5050;
+    border: 1px solid #fb5050;
+}
+.date-icon{
+    color: #fb5050;
+}
+.seachbtn{
+    background: #fb5050;
+}
+.detailsinfo h3 {
+    border-left: 5px solid #fb5050;
+}
+.allchange,.allin,.togatherbtn{
+    background: #fb5050;
+}
+
+.filter-btn a.active{
+    background: #fb5050;
+}
+.filter-btn a.active .morebtn li.on{
+    background: #fb5050;
+}
+.wrap_cont .tabs a {
+    background: #fb5050;
+}

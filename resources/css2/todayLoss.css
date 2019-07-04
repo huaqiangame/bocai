@@ -1,0 +1,80 @@
+@charset 'utf-8';
+
+.today_loss{
+	padding:15px;
+}
+.today_loss .today_loss_top{
+
+}
+.today_loss_top .today_balance{
+	width:282px;
+	height:90px;
+	padding:15px;
+}
+.today_loss_top .today_total,.today_loss_top .today_formula{
+	width:239px;
+	height:90px;
+	margin-left:15px;
+	padding:15px;
+}
+.today_loss_top .today_balance h3{
+	margin:0;
+	font-size:30px;
+	line-height:26px;
+}
+.today_loss_top .today_balance .today_balance_other{
+	margin:10px 0 ;
+}
+.today_loss_top .today_balance_other span{
+	padding-right:30px;
+}
+.today_loss_top .today_balance_other i{
+	font-size:12px;
+}
+.today_loss_top .today_balance_other a{
+	border:1px solid #ddd;
+	border-radius:3px;
+	padding:2px 10px;
+	margin:0 1px;
+}
+.today_loss_top  .today_total_left{
+	font-size:28px;
+	background: #fb4046;
+	color:#fff;
+	border-radius:4px;
+	width:50px;
+	height:50px;
+	display:inline-block;
+	padding:10px;
+	line-height:31px;
+	text-align: center;
+	vertical-align:top;
+	margin-top:4px;
+}
+.today_loss_top .today_total_right{
+	display: inline-block;
+	margin-left:10px;
+}
+.today_loss_top .today_total em{
+	font-size:28px;
+	line-height:13px;
+}
+.today_loss_bottom{
+	width:790px;
+	padding:20px;
+	margin-top:15px;
+}
+.today_loss_bottom li{
+	float:left;
+	text-align: center;
+}
+.today_loss_bottom li + li{
+	border-left:1px solid #ddd;
+}
+.today_loss_bottom li em{
+	font-size:18px;
+}
+.today_loss_bottom li p{
+	margin-bottom:0;
+	font-size:12px;
+}

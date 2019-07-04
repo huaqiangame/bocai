@@ -1,0 +1,70 @@
+
+        .gametab, .AppMain-activitytab {
+            margin-top: 0 !important;
+        }
+
+            .gametab .swiper-slide, .AppMain-activitytab .swiper-slide {
+                line-height: 40px;
+            }
+
+        .datatable {
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            width: 100%;
+            text-align: center;
+        }
+            .datatable td {
+                border-top: 1px solid #ddd;
+                border-left: 1px solid #ddd;
+            }
+            .datatable th {
+                border-top: 1px solid #ddd;
+                border-left: 1px solid #ddd;
+            }
+
+        .count-item {
+            text-align: right;
+            margin-right: 50px;
+        }
+
+        .record-count {
+            margin: 0;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .fsbtnbox {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: right;
+            overflow: hidden;
+        }
+
+            .fsbtnbox a {
+                width: 100px;
+                height: 36px;
+                line-height: 36px;
+                font-size: 14px;
+                border-radius: 5px;
+                text-align: center;
+                display: block;
+                color: #fff;
+                float: right;
+                margin-left: 10px;
+                border: 1px solid #eee;
+            }
+
+        .button-refresh {
+            background: -webkit-linear-gradient(120deg, #fafafa, #f1f1f1);
+            background: -o-linear-gradient(120deg, #fafafa, #f1f1f1);
+            background: -moz-linear-gradient(120deg, #fafafa, #f1f1f1);
+            background: linear-gradient(120deg, #fafafa, #f1f1f1);
+            color: #fb5050 !important;
+			
+        }
+		.button-submit{
+    background: #fb5050;
+}

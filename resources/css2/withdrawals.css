@@ -1,0 +1,98 @@
+@charset 'utf-8';
+
+.withdrawals_main{
+	padding:20px;
+}
+.withdrawals_main .tab_content_right{
+	margin-left:60px;
+	margin-top:20px;
+}
+
+.withdrawals_main .common_btn{
+	margin-left:136px;
+}
+.withdrawals_main .tab_content_right em{
+	font-size:13px;
+	color:#333;
+}
+.withdrawals_main .tab_content_right strong{
+	color:red;
+	font-size:16px;
+}
+.withdrawals_main .select_bank{
+	display: inline-block;
+}
+.withdrawals_main .withdrawals_list{
+	margin-bottom:4px;
+	line-height:46px;
+	position:relative;
+}
+.withdrawals_main .withdrawals_list>span{
+	color: #666;
+    width: 20%;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 12px;
+    display: inline-block;
+}
+.bank_bg{
+	background: url(../images/ui-bank.png) no-repeat;
+}
+.withdrawals_list .select_bank{
+	border:1px solid #ddd;
+	display:inline-block;
+	width:235px;
+	height:32px;
+	line-height:32px;
+	cursor: pointer;
+}
+
+.withdrawals_list .select_bank em{
+	margin-left:130px;
+	font-size:12px;
+}
+.withdrawals_list .select_bank i{
+	font-size:12px;
+	margin-left:13px;
+}
+.withdrawals_list .choice_bank{
+	position:absolute;
+	padding:10px 20px;
+	box-shadow:2px 2px 4px #999;
+	width:380px;
+	top:42px;
+	z-index:88;
+	left:20.5%;
+	border:1px solid #ddd;
+	background: #fff;
+	display: none;
+}
+.withdrawals_list .choice_bank li{
+	border-bottom:1px dotted #ccc;
+	cursor:pointer;
+	color:#000;
+	line-height:55px;
+	height:55px;
+	padding-top:10px;
+}
+.withdrawals_list .choice_bank li:hover{
+	box-shadow: 2px 2px 2px #999;
+	border:1px solid #eee;
+}
+.withdrawals_list .choice_bank input{
+	margin:0;
+	vertical-align: super;
+	margin-left:5px;
+}
+.withdrawals_list .choice_bank span{
+	width:126px;
+	height:30px;
+	display:inline-block;
+}
+.withdrawals_list .choice_bank .choice_bank_info{
+	display:inline-block;
+}
+.withdrawals_list .choice_bank .choice_bank_info em{
+	display: block;
+	line-height:18px;
+}

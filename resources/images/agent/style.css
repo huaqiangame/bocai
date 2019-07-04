@@ -1,0 +1,496 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+body {
+	font: 14px/1.6 "Microsoft Yahei";
+	color: #c47a61;
+	overflow-x: hidden;
+	/*background:#2D1309 url("../images/index/header_bg.jpg") no-repeat center top;*/
+	background: #0A0A0A;
+}
+
+.w1000 {
+	width: 1000px;
+	margin: 0 auto
+}
+
+ul li {
+	list-style: none
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.clearfix {
+	*+height: 1%;
+}
+
+* html .clearfix {
+	zoom: 1;
+}
+
+
+/* IE6 */
+
+*+html .clearfix {
+	zoom: 1;
+}
+
+
+/* IE7 */
+
+.fL {
+	float: left !important;
+}
+
+.fR {
+	float: right !important;
+}
+
+
+/*---------------index--------------*/
+
+#header {
+	padding: 20px 0 10px;
+	height: 106px;
+	box-sizing: border-box;
+}
+
+#header .hBox {
+	width: 1045px;
+	margin: 0 auto;
+}
+
+#header .logo {
+	margin: -10px 40px 0 0;
+	float: left;
+}
+
+#header .logo img {
+	display: block;
+}
+
+#header .hImg01 {
+	margin: 0 0;
+	float: left;
+}
+
+#header .gNavi {
+	margin-top: 20px;
+	float: right;
+}
+
+#header .gNavi li {
+	display: inline;
+	font-size: 14px;
+	margin-left: 46px;
+}
+
+#header .gNavi li a {
+	color: #ffd087;
+}
+
+#header .gNavi li a:hover {
+	color: #fffb9b;
+	font-weight: 600;
+}
+
+.banner {
+	margin-top: -10px;
+	height: 611px;
+	background: url("../images/index/banner01.jpg") no-repeat center top;
+}
+
+#main {
+	padding: 40px 0 0px;
+	/*background: url("../images/index/bg01.jpg") no-repeat center top;*/
+	background: #0A0A0A;
+}
+
+.wrap {
+	width: 1040px;
+	margin: 0 auto;
+}
+
+.inner {
+	background: url("../images/index/bg02.jpg") no-repeat center top;
+	width: 1025px;
+	margin: 0 auto 20px;
+	height: 421px;
+	box-sizing: border-box;
+	padding: 45px 0 0 460px;
+}
+
+.inner li {
+	line-height: 2.4;
+}
+
+.inner li .num {
+	display: inline-block;
+	color: #fff;
+	background-color: #150B07;
+	border-radius: 10px;
+	width: 26px;
+	text-align: center;
+	margin-right: 20px;
+	line-height: 1.4;
+}
+
+.inner li .name {
+	color: #fff;
+	width: 140px;
+	display: inline-block;
+}
+
+.inner li .text {
+	display: inline-block;
+	width: 220px;
+	color: #ffcf7b;
+	margin-right: 20px;
+}
+
+.inner li .text2 {
+	display: inline-block;
+	color: #fff;
+}
+
+.inner p.btm {
+	margin-top: 25px;
+	color: #ffae1f;
+}
+
+.inner p.btm span {
+	display: inline-block;
+	background-color: #6E3719;
+	border-radius: 3px;
+	padding: 5px 5px;
+	color: #fff000;
+}
+
+.inner p.btm span i {
+	font-style: normal;
+}
+
+h2 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.dlText {
+	margin: 0 20px 30px;
+}
+
+.dlText dt {
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #ffcf3c;
+}
+
+.dlText dd {
+	color: #ffe8c1;
+	line-height: 2.3;
+}
+
+#main .pText {
+	line-height: 2.3;
+	color: #ffe8c1;
+	margin-bottom: 20px;
+}
+
+#main .img {
+	margin-bottom: 40px;
+}
+
+#main .btmImg {
+	text-align: center;
+}
+
+#main .title {
+	margin: 50px 0 10px 0;
+	color: #000000;
+	font-size: 16px;
+	font-weight: 600;
+	width: 160px;
+	text-align: center;
+	background-color: #ffcf3c;
+}
+
+#footer {
+	color: #616161;
+	text-align: center;
+	font-size: 13px;
+	background-color: #110804;
+	padding: 25px 0;
+}
+
+.sInner {
+	width: 130px;
+	height: 381px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+.sInner li img {
+	display: block;
+}
+
+.sInner li {
+	position: relative;
+}
+
+.sInner li.close {
+	text-align: center;
+}
+
+.sInner li.close img {
+	margin: 0 auto;
+}
+
+.sInner li span {
+	color: #fff;
+	position: absolute;
+	bottom: 6px;
+	text-align: center;
+	width: 130px;
+	font-size: 16px;
+	left: 0;
+	display: block;
+}
+
+.qqzy {
+	font-size: 16px;
+	font-weight: 800;
+	color: #FFFF33;
+}
+
+.qqzy:hover {
+	color: aquamarine;
+}
+
+
+/*---------------------浮漂特效----------------------*/
+
+#f_left {
+	left: -130px;
+}
+
+#f_right {
+	right: -130px;
+}
+
+.floatbox {
+	overflow: hidden;
+	position: fixed;
+	z-index: 1099;
+	top: 10%;
+	width: 176px;
+	height: 511px;
+}
+
+.float_hover {
+	position: absolute;
+	display: block;
+	z-index: 1100;
+	top: 150px;
+	right: 130px;
+	width: 46px;
+	height: 139px;
+	cursor: pointer;
+}
+
+#f_left .float_hover {
+	right: 0px;
+}
+
+.floatbox a {
+	display: block;
+	width: 130px;
+}
+
+#f_left a {
+	float: left;
+}
+
+#f_right a {
+	float: right;
+}
+
+.close_btn {
+	height: 26px;
+}
+
+
+/*-----------------------浮漂特效结束--------------------------*/
+
+
+/*------------------------表格布局----------------------------*/
+
+.cke_show_border {
+	box-sizing: border-box;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	max-width: 100%;
+	font-size: 14px;
+	width: 962px;
+	margin: 5px 0;
+	line-height: 38px;
+}
+
+
+/*头部标题*/
+
+.cke_show_border thead {
+	box-sizing: border-box;
+	color: #FFFF00;
+	/*color: #b8b1a4;*/
+}
+
+.cke_show_border thead tr {
+	box-sizing: border-box;
+}
+
+.cke_show_border thead tr th {
+	box-sizing: border-box;
+	/*border:1px solid #ffcf3c;*/
+	font-size: 14px;
+	border: 1px solid #818181;
+	padding: 10px 30px;
+	line-height: 20px;
+	text-align: center;
+}
+
+
+/*内容*/
+
+.cke_show_border tbody {
+	box-sizing: border-box;
+	/*color: white;*/
+	color: #e2b357;
+}
+
+.cke_show_border tbody tr {
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.cke_show_border tbody tr td {
+	box-sizing: border-box;
+	/*border:1px solid #ffcf3c;*/
+	border: 1px solid #818181;
+	padding: 0px;
+	/*color:#FFFFCC;*/
+}
+
+
+/*------------------------表格布局结束----------------------------*/
+
+
+/*------------------------文本布局-------------------------------*/
+
+.fa {
+	color: #FFAE1F;
+	font-size: 20px;
+	font-weight: 800;
+	margin: 10px 0 5px 0;
+}
+
+.tb-txt {
+	/*color:#FFAE1F;*/
+	color: rgb(255, 204, 102);
+	/*color: #aeaeae;*/
+	font-size: 14px;
+	/*font-weight: 600;*/
+}
+
+.tb-txt p {
+	line-height: 25px;
+}
+
+.dlyh-txt {
+	line-height: 2.3;
+	color: #ffe8c1;
+	margin-bottom: 20px;
+}
+
+
+/*-----------------------文本布局结束-------------------------------*/
+
+
+/*------------------------css3动画---------------------------------*/
+
+.animated.dhxh {
+	animation-duration: 5s;
+	/*动画持续时间*/
+	animation-delay: 0.1s;
+	/*动画延迟时间*/
+	animation-iteration-count: infinite;
+	/*动画执行次数*/
+}
+
+.animated.dh5 {
+	animation-duration: 2s;
+	/*动画持续时间*/
+	animation-delay: 0.1s;
+	/*动画延迟时间*/
+	animation-iteration-count: 5;
+	/*动画执行次数*/
+}
+
+
+/*-----------------------css3动画结束---------------------------------*/
+
+.ewmCon {
+	overflow: hidden;
+	width: 350px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.ewm {
+	width: 150px;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.ewm img {
+	margin-top: 10px;
+	width: 100%;
+}
+
+.begintxt {
+	text-indent: 2em;
+	font-size: 18px;
+	font-weight: 800;
+	width: 1000px;
+	display: block;
+	margin: 0 auto;
+	color: #FCD16A;
+}
+
+.signal {
+	text-align: center;
+}
+
+.signal img {
+	max-width: 100%;
+}
+
+.img {
+	text-align: center;
+}

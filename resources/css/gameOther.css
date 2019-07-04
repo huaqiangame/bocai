@@ -1,0 +1,568 @@
+
+.w100{
+    width:100% !important;
+}
+
+.clear_fix {
+    zoom: 1;
+    clear: both;
+}
+.pr{
+    position:relative !important;
+}
+.pa{
+    position:absolute !important;
+}
+.db{
+    display:inline-block;
+}
+.dn{
+    display:none !important;
+}
+.tc{
+    text-align:center !important;
+}
+.w30{
+    width: 33.3% !important;
+}
+.w47{
+    width:47% !important;
+}
+.w49{
+    width:49% !important;
+    border-right:0 !important;
+}
+.w50{
+    width:50% !important;
+}
+
+.w150px{
+    width:167px !important;
+}
+.w225px{
+    width:25% !important;
+}
+
+
+.txt_section  li {
+    background: none;
+    width: 20%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.txt_section li {
+    width: 20%;
+    float: left;
+    border-right: 1px solid #efefef;
+}
+#qzhList li{
+    width: 25%;
+}
+
+.s1_nav ul li:first-child{
+    box-sizing:border-box;
+}
+.wid0{
+    width:127px  !important;
+}
+.wid1 {
+    width: 223px !important;
+}
+.offset-1{
+    margin-left: 65px;
+}
+.offset-2{
+    margin-left: 129px;
+}
+.offset-3{
+    margin-left: 192px;
+}
+.offset-4{
+    margin-left: 255px;
+}
+.offset-5{
+    margin-left: 319px;
+}
+.offset-6{
+    margin-left: 383px;
+}
+
+/* 龙虎斗 toradora */
+.toradora li { height: 92px; }
+.toradora .t-head { font-size: 12px; }
+.toradora .t-head label{font-weight: 400;}
+.toradora .t-input input { height: 15px; }
+.toradora_btn .btn { border: none; }
+
+.zm16_nav { margin: 0; /*text-shadow:0 1px 1px #313131;font-weight:700;*/ }
+.zm16_txt div.active { font-weight: 700; }
+
+li:first-child .ui-ball-span-box > div { border-left: none; }
+li:last-child .ui-ball-span-box > div { border-right: none; }
+.bd { margin: 0; width: auto; }
+.ui-content-box li .ball_com { font-family: simhei; }
+.diy-slct-sum .btn, .dss-btn a { border: none; line-height: 17px; }
+
+.game-22 .ui-ball-span-box { border-right: 0\9; }
+
+.game-22 .ui-ball-span-box > div:last-child { border-right: 0; }
+
+.zm16_nav {
+    display: block;
+    float: none;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    /*background: -webkit-linear-gradient(#292955,#212144);*/
+    
+    color: #666;
+}
+
+.ui-ball-span-box {
+    padding: 7px 0;
+    position: relative;
+    overflow: hidden;
+    /*background: -webkit-linear-gradient(#292955,#212144);*/
+    color: #666;
+    border-bottom: 1px solid #efefef;
+}
+.border_001,.ball{
+    width:31%;
+}
+.border_002,.odds{
+    width: 25%;
+    font-weight: bold;
+
+}
+.border_003,.amount_pane{
+    width: 41%;
+}
+.border_001 { }
+.border_002 { }
+.border_003 { }
+.ui-content-box span {
+    display: inline;
+    float: left;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+}
+.ui-ball-span-box{
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft Yahei",sans-serif,arial;
+}
+.ui-ball-span-box > div > span {
+    line-height: 18px;
+    height: 19px;
+    position: relative;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+}
+
+.bd {
+    margin: 0;
+    width: auto;
+    height: 42px;
+    cursor: pointer;
+/*    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin-left: -1px;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;*/
+}
+
+
+
+.txt_section span {
+    display: inline;
+    float: left;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+}
+.txt_section span.buyNumberTitle {
+    width: 63px;
+    height: 26px;
+    background: #455467;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 0 3px 3px 0;
+    margin: 2px 0;
+    margin-right: 25px;
+    position: relative;
+}
+
+.txt_section span.fans{
+    height: 25px; line-height: 25px;
+}
+.txt_section li .ball {
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+}
+.txt_section .odds {
+    color: #ff9b39;
+    font-weight: bold;
+    position: relative;
+}
+
+
+
+.content li .ball_m, .txt_section li .ball_com {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.txt_section li .ball_com {
+    background: url(/test/img/ball.png) no-repeat center -40px;
+    color: #666;
+    font-family: simhei;
+    font-weight: bold;
+}
+
+.txt_section input.amount {
+    width: 63px;
+    height: 17px;
+    line-height: 17px\9;
+    border: none;
+    padding: 2px 0;
+    text-align: center;
+}
+
+.txt_section .amount_pane .amount,.txt_section .btn-wrap .amount {
+    overflow: hidden;
+    float: right;
+    margin-right: 2px;
+    margin-top: 7px;
+    width: 58px;
+    height: 25px;
+    line-height: 25px;
+    background:#fff url(/test/images/othergame/text_input.gif) repeat-x left top;
+    /*border-radius: 2px;*/
+    /*border: 1px solid #294060;*/
+    /*box-shadow: inset 0 2px 4px #000;*/
+    text-align: center;
+    text-indent: 0px;
+    color: #000;
+    font-weight: bold;
+    border:1px solid #ddd;
+    border-radius: 4px;
+
+}
+
+.txt_section  .noselet .amount{
+    /*background: rgb(25, 25, 48);*/
+}
+.txt_section  .noselet .odds{
+    text-indent: -999em;
+
+}
+.txt_section  .noselet .odds:before{
+    content: '--';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    color: #626262;
+    top: 0;
+    text-indent: 0
+}
+
+.txt_section  .noselet .t-odds{
+    display: inline-block;
+    width: 20px;
+    position: relative;
+    text-indent: -999em;
+
+}
+.txt_section  .noselet .t-odds:before{
+    content: '--';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    color: #626262;
+    top: 0;
+    text-indent: 0
+}
+
+.zm16_nav {
+    display: block;
+    float: none;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 12px;
+    border: 1px solid #efefef;
+    margin: 0;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.nav-tab {
+    width: 33.33%;
+    float: left;
+}
+
+.nav_wanfa div.active {
+    font-weight: 700;
+}
+
+.nav_wanfa div.active {
+    background:#cd9000;
+    /*background: linear-gradient(#454585,#212144);*/
+    color: #fff;
+    text-shadow: 0 1px 1px #313131;
+}
+
+.toradora_bar {
+    float: none;
+    position: relative;
+    margin: 0 auto;
+    background: #f7f7f7;
+    margin-bottom: 20px;
+}
+.wid1 {
+    width: 24.99999999% !important;
+}
+.w30 {
+    width: 33.3% !important;
+}
+.w50 {
+    width: 50% !important;
+}
+.toradora li {
+   
+    height: 91px;
+    line-height: normal;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 14px;
+}
+.toradora li {
+    height: 92px;
+}
+.toradora .t-head {
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 1px;
+}
+.toradora .t-head {
+    /*background: -webkit-linear-gradient(#292955,#212144);*/
+    background:url(/test/images/othergame/tzhu2.jpg);
+    color: #666;
+ 
+    border-bottom: 1px solid #efefef;
+}
+.toradora .t-head b{ color: #666; }
+.toradora .t-box {
+    /*border-bottom: 1px solid #272751;*/
+    /*border-left: 1px solid #272751;*/
+    /*border-right: 1px solid #272751;*/
+    overflow: hidden;
+    height: 60px;
+}
+
+.toradora .t-item {
+    float: left;
+    /* width: 63.5px; */
+    text-align: center;
+    padding: 0;
+    height: 59px;
+}
+
+.toradora .t-name span {
+    display: inline;
+    float: none;
+    height: 29px;
+    line-height: 29px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 12px;
+}
+
+.toradora .t-item .txt-red, .toradora .t-item .txt-blue {
+    font-size: 14px;
+    font-weight: 700;
+}
+.toradora .t-item .txt-red {
+    text-shadow: 0 1px 2px rgba(255,255,255,0);
+    color: #c43e47;
+}
+.toradora .t-odds {
+    color: #FF4848;
+}
+.toradora .t-odds {
+    font-family: Arial;
+    margin-left: 3px;
+}
+.toradora .t-input {
+    /*padding-top: 3px;*/
+}
+.toradora .t-input input {
+    overflow: hidden;
+    width: 80%;
+    height: 23px;
+    border-radius: 4px;
+    background:#fff url(/test/images/othergame/text_input.gif) repeat-x left top;
+    border: 1px solid #ddd;
+    /*box-shadow: inset 0 2px 4px #000;*/
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+.toradora .t-item .txt-white {
+    color: #0ea478;
+}
+.toradora .t-item .txt-blue {
+    color: #3447d7;
+}
+#qzhList > div ul{ display: none; }
+#qzhList > div ul:first-child{ display: block; }
+.ui-ball-span-box > div {
+    
+    border-right: 1px solid #a4a4a4;
+}
+.ui-ball-tb-box > div {
+    float: left;
+    width: 199px;
+}
+.ui-ball-span-box > div:last-child {
+    border-right: 0;
+}
+
+.ui-tit-tr-box {
+    text-align: center;
+    height: 26px;
+    line-height: 26px;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.ui-tit-tr-box {
+    background:url(/test/images/othergame/tzhu2.jpg);
+    color: #fff;
+    text-shadow: 0 1px 1px #313131;
+}
+
+
+.ui-ttr-box {
+    float: left;
+    margin-bottom: 1px;
+    width: 20%;
+}
+
+.ui-ttr-box > div {
+    margin-left: 1px;
+    float: none;
+    width: auto;
+}
+.ui-ttr-box > div:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.ui-content-box li .ball {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.ui-content-box span {
+    display: inline;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+}
+
+.ui-ttr-box > div > .ball > label {
+    height: 36px;
+    text-align: center;
+}
+
+.ui-ttr-box > div > .ball > label > img {
+    margin-top: 12px;
+    margin-right: 3px;
+}
+
+.txt_section .s1_nav{
+    margin-bottom: 15px;
+    background: #f7f7f7;
+}
+.zhqk{}
+.zhqk .item_i{ width: 25%; float: left; clear: none; border-right:1px solid #efefef;}
+.zhqk .item_i:last-child{border-right: 0;}
+.ui-tb-con-box li{ width: 100%; }
+.ui-tb-con-box ul{ border-left:none}
+.ui-tb-con-box .ui-ball-span-box{border-left: 1px solid #d0d0d0; }
+.ui-tb-con-box .item_i{ box-sizing: border-box; border-left: 1px solid #ddd; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; margin-left: -1px; }
+.input_panel .item_i { box-sizing: border-box; border-bottom: 1px solid #efefef; margin-left: -1px; }
+.toradora .t-item{ margin-left: 0px; }
+
+/*.txt_section .pk_ball span{ background:url(/test/images/othergame/ball_pk10.png) no-repeat; }*/
+/*.txt_section .pk_ball span{ text-indent: 99999px; }*/
+.txt_section .pk_ball .ball_com{background:url(/resources/images/ball_pk4.png) no-repeat; border-right: 1px solid #ddd;}
+.txt_section .pk_ball .ball_com1{ background-position: 5px 0; }
+.txt_section .pk_ball .ball_com2{ background-position: 5px -42px; }
+.txt_section .pk_ball .ball_com3{ background-position: 5px -84px; }
+.txt_section .pk_ball .ball_com4{ background-position: 5px -126px; }
+.txt_section .pk_ball .ball_com5{ background-position: 5px -168px; }
+.txt_section .pk_ball .ball_com6{ background-position: 5px -210px; }
+.txt_section .pk_ball .ball_com7{ background-position: 5px -252px; }
+.txt_section .pk_ball .ball_com8{ background-position: 5px -294px; }
+.txt_section .pk_ball .ball_com9{ background-position: 5px -336px; }
+.txt_section .pk_ball .ball_com10{ background-position: 5px -378px; }
+/*.txt_section .pk_ball .ball_com10{ background-position: 0 -420px; }*/
+.txt_section .ssc_ball .ball_com{background: url(/resources/images/ball-sm.fe91d5e.png) 11px 9px no-repeat; color:#fff;}
+
+.sl-draw-number-ball li.ball_color{ background:url(/test/images/othergame/ball_pk4.png) no-repeat; margin-right: 8px; text-indent: 9999px; }
+.sl-draw-number-ball li.ball1{ background-position: 5px 0; }
+.sl-draw-number-ball li.ball2{ background-position: 5px -42px; }
+.sl-draw-number-ball li.ball3{ background-position: 5px -84px; }
+.sl-draw-number-ball li.ball4{ background-position: 5px -126px; }
+.sl-draw-number-ball li.ball5{ background-position: 5px -168px; }
+.sl-draw-number-ball li.ball6{ background-position: 5px -210px; }
+.sl-draw-number-ball li.ball7{ background-position: 5px -252px; }
+.sl-draw-number-ball li.ball8{ background-position: 5px -294px; }
+.sl-draw-number-ball li.ball9{ background-position: 5px -336px; }
+.sl-draw-number-ball li.ball10{ background-position: 5px -378px; }
+
+
+.toradora  .item_i{ border-bottom: 0; }
+.ball0-0 li,.ball0-1 li,.ball0-2 li,.ball0-3 li{ border-top: 1px solid #efefef;display: inline-block;vertical-align:bottom;  border-bottom: 1px solid #efefef; float: none; }
+.ball0-1 li,.ball0-2 li,.ball0-3 li{ border-top: 0px; }
+.ball0-0,.ball0-1,.ball0-2,.ball0-3{ text-align: center;font-size:0;}
+.ball0-3{ width: 100%; }
+.ball0-0 li:first-child,.ball0-1 li:first-child,.ball0-2 li:first-child,.ball0-3 li:first-child{
+    border-left: 1px solid #efefef;
+}
+.input_panel .GTMselected{ background: #ffd9d5; }    
+.poplist{ position: fixed; z-index: 10; border:5px solid #ddd; border-radius: 5px; left: 50%; top: 50%; transform: translate(-50%,-50%); padding: 5; background: #fff;}
+.poplist h3{position: relative; height:30px; line-height: 30px; text-align: center; margin: 0; margin-bottom: 10px;}
+.poplist h3 span{color: #B30B00; font-style: 14px;}
+.poplist h3 a{position: absolute;right: 5px;color: #aaaaaa;font-size: 24px;font-weight: bold; cursor: pointer;}
+.codesList{ min-width: 320px; }
+.codesList table{    border-color: #EABF8F; background: #fff; margin-bottom: 15px; border: 1px solid #EABF8F;}
+.codesList table.table th{background: #FF9726;color: #fff;font-weight: normal;border-color: #ff9726; padding: 8px;}
+.codesList table.table td{ height: 28px;   color: #762D08;background-color: #FFF;    border-color: #EABF8F; padding: 0 10px;     border: 1px solid #EABF8F;}
+.codesList table.table td input{    width: 48px;border: #b0b0b0 1px solid;padding: 0 2px; }   
+.tabct{max-height: 300px; overflow:hidden; overflow-y: auto;}
+.tip_b{ height: 30px; line-height: 30px; text-align: center; }
+.tip_b span{ padding:0 15px; color: #333; }
+.tip_b span var{ color:red; padding: 0 5px;}
+.ifmds{ width: 100%; position: fixed; top: 0; bottom: 0; background: #000; opacity: 0.5; }
+.popbnt{text-align: center; margin: 0; background-color: #EFEFEF;padding: 10px; }
+.popbnt button{color:#fff;padding: 5px 10px;background-color: #d90000;border: none; border-radius: 15px;width:60px}

@@ -1,0 +1,40 @@
+.pic {
+  background: -webkit-linear-gradient(#1a0f0d,#1a0f0d); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#1a0f0d,#1a0f0d); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#1a0f0d,#1a0f0d); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#1a0f0d,#1a0f0d); /* 标准的语法 */
+}
+.footer_other{
+	width:1064px;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+.footer_link{
+	padding-left:0px;
+}
+.footer_link a{
+	padding: 0 8px;
+	margin:0;
+	color:#616161;
+	position:relative;
+
+}
+.footer_link a:hover{
+	color:#d2d4e2;
+}
+.footer_link  a + a:before{
+	width:1px;
+	height:15px;
+	background: #616161;
+	content:'';
+	position:absolute;
+	top:1px;
+	left:0px;
+}
+.footer_link span{
+	padding: 0 10px;
+	margin:0 5px;
+	color:#616161;
+	position:relative;
+	text-align:right;
+}

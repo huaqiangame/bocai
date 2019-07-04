@@ -1,0 +1,358 @@
+a {
+    color: #eee;
+}
+.theme-red {
+  background-color: #f33d3d;
+}
+.theme-red .bar,
+.bar.theme-red {
+  background-color: #f33d3d;
+  color: #fff;
+}
+.theme-red .bar:after,
+.bar.theme-red:after {
+  /*background-color: #d21e1e;*/
+}
+.theme-red .button.button-nav,.theme-red a.button.button-nav {
+  color: #fff;
+}
+.theme-red .button.button-nav:active,
+.theme-red .button.button-nav.active,
+.theme-red .button.button-nav.active {
+  color: #d21e1e;
+}
+
+.theme-red .title {
+  color: #fff;
+}
+.theme-red .bar-nav,
+.theme-red .bar-tab,
+.bar-nav.theme-red,
+.bar-tab.theme-red {
+  background: linear-gradient(#dcb16d,#b08d4b);
+  color: #fff;
+}
+.theme-red .bar-nav:before,
+.theme-red .bar-tab:before,
+.bar-nav.theme-red:before,
+.bar-tab.theme-red:before {
+  background-color: #333;
+}
+.theme-red .tab-item {
+  color: #fff;
+}
+.theme-red .tab-item.active {
+  color: #0894ec;
+}
+.theme-red .picker-calendar-week-days {
+  color: #fff;
+  background-color: #f33d3d;
+}
+.theme-red .picker-modal.picker-modal-inline .picker-center-highlight:before {
+  background-color: #333;
+}
+.theme-red .picker-modal.picker-modal-inline .picker-center-highlight:after {
+  background-color: #333;
+}
+.theme-red .picker-modal.picker-modal-inline .picker-item.picker-selected {
+  color: #fff;
+}
+.theme-red .picker-modal.picker-modal-inline .picker-calendar-week-days {
+  color: #fff;
+}
+.theme-red .picker-modal.picker-modal-inline .picker-calendar-day {
+  color: #fff;
+}
+.theme-red .picker-modal.picker-modal-inline .picker-calendar-day.picker-calendar-day-prev,
+.theme-red .picker-modal.picker-modal-inline .picker-calendar-day.picker-calendar-day-next {
+  color: #777;
+}
+.theme-red .picker-modal.picker-modal-inline .picker-calendar-day.picker-calendar-day-disabled {
+  color: #555;
+}
+.theme-red .picker-modal.picker-modal-inline .picker-calendar-day.picker-calendar-day-today span {
+  background: #444;
+}
+.theme-red .picker-modal.picker-modal-inline .picker-calendar-week-days:after,
+.theme-red .picker-modal.picker-modal-inline .picker-calendar-row:after {
+  background-color: #333;
+}
+.theme-red .picker-modal.picker-modal-inline .toolbar ~ .picker-modal-inner .picker-calendar-months:before,
+.theme-red .picker-modal.picker-modal-inline .picker-calendar-week-days ~ .picker-calendar-months:before {
+  background-color: #333;
+}
+.theme-red .photo-browser .navbar,
+.photo-browser.theme-red .navbar,
+.theme-red .view[data-page="photo-browser-slides"] .navbar,
+.view[data-page="photo-browser-slides"].theme-red .navbar,
+.theme-red .photo-browser .toolbar,
+.photo-browser.theme-red .toolbar,
+.theme-red .view[data-page="photo-browser-slides"] .toolbar,
+.view[data-page="photo-browser-slides"].theme-red .toolbar {
+  background: rgba(19, 19, 19, 0.95);
+}
+.theme-red .tabbar a:not(.active) {
+  color: #fff;
+}
+.theme-red .page,
+.theme-red .login-screen-content,
+.page.theme-red,
+.theme-red .panel,
+.panel.theme-red,
+.theme-red .content {
+  background: #fff;
+  color: #666;
+}
+.theme-red .content-block-title {
+  color: #fff;
+}
+.theme-red .content-block,
+.content-block.theme-red {
+  color: #bbb;
+}
+.theme-red .content-block-inner {
+  background: #1c1d1f;
+  color: #ddd;
+}
+.theme-red .content-block-inner:before {
+  background-color: #ddd;
+}
+.theme-red .content-block-inner:after {
+  background-color: #ddd;
+}
+.theme-red .list-block ul,
+.list-block.theme-red ul {
+  background: #fff;
+}
+.theme-red .list-block ul:before,
+.list-block.theme-red ul:before {
+  background-color: #FFF;
+}
+.theme-red .list-block ul:after,
+.list-block.theme-red ul:after {
+  background-color: #FFF;
+}
+.theme-red .list-block.inset ul,
+.list-block.theme-red.inset ul {
+  background: #ddd;
+}
+.theme-red .list-block.notifications > ul,
+.list-block.theme-red.notifications > ul {
+  background: none;
+}
+.theme-red .list-block .item-title,
+.list-block.theme-red .item-title,
+.theme-red .list-block .item-subtitle,
+.list-block.theme-red .item-subtitle {
+  color: #bbb;
+}
+.theme-red .card {
+  background: #1c1d1f;
+}
+.theme-red .card-header:after {
+  background-color: #ddd;
+}
+.theme-red .card-footer {
+  color: #bbb;
+}
+.theme-red .card-footer:before {
+  background-color: #ddd;
+}
+.theme-red li.sorting {
+  background-color: #29292f;
+}
+.theme-red .swipeout-actions-left a,
+.theme-red .swipeout-actions-right a {
+  background-color: #444;
+}
+.theme-red .item-inner:after,
+.theme-red .list-block ul ul li:last-child .item-inner:after {
+  background-color: #ddd;
+}
+.theme-red .item-after {
+  color: #bbb;
+}
+html:not(.watch-active-state) .theme-red .item-link:active,
+html:not(.watch-active-state) .theme-red label.label-checkbox:active,
+html:not(.watch-active-state) .theme-red label.label-radio:active,
+.theme-red .item-link.active-state,
+.theme-red label.label-checkbox.active-state,
+.theme-red label.label-radio.active-state {
+  background-color: #29292f;
+}
+.theme-red .item-link.list-button:after {
+  background-color: #393939;
+}
+.theme-red .list-block-label {
+  color: #bbb;
+}
+.theme-red .item-divider,
+.theme-red .list-group-title {
+  background: #1a1a1a;
+  color: #bbb;
+}
+.theme-red .item-divider:before,
+.theme-red .list-group-title:before {
+  background-color: #393939;
+}
+.theme-red .searchbar {
+  background: #333;
+}
+.theme-red .searchbar:after {
+  background-color: #333;
+}
+.theme-red .list-block input[type="text"],
+.list-block.theme-red input[type="text"],
+.theme-red .list-block input[type="password"],
+.list-block.theme-red input[type="password"],
+.theme-red .list-block input[type="email"],
+.list-block.theme-red input[type="email"],
+.theme-red .list-block input[type="tel"],
+.list-block.theme-red input[type="tel"],
+.theme-red .list-block input[type="url"],
+.list-block.theme-red input[type="url"],
+.theme-red .list-block input[type="date"],
+.list-block.theme-red input[type="date"],
+.theme-red .list-block input[type="datetime-local"],
+.list-block.theme-red input[type="datetime-local"],
+.theme-red .list-block input[type="number"],
+.list-block.theme-red input[type="number"],
+.theme-red .list-block select,
+.list-block.theme-red select,
+.theme-red .list-block textarea,
+.list-block.theme-red textarea {
+  color: #fff;
+}
+.theme-red .label-switch .checkbox {
+  background-color: #393939;
+}
+.theme-red .label-switch .checkbox:before {
+  background-color: #1c1d1f;
+}
+.theme-red .range-slider input[type="range"]:after {
+  background: #1c1d1f;
+}
+.theme-red .buttons-tab {
+  background: #f33d3d;
+}
+.theme-red .buttons-tab .tab-link:not(.active) {
+  color: #ddd;
+}
+
+
+.lottey_footer{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0 ;
+  left: 0;
+  z-index: 2000;
+}
+.lottey_footer .betting_box{
+  height: 55px;
+  background: #000000;
+  overflow: hidden;
+  line-height: 55px;
+}
+.lottey_footer .betting_box .betting_left{
+  float: left;
+}
+.lottey_footer .betting_empty{
+  color: #ffaf36;
+  padding: 0 8px;
+  font-size: 22px;
+}
+.lottey_footer .betting_sum_box{
+  font-size: 18px;
+  color: #fff;
+}
+.lottey_footer .betting_right{
+  float: right;
+}
+.lottey_footer .betting_right_btn{
+  color: #4e0904;
+  background: -webkit-linear-gradient(#ffdb01 0%, #e07a06);
+  background: -o-linear-gradient(#ffdb01 0%, #e07a06);
+  background: linear-gradient(#ffdb01 0%, #e07a06);
+  padding: 0 13px;
+  border: none;
+  border-radius: 5px;
+  height: 34px;
+  margin: 0 15px;
+  line-height: 34px;
+}
+.lottey_footer .lottery_footer_sum{
+  background: #22563f;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  margin:0;
+  padding: 0 8px;
+  border-bottom: 1px solid #1a4230;
+  overflow: hidden;
+}
+
+.lottey_footer .lottery_sum_old{
+  color: #f4c829;
+  margin: 0 3px;
+}
+.lottey_footer .lottery_inputBox{
+  background: #22563f;
+  line-height: 35px;
+  height: 35px;
+  color: #fff;
+  padding: 0 8px;
+  border-bottom: 1px solid #1a4230;
+}
+.lottey_footer .lottery_input{
+    height: 23px;
+    line-height: 23px;;
+    width: 83px;
+    background-color: #cbeedc;
+    color: #19593c;
+    border-radius: .2em;
+    text-align: center;
+    margin-right: .2em;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+}
+#lottery_sum_old_b{
+  display: inline-block;
+  width: 50%;
+}
+.lottey_footer .lottery_sum_text{
+  float:left;
+}
+
+.kuaijie_money{
+  height: 40px;
+  line-height: 40px;
+  background: #22563f;
+  padding: 0 10px;
+  display: none;
+}
+.kuaijie_money .kuaijie_money_ul{
+  list-style: none;
+  margin:0;
+  padding: 0 ;
+}
+.kuaijie_money .kuaijie_item{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background: #317455;
+    text-align: center;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 5px 2px 5px 2px;
+    color: #fff;
+}
+
+

@@ -1,0 +1,15 @@
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+
+DirectoryIndex index.html start.php index.php 
+ErrorDocument 404 /404.html
+order deny,allow
+
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ start.php?/$1 [QSA,PT,L]
+

@@ -1,0 +1,390 @@
+﻿/* CSS Document */
+
+@charset "utf-8";
+/* table */
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+.table{width:100%;}
+.table th,.table td{padding:6px 12px;border-bottom:1px solid #E3E3E3;text-align:left;}
+.table-border th,.table-border td{border:1px solid #E3E3E3;}
+.table-border th{background-color:#FAFAFA;}
+.table-border td{background-color:#FFF;}
+.table-info thead{
+              box-shadow:0 2px 0 rgba(0, 0, 0, 0.05);
+    -moz-box-shadow:0 2px 0 rgba(0, 0, 0, 0.05);
+-webkit-box-shadow:0 2px 0 rgba(0, 0, 0, 0.05);
+}
+.table-info th,.table-info td{text-align:center;}
+.table-info th{padding-top:10px;padding-bottom:10px;}
+.table-info td{border-bottom-style:dotted;padding-top:8px;padding-bottom:8px;}
+.table-info .highlight-cell td{ color:#f00;}
+.table-border-none th,.table-border-none td{border:0 none;}
+.table-info .text-left{text-align:left;}
+.table-info .text-right{text-align:right;}
+.table-info .text-center{text-align:center;}
+ 
+
+.main{position:relative;border-width:0 1px 1px;border-style:none solid solid;border-color:transparent #C2C2D2 #C2C2D2;background-color:#FFF;} 
+.select-section-content{padding:12px 25px;border-top:1px solid #E3E3E3;padding-right:60px;}
+.select-section-content .input{width:120px;}
+.select-section-content .title{float:left;height:34px;line-height:34px;padding-right:10px;}
+.select-section-content .function{float:left;height:34px;line-height:34px;}
+.select-section-content .function .label{padding:0 10px;vertical-align:baseline;}
+.select-section-content .time{float:left;height:34px;line-height:34px;}
+.select-section-content .time a{padding:0 10px;}
+.select-section-content .select{float:left;padding-right:10px;}
+.select-section-content .select .ui-label{width:72px;}
+.select-section-content .select .ui-select{width:72px;}
+.select-section-content .search{float:right;}
+.select-function{float:right;} 
+.select-function .arrow-down{background-position:0 0;}
+.select-function .arrow-up{background-position:0 -10px;;}
+.select-title{float:left;height:28px;margin-right:20px;line-height:26px;line-height:28px\9;}
+.select-list{float:left;}
+.select-list li{display:inline-block;*display:inline;*zoom:1;margin:0 4px;height:30px;line-height:30px;line-height:30px\9;font-size:14px;font-weight:700;cursor:pointer;
+border-radius:4px;
+}
+.select-list li.current,.select-list li.current:hover{background-color:#C1101A ;color:#FFF;cursor:default;
+box-shadow:1px 2px 3px rgba(0, 0, 0, 0.2) inset;
+}
+.select-list li a {color:#C1101A;display:block;padding:3px 12px;height:24px;line-height:24px;}
+.select-list li:hover a {color:#FFF; text-decoration:none;}
+.select-list li:hover{background-color:#C1101A ;color:#FFF;}
+.select-list li.current a,.select-list li.current:hover a:hover {color:#FFF;}
+
+.select-download {display:inline-block;margin:0 50px; text-decoration:underline;}
+
+/*chart-area*/
+
+
+/* S chart-section */
+ 
+.chart-table{width:100%;}
+.chart-table .title-text th{font-weight:700;white-space:nowrap;word-wrap: break-word;}
+.chart-table .title-number th{padding-top:0;}
+.border-top {border-top:1px solid #E6E6E6}
+.chart-table .title-text .border-bottom-header,.chart-table .title-number .border-bottom-header ,.chart-table thead .border-bottom ,#J-ball-content .border-bottom , .title-text .border-bottom , .tbody-footer-header .border-bottom , .J-ball-content border-bottom, .tbody-footer-header border-bottom, #J-select-content .border-bottom {border-bottom: 1px solid #CCC;}
+.chart-table .tbody{color:#888;}
+.chart-table th{padding:5px 0;background-color:#F2F2F2;text-align:center;}
+.chart-table td{padding:5px 0;border-bottom: 1px solid #fff;border-top: 1px solid #fff;background-color:#FFF;text-align:center;}
+.chart-table .issue-numbers,.chart-table .lottery-numbers{width:auto;}
+.chart-table .size-numbers,.chart-table .parity-numbers{color:#0A94E3;}
+.chart-table .border-right{border-right:1px solid #CCC;}
+.chart-table .ball-none,.chart-table .title-number .ball-none{width:4px;}
+.chart-table th .ball-noraml {color:#333;}
+.ball-noraml{display:inline-block;width:15px;height:15px;line-height:14px;text-align:center;font-style:normal;color:#B7B7B7;position:relative;}
+.chart-table .ball-red,
+.chart-table .ball-orange,
+.chart-table .ball-blue,
+.chart-table .ball-green,
+.chart-table .ball-purple,
+.chart-table .group-current{
+background-image:url("/resources/zoushi/images/un-chart.png");background-repeat:no-repeat;color:#FFF;
+}
+.chart-table .ball-red{background-position:0 0;}
+.chart-table .ball-orange{background-position:-20px 0;}
+.chart-table .ball-blue{background-position:-40px 0;}
+.chart-table .ball-green{background-position:-60px 0;}
+.chart-table .ball-purple{background-position:-80px 0;}
+.chart-table .ball-mark {
+    background-color: #00a2ff;
+    border-radius: 50%;
+    color: #fff;
+    font-style: normal;
+    height: 12px;
+    line-height: 12px;
+    position: absolute;
+    right: -6px;
+    text-align: center;
+    top: -6px;
+    width: 12px;
+}
+.chart-table .group-current{display:inline-block;width:18px;height:12px;line-height:12px;text-align:center;font-style:normal;background-position:-100px 0;}
+.chart-table .tbody .bg-red{background-color:#F53F00;color:#FFF;}
+.chart-table .tbody .bg-blue{background-color:#00A2FF;color:#FFF;}
+.chart-table .tbody .bg-blue .ball-noraml {color:#FFF;}
+.chart-table .tbody .bg-green{background-color:#34BC0F;color:#FFF;}
+.chart-table .tbody .compare{background-color:#7999F3;color:#FFF;}
+.chart-table .tbody .lost{background-color:#E1F9F7;color:#CCC;}
+.auxiliary-area td{background-color:#F7F7F7;border-top:1px solid #E6E6E6;}
+.select-area td{background-color:#CCC;}
+.select-area .ico-add,.select-area .ico-del{display:inline-block;width:15px;height:15px;margin-right:4px;background-image:url("un-select-area.png");background-repeat:no-repeat;vertical-align:middle; cursor:pointer;}
+.select-area .ico-add{background-position:0 0;}
+.select-area .ico-del{background-position:-20px 0;}
+/* E chart-section */
+
+
+
+/** 样式名称规则直接使用号码属性拼接 //array(遗漏次数, 当前开奖号数字, 号温, 遗漏条) **/
+
+/** 当前开奖球数字 和 冷热号数字 **/
+.c-0-1,.c-0-2,.c-0-3 {background-image:url("/resources/zoushi/images/un-chart.png");background-repeat:no-repeat;color:#FFF;}
+.c-0-1,.c-0-2,.c-0-3 {background-position:0 0;}
+
+.table-temperature .c-0-1 {background-position:-40px 0;}
+.table-temperature .c-0-2 {background-position:-20px 0;}
+.table-temperature .c-0-3 {background-position:0 0;}
+
+/** 遗漏条样式 **/
+.table-lost-post .l-1 {background-color:#E1F9F7;}
+.table-lost-post .l-1 .ball-noraml {color:#B7B7B7;}
+
+/** 辅助线 **/
+.table-guides .border-bottom {border-bottom:1px solid #CCC;}
+
+/** 遗漏数 **/
+.table-lost .ball-noraml {color:#FFF;}
+
+/** 选球区域放置样式被覆盖 **/
+.table-lost .auxiliary-area .ball-noraml,.table-lost .select-area .ball-noraml {color:#B7B7B7;}
+.table-lost .select-area .ball-orange {color:#FFF;}
+
+
+/** 号码分布样式 **/
+.f-1,.f-2,.f-3,.f-4,.f-5{background-image:url("/resources/zoushi/images/un-chart.png");background-repeat:no-repeat;color: #fff;}
+/*出现单次*/
+.f-1{background-position:-60px 0}
+/*出现多次*/
+.f-2,.f-3,.f-4,.f-5{background-position:-80px 0}
+
+/*走势图*/
+/*body canvas{
+	display: none;
+}
+.table-trend canvas,
+.table-trend canvas div{
+	display: block;
+}
+*/
+
+/** 选球区域选球相关样式 **/
+.select-area i { cursor:pointer;}
+
+
+
+
+
+/** 五星综合 **/
+/** 分布 **/
+.zh-0-1,.zh-0-2,.zhkd-1 {background-image:url("/resources/zoushi/images/un-chart.png");background-repeat:no-repeat;color:#FFF;}
+.zh-0-1 {background-position:-60px 0;}
+.zh-0-2 {background-position:-80px 0;}
+/** 跨度 **/
+.zhkd-1 {background-position:-80px 0;}
+/** 大小比 **/
+.chart-table .zhdx-0 {background:#7999F3;}
+.chart-table .zhdx-0 .ball-noraml {color:#FFF;}
+/** 单双比 **/
+.chart-table .zhds-0 {background:#7999F3;}
+.chart-table .zhds-0 .ball-noraml {color:#FFF;}
+/** 质合比 **/
+.chart-table .zhzh-0 {background:#7999F3;}
+.chart-table .zhzh-0 .ball-noraml {color:#FFF;}
+/** 遗漏条 **/
+
+
+
+/* 快三 */
+.chart-table .ball-mark{position:absolute;width:12px;height:12px;text-align:center;line-height:12px;background-color:#00A2FF;color:#FFF;}
+.chart-table .KuaiSan_OpenNo .chonghao{ position:absolute; z-index:10; width: 14px; height:14px; background-color: #00A2FF; color:#fff; font:12px/1.5; border-radius:50%; margin-top:-5px; margin-right:-2px; }
+.nonchang_OpenNo.c-0-2{background-position:-60px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**** 时时彩走势图 ****/
+
+.Trend_chart{ width:100%; height:auto; min-height:500px; background:#fff; padding:0px 0px 40px 0px; }
+.Trend_chart .chart-section{ width:100%;  min-height: 500px; margin: 0px 0px; height:auto; overflow:hidden; border:1px solid #CCC; border-top:1px solid #CCC; border-bottom:1px solid #CCC;} 
+.Trend_chart .chart-table{ width:100%; }
+.select-section{ border-bottom:1px solid #ccc; }
+.select-function a{ float:left; width:auto; color:#1D601D; padding:0px 15px; display:block; height:28px; line-height:28px; }
+.select-function a:hover{ text-decoration:underline; }
+.select-function a.btn{ border:1px solid #ccc; border-radius:3px; background:#eee; font-size:14px; font-weight:bold; box-shadow:3px 3px 2px #ddd; margin:0px 7px; }
+.select-function a.btn:hover{ background:#ddd; text-decoration:none; }
+.select-function i{ padding:0px 3px; display:inline-block; } 
+.select-section{ width:96%; padding:20px 2%; height:auto; overflow:hidden; }
+.select-section h3{ font-size:16px; font-weight:bold; color:#C2111B;  }
+
+
+.select-function a.curr i{ transform:rotate(180deg); -webkit-transform:rotate(180deg); -o-transform:rotate(180deg); -moz-transform:rotate(180deg); transition:all .3s;  -webkit-transition:all .3s; -o-transition:all .3s; -moz-transition:all .3s;}
+.select-function a i{ transform:rotate(0deg); -webkit-transform:rotate(0deg); -o-transform:rotate(0deg); -moz-transform:rotate(0deg); transition:all .3s;  -webkit-transition:all .3s; -o-transition:all .3s; -moz-transition:all .3s; }
+
+.chart_control_cont{ width:96%; padding:10px 2%; height:auto; overflow:hidden;  }
+.chart_control_cont .title{ font-size:12px; float:left; height:28px; line-height:28px; overflow:hidden; padding-right:10px; }
+.chart_control_cont .function{ width:auto; height:28px; overflow:hidden;  float:left;}
+.chart_control_cont .function label{ width:auto; padding:6px 15px; height:16px; line-height:16px; float:left;  }
+.chart_control_cont .time{ float:left; height:auto; overflow:hidden; line-height:28px; }
+.chart_control_cont .time a{ font-size:12px;color: #000; padding:0px 15px; float:left; } 
+.chart_control_cont .time a:hover{ text-decoration:underline; }
+
+.J-chart-canvas{ position:absolute; width:100%; left:0px; top:0px; }
+/**** 时时彩走势图 ****/
+
+
+
+
+
+
+/** 五星综合 **/
+/** 分布 **/
+.zh-0-1,.zh-0-2,.zhkd-1 {background-image:url("/resources/zoushi/images/un-chart.png");background-repeat:no-repeat;color:#FFF;}
+.zh-0-1 {background-position:-60px 0;}
+.zh-0-2 {background-position:-80px 0;}
+/** 跨度 **/
+.zhkd-1 {background-position:-80px 0;}
+/** 大小比 **/
+.chart-table .zhdx-0 {background:#7999F3;}
+.chart-table .zhdx-0 .ball-noraml {color:#FFF;}
+/** 单双比 **/
+.chart-table .zhds-0 {background:#7999F3;}
+.chart-table .zhds-0 .ball-noraml {color:#FFF;}
+/** 质合比 **/
+.chart-table .zhzh-0 {background:#7999F3;}
+.chart-table .zhzh-0 .ball-noraml {color:#FFF;}
+/** 遗漏条 **/
+
+
+/* 快三 */
+.chart-table .ball-mark{position:absolute;width:12px;height:12px;text-align:center;line-height:12px;background-color:#00A2FF;color:#FFF;}
+.chart-table .KuaiSan_OpenNo .chonghao{ position:absolute; z-index:10; width: 14px; height:14px; background-color: #00A2FF; color:#fff; font:12px/1.5; border-radius:50%; margin-top:-5px; margin-right:-2px; }
+.nonchang_OpenNo.c-0-2{background-position:-60px 0;}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**** 时时彩走势图 ****/
+
+.Trend_chart{ width:100%; height:auto; min-height:500px; background:#fff; padding:0px 0px 40px 0px; }
+.Trend_chart .chart-section{ width:100%;  min-height: 500px; margin: 0px 0px; height:auto; overflow:hidden; border:1px solid #CCC; border-top:1px solid #CCC; border-bottom:1px solid #CCC;} 
+.Trend_chart .chart-table{ width:100%; }
+.select-section{ border-bottom:1px solid #ccc; }
+.select-function a{ float:left; width:auto; color:#C1101A; padding:0px 15px; display:block; height:28px; line-height:28px; }
+.select-function a:hover{ text-decoration:underline; }
+.select-function a.btn{ border:1px solid #ccc; border-radius:3px; background:#eee; font-size:14px; font-weight:bold; box-shadow:3px 3px 2px #ddd; margin:0px 7px; }
+.select-function a.btn:hover{ background:#ddd; text-decoration:none; }
+.select-function i{ padding:0px 3px; display:inline-block; } 
+.select-section{ width:96%; padding:20px 2%; height:auto; overflow:hidden; }
+.select-section h3{ font-size:16px; font-weight:bold;  }
+
+
+.select-function a.curr i{ transform:rotate(180deg); -webkit-transform:rotate(180deg); -o-transform:rotate(180deg); -moz-transform:rotate(180deg); transition:all .3s;  -webkit-transition:all .3s; -o-transition:all .3s; -moz-transition:all .3s;}
+.select-function a i{ transform:rotate(0deg); -webkit-transform:rotate(0deg); -o-transform:rotate(0deg); -moz-transform:rotate(0deg); transition:all .3s;  -webkit-transition:all .3s; -o-transition:all .3s; -moz-transition:all .3s; }
+
+.chart_control_cont{ width:96%; padding:10px 2%; height:auto; overflow:hidden;  }
+.chart_control_cont .title{ font-size:12px; float:left; height:28px; line-height:28px; overflow:hidden; padding-right:10px; }
+.chart_control_cont .function{ width:auto; height:28px; overflow:hidden;  float:left;}
+.chart_control_cont .function label{ width:auto; padding:6px 15px; height:16px; line-height:16px; float:left;  }
+.chart_control_cont .time{ float:left; height:auto; overflow:hidden; line-height:28px; }
+.chart_control_cont .time a{ font-size:12px;color: #000; padding:0px 15px; float:left; } 
+.chart_control_cont .time a:hover{ text-decoration:underline; }
+
+.J-chart-canvas{ position:absolute; width:100%; left:0px; top:0px; }
+.Trend_chart .openNo{ background-image:url("/resources/zoushi/images/un-chart.png");background-repeat:no-repeat;color:#FFF; background-position:0px 0; }
+
+/* 号码分布 */
+.Trend_chart .openNo-0{ background-image:url("/resources/zoushi/images/un-chart.png");background-repeat:no-repeat;color:#FFF; background-position:0px 0; }
+.Trend_chart .openNo-1{  background-image:url("/resources/zoushi/images/un-chart.png");background-repeat:no-repeat;color:#FFF; background-position:-60px 0;  }
+/* 重号 */
+.Trend_chart .openNo-2,
+.Trend_chart .openNo-3,
+.Trend_chart .openNo-4,
+.Trend_chart .openNo-5{  background-image:url("/resources/zoushi/images/un-chart.png");background-repeat:no-repeat;color:#FFF; background-position:-80px 0;  }
+
+/** 比例**/
+.chart-table .ball-none._bili{ padding:0px; }
+.chart-table .ball-none._bili i{ display:block; width:100%; height:27px; line-height:27px; padding:0px; overflow:hidden; }
+
+/* 大小形态 */
+.chart-table td.dxxintai{ padding:0px; }
+.chart-table td.dxxintai.bgc_blue{ padding:0px; background:#00A2FF; color:#fff;}
+.chart-table td.dxxintai.bgc_green{ padding:0px; background:#34BC0F; color:#fff; }
+.chart-table td.dxxintai.bgc_red{ padding:0px; background:#F53F00; color:#fff; } 
+.chart-table td.dxxintai.bgc_blue i{ color:#fff; }
+.chart-table td.dxxintai.bgc_green i{ color:#fff; }
+.chart-table td.dxxintai.bgc_red i{ color:#fff; }
+.chart-table td.dxxintai i{ display:block; width:100%; height:27px; line-height:27px; overflow:hidden; padding:0px; }
+.chart-table td i.duizi{  background-image:url("/resources/zoushi/images/un-chart.png");background-repeat:no-repeat;color:#FFF; background-position: -100px center; height:27px; width:18px; line-height:27px; }
+.chart-table td.zusan{ padding:0px 2px; }
+.chart-table td.zusan i{ display:block; margin: 0px auto; }
+.chart-table td.baozi{ padding:0px 2px; }
+.chart-table td.baozi i{ display:block; margin: 0px auto; width:20px; }
+.chart-table td.dxxintai .duizi{ display:block; margin:0px auto; }
+
+.Trend_chart .openNo-kuadu-td{ padding:0px; }
+.Trend_chart .openNo-kuadu-td .openNo-kuadu{  padding:0px; background:#00A2FF; color:#fff; display:block;  height: 26px; line-height:26px; text-align:center; width:100%; }
+.Trend_chart .open_kl8{ background-image:url("/resources/zoushi/images/un-chart.png");background-repeat:no-repeat;color:#FFF; background-position:0px 0; }
+
+.Trend_chart .chart-section.kuaile8{ width:100%; overflow-x:scroll; }
+.kuaile8 .chart-table{ width:2200px }
+.kuaile8 .chart-table .and_value i{ width:25px; }
+
+
+.Trend_chart .chart-table .title_zuhexigntai th{ padding:5px 0px;  }
+.Trend_chart .chart-table .hezhixingtai{ width:auto; height:25px; line-height:25px;}  
+.Trend_chart .chart-table .haomaxingtai{ width:auto; height:25px; line-height:25px; }  
+.Trend_chart .chart-table .KuaiSan{ width:auto; padding:0px; }
+.Trend_chart .chart-table .KuaiSan .hezhizoushi{ display:block; background:#F53F00; width:20px; height:20px; text-align:center; line-height:20px; margin:0px auto; color:#fff;   }
+.chart-table .border-right.isSHow{ padding:0px; background:#00A2FF;}
+.Trend_chart .chart-table .isSHow .hezhixingtai{ display:block; background:#00A2FF; color:#fff; } 
+.chart-table .border-right.isHmxt{ padding:0px; background:#F53F00;}
+.Trend_chart .chart-table .isHmxt .haomaxingtai{ display:block; background:#F53F00; color:#fff; } 
+.Trend_chart .chart-table .isSHow .haomaxingtai{ display:block; background:#00A2FF; color:#fff; }
+
+.chart-table .border-right.isBaozi{ padding:0px; background:#34BC0F;}
+.Trend_chart .chart-table .isBaozi .haomaxingtai{ display:block; background:#34BC0F; color:#fff; } 
+/**** 时时彩走势图 ****/
+
+
+

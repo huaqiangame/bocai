@@ -1,0 +1,15 @@
+.suspend{width:63px; position:fixed; top:120px; right:0; overflow:hidden; z-index:8000; _position: absolute;}
+.suspend dl, .suspend2 dl{padding-left:63px;}
+.suspend dl dt{width:63px; height:196px; position:absolute; top:0; left:0; cursor:pointer; background: url(../images/online.png) no-repeat 0 0;}
+.suspend2{width:63px; position:fixed; top:318px; right:0; overflow:hidden; z-index:9000; _position: absolute;}
+.suspend2 dl dt{width:63px; height:227px; position:absolute; top:0; left:0; cursor:pointer; background: url(../images/online2.png) no-repeat 0 0;}
+#livebox, #phone-box, #subscribe{position: absolute; top: 0; left: 0; z-index: 9999; width: 690px; height: 400px; display: none; background-color: #fff; border: none;}
+#phone-box{width: 540px; height: 250px;}
+#subscribe{width:790px; height:540px;}
+#livebox h2{display:block; width:490px; height:75px; position:absolute; top:0; left:0;}
+#livebox .closebg, #phone-box .closebg, #subscribe .closebg{display:block; width:55px; height:55px; line-height:55px; text-align:center; font-family:Arial; font-size:30px; color:#fff; position:absolute; top:0px; right:0px; background:#666; cursor:pointer;}
+#livebox .closebg .closed, #phone-box .closebg .closed, #subscribe .closebg .closed{display:block; width:55px; height:55px; line-height:55px; text-indent:-9999px; font-family:Arial; font-size:30px; color:#fff; background:url(../images/close.png) no-repeat center center; cursor:pointer; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
+#livebox .closed:hover, #phone-box .closed:hover, #subscribe .closed:hover{-webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); -o-transform:rotate(180deg); -ms-transform:rotate(180deg); transform:rotate(180deg);}
+.subscribe-box{width:677px; height:350px; border:1px solid #bababa; margin:55px auto 0; overflow:hidden;}
+.subscribe-box .subscribe-head{height:52px; line-height:52px; color:#fff; background-color:#ff7c00;}
+.subscribe-box .subscribe-head span{padding-left:70px; background:url(../images/letter.jpg) no-repeat 30px center;}.subscribe-box .light{border:none;}.subscribe-box .light .info{color:#a46f3b; text-align:center; font-size:14px;}.subscribe-box input.rsstxt{height:50px; line-height:50px; padding:0 5px; background-color:#f6f4f5; border: 1px solid #bababa;}.subscribe-box .rssbook{margin:70px auto 0;}.subscribe-box .rssbutton{margin-top:30px; text-align:center; border:none; float:none;}.subscribe-box .rssbutton input{width:143px; height:42px; display:inline-block; border:none; background-color:#ff7c00; font:400 20px/42px "Microsoft Yahei"; text-align:center; color:#fff;}.subscribe-box .rssbutton input:hover{background: #ce6807;}
